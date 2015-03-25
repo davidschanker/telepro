@@ -1,0 +1,1455 @@
+/* CSS taken from Amwell */
+
+html {
+    height: 100%;
+    min-height: 100.01%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    font-family: "Open Sans Light","Open Sans",Arial,"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",sans-serif;
+    background-attachment: fixed;
+    background-color: #e5e5e5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.phone {
+    background-position-x: 50%;
+}
+
+.modernHeaderXL {
+    font-family: "Open Sans Light","Open Sans",Arial,"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 58px;
+    color: #fff;
+}
+
+.modernLabel13,
+.modernLabel14,
+.modernLabel14Lite,
+.modernLabel16,
+.modernLabel16Dark,
+.modernLabel18 {
+    font-family: "Open Sans",Arial,"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",sans-serif;
+}
+
+.modernLabel13 {
+    font-size: 13px;
+    font-weight: normal;
+    color: #313336;
+}
+
+.modernLabel14 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #5b6b7b;
+}
+
+.modernLabel14Lite {
+    font-size: 14px;
+    font-weight: normal;
+    color: #5b6b7b;
+}
+
+.modernLabel16 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #313336;
+}
+
+.modernLabel16Dark {
+    font-size: 16px;
+    font-weight: normal;
+    color: #5b6b7b;
+}
+
+.modernLabel18 {
+    font-size: 18px;
+    color: #313336;
+}
+
+.modernLabelLarge,
+.modernLabel20,
+.modernLabel18Dark {
+    font-family: "Open Sans Semibold","Open Sans",Arial,"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",sans-serif;
+}
+
+.modernLabelLarge {
+    font-size: 16px;
+    font-weight: 600;
+    color: #313336;
+}
+
+.modernLabel20 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313336;
+}
+
+.modernLabel18Dark {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5b6b7b;
+}
+
+.modernInput1 {
+    height: 23px;
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    font-family: "Open Sans","Segoe UI",Arial,Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+}
+
+.darker {
+    color: #313336;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+input.modernInput1:focus[placeholder]:-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input.modernInput1:focus[placeholder]:-moz-placeholder {
+    color: #ccc;
+}
+
+input.modernInput1:focus {
+    border: 1px solid #237bd2;
+    outline-width: 0;
+}
+
+.body,
+.DynamicVerticalCenter {
+    margin-top: 80px;
+    padding-bottom: 160px;
+}
+
+.DynamicVerticalCenter > div {
+    text-align: center;
+}
+
+.DynamicVerticalCenter > div > div {
+    text-align: left;
+}
+
+div.enrollmentBrandingImg {
+    width: 400px;
+    height: 74px;
+    margin: 0;
+    padding: 0;
+}
+
+.bigSplashButton button {
+    width: 311px;
+}
+
+.dj_ie7 .transparency,
+.transparencyWhite {
+    position: relative;
+}
+
+.medSplashButton button {
+    width: 132px;
+}
+
+.dj_safari .medSplashButton button {
+    width: 115px;
+}
+
+.caretalks .xlargeWorkingBtn.medSplashButton {
+    background-position-x: 27px !important;
+}
+
+.transparency {
+    background-color: #000;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.transparencyWhite {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.65);
+}
+
+.dj_ie7 .transparency,
+.dj_ie7 .transparencyWhite {
+    position: relative;
+}
+
+.dj_ie7 .ctSelectPopup,
+.dj_ie9 .ctSelectPopup,
+.dj_ie10 .ctSelectPopup {
+    overflow-x: hidden !important;
+}
+
+.caretalks table.ctSelectDropdown {
+    border: 1px solid #d6d6d6;
+}
+
+.caretalks .ctSelectDropdown .dijitMenuItem {
+    color: #000;
+}
+
+.caretalks .ctSelectDropdown .dijitMenuItem .dijitMenuItemLabel.selectPlaceHolder {
+    color: #959da6;
+}
+
+.caretalks .ctSelectDropdown .dijitMenuItem .dijitMenuItemLabel {
+    color: #313336;
+}
+
+.caretalks .ctSelectDropdown .dijitMenuItem.dijitMenuItemSelected .dijitMenuItemLabel,
+.caretalks .ctSelectDropdown .dijitMenuItem.dijitMenuItemHover,
+.caretalks .ctSelectDropdown .dijitMenuItem.dijitMenuItemHover .dijitMenuItemLabel,
+.caretalks .ctSelectDropdown .dijitMenuItem.dijitMenuItemSelected {
+    color: #fff;
+    background-color: #0c89e6;
+}
+
+.caretalks .ctSelectDropdown .dijitNoIcon {
+    width: 10px;
+}
+
+.caretalks .ctSelectDropdown .dijitMenuItemIconCell {
+    width: 10px;
+}
+
+div#FooterRegion {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+input.modernInput1.fullWidth {
+    width: 316px;
+    margin-top: 10px;
+}
+
+.enrollmentLandingContainer {
+    display: inline-block;
+}
+
+.dj_ie7 .enrollmentLandingContainer {
+    display: inline;
+    zoom: 1;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(../../fonts/OpenSansLight.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(../../fonts/OpenSans.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../../fonts/OpenSansSemibold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../../fonts/OpenSansBold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(../../fonts/OpenSansExtrabold.woff) format('woff');
+}
+
+@-webkit-keyframes spin {    
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+from {
+    -ms-transform: rotate(0deg);
+}
+
+to {
+    -ms-transform: rotate(360deg);
+}
+}
+
+@-moz-keyframes spin {    
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {    
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.pageOverlay {
+    display: block;
+    z-index: 1001;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dj_ie7 .pageOverlay {
+    display: none;
+}
+
+.rotatingImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    margin: -24px 0 0 -24px;
+    background: url(../../images/common/IMG_M_Loading_Circle.png);
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+.dj_ie7 .rotatingImage {
+    display: none;
+}
+
+.invisibleForLoading {
+    opacity: 0;
+}
+
+div#landingFooter .loadingFooter {
+    opacity: 0;
+}
+
+div#FooterRegion .loadingFooter {
+}
+
+.Absolute-Center > * {
+    text-align: left;
+}
+
+hr.addedHeader {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+div.landingContainer {
+    max-width: 966px;
+    white-space: nowrap;
+}
+
+div.landingContainer > * {
+    white-space: normal;
+}
+
+.landingContainer.clearFix {
+    padding: 40px;
+}
+
+div.enrollmentContainer {
+    float: left;
+    width: 400px;
+    background-color: #f5f5f5;
+}
+
+div.enrollmentFieldRow {
+    width: 341px;
+}
+
+.dj_gecko div.enrollmentFieldRow {
+    width: 341px;
+}
+
+.yesSection.insuranceOption div.enrollmentFieldRow {
+    width: 310px;
+}
+
+div.enrollmentLandingContainer {
+    width: 400px;
+}
+
+div.enrollmentFormContainer {
+    padding: 30px 30px 30px 30px;
+    background-color: #f5f5f5;
+}
+
+div.feedDependentFormContainer {
+    padding: 25px 30px 30px 30px;
+    background-color: #f5f5f5;
+}
+
+input.firstOnly,
+input.lastOnly {
+    float: left;
+    width: 143px;
+}
+
+input.lastOnly {
+    margin-left: 10px;
+}
+
+input.firstAndMiddleInitial,
+input.lastAndMiddleInitial {
+    float: left;
+    width: 111px;
+}
+
+input.lastAndMiddleInitial {
+    margin-left: 10px;
+}
+
+input.middleInitial {
+    float: left;
+    width: 32px;
+    margin-left: 10px;
+}
+
+input.passwordField {
+    margin-bottom: 15px;
+}
+
+div#instruct {
+    margin-top: 25px;
+}
+
+div#kaptchaContainer {
+    margin-bottom: 10px;
+}
+
+img#kaptchaImg {
+    position: relative;
+    left: 12px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 7px;
+}
+
+img#refreshKaptcha {
+    position: relative;
+    top: -23px;
+    left: 18px;
+}
+
+input#captchaResponse {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+div#disclaimerField {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+div#partialDisclaimerField {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+form#enrollmentForm errors {
+    margin-left: 22px;
+}
+
+label#disclaimerPromptLabel.modernLabel14 {
+    color: #313336;
+}
+
+hr.dottedDivider {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px dotted;
+    border-right: 0;
+    border-left: 0;
+    color: #b1b1b1;
+}
+
+hr.dottedDivider.congratulationsDivider {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr.dependentDottedDivider {
+    margin-top: 11px;
+    margin-bottom: 10px;
+    border-top: 1px dotted;
+    border-right: 0;
+    border-left: 0;
+    color: #b1b1b1;
+}
+
+hr.dottedDivider.smallVerticalMargins {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+hr.dottedDivider.largeVerticalMargins {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr.dottedDivider.healthPlanMargins {
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+
+div.loginLandingPrompt {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.marginBottomSmall {
+    margin-bottom: 10px;
+}
+
+.marginTopXSmall {
+    margin-top: 7px;
+}
+
+hr.dottedDivider.marginTopLarge {
+    margin-top: 26px;
+}
+
+.marginTopXLarge {
+    margin-top: 30px;
+}
+
+.marginTopMedium {
+    margin-top: 20px;
+}
+
+.marginBottomLarge {
+    margin-bottom: 20px;
+}
+
+.insuranceSection {
+    margin-top: 15px;
+}
+
+.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 100%;
+}
+
+.subscriberDetailsSection #subscriberId.fullwidth {
+    width: 281px;
+}
+
+.addDependentsContainer .fullwidth {
+    width: 318px;
+    max-width: 318px;
+}
+
+.addDependentsContainer .subscriberDetailsSection #subscriberId.fullwidth {
+    width: 318px;
+    max-width: 318px;
+}
+
+div#emailFields input {
+    display: block;
+}
+
+#emailAddress2.prefilled {
+    display: none;
+}
+
+.insuranceOption {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.primarySubscriberOptions {
+    margin-left: 10px;
+}
+
+input#genderFemale {
+    margin-left: 0;
+}
+
+select#location {
+    display: block;
+}
+
+div#dobFields {
+    margin-top: 20px;
+}
+
+div#dobFieldsLabel {
+    padding-bottom: 8px;
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #313336;
+}
+
+div#dobFieldContents {
+    display: inline;
+}
+
+div.option {
+    display: block;
+}
+
+div#genderField .radioLabel,
+.primarySubscriberOptions .radioLabel {
+    margin-right: 25px;
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    color: #313336;
+}
+
+div#genderField .radioLabel,
+.primarySubscriberOptions .smallRadioLabel {
+    margin-right: 25px;
+    font: normal 14px "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    color: #313336;
+}
+
+div#genderField {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.selectPlaceHolder {
+    color: #959da6;
+}
+
+.dijitSelectMenu .selectPlaceHolder:hover {
+    color: #fff;
+}
+
+.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 100%;
+    padding: 10px 11px 9px 15px;
+    border: 1px solid #d6d6d6;
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.dj_ie7 .enrollmentSelect.dijitSelect .dijitButtonContents {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.enrollmentSelect .dijitArrowButton {
+    border: 1px 1px 1px 0 solid solid solid solid #d6d6d6 #d6d6d6 #d6d6d6 #d6d6d6;
+    color: #777;
+    background: TRANSPARENT none;
+    background-color: #fff;
+}
+
+div#locationFields {
+    margin-top: 10px;
+}
+
+table#dobMonth,
+table#primSubscriberDobMonth {
+    float: left;
+}
+
+#dobMonth.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 122px;
+}
+
+.enrollmentSelect.dijitSelect .dijitButtonContents .dijitSelectLabel {
+    cursor: default;
+}
+
+#primSubscriberDobMonth.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 87px;
+}
+
+.addDependentsContainer #primSubscriberDobMonth.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 121px;
+}
+
+input#dobDay,
+input#primSubscriberDobDay {
+    width: 43px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+input#dobYear,
+input#primSubscriberDobYear {
+    width: 54px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.dateField {
+    float: left;
+}
+
+.clearFix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input.addressField {
+    margin-bottom: 10px;
+}
+
+div#addressFieldsLabel {
+    margin-bottom: 15px;
+}
+
+input#primaryAddress1,
+input#primaryAddress2,
+input#primaryCity {
+    width: 318px;
+}
+
+table#primaryState {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dj_ie table#primaryState {
+    display: inline;
+    zoom: 1;
+}
+
+input#primaryZipCode {
+    width: 145px;
+    margin-bottom: 0;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.dj_ie input#primaryZipCode {
+    margin-left: 7px;
+}
+
+div#addressFields {
+    margin-bottom: 30px;
+}
+
+#primaryState.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 105px;
+}
+
+#healthPlanId.enrollmentSelect {
+    margin-top: 15px;
+    table-layout: fixed;
+}
+
+#healthPlanId.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 248px;
+    max-width: 248px;
+}
+
+div.enrollmentFormContainer > form#enrollmentForm > div.enrollmentFormContent > div.optionSection > table#healthPlanId .dijitButtonContents,
+.addDependentsContainer #healthPlanId.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 283px;
+    max-width: 283px;
+}
+
+.addDependentsContainer #healthPlanId.enrollmentSelect {
+    margin-top: 10px;
+}
+
+.addDependentsContainer .enrollmentAddDependent {
+    margin-bottom: 25px;
+}
+
+.subscriberDetailsSection {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.subscriberDetailsSection input {
+    float: left;
+}
+
+.subscriberDetailsSection #subscriberId {
+    width: 164px;
+}
+
+div.enrollmentFormContainer > form#enrollmentForm > div.enrollmentFormContent > div.optionSection > .subscriberDetailsSection #subscriberId,
+.addDependentsContainer .subscriberDetailsSection #subscriberId {
+    width: 199px;
+    max-width: 199px;
+}
+
+div.enrollmentFormContainer > form#enrollmentForm > div.enrollmentFormContent > div.optionSection > .subscriberDetailsSection #subscriberId.fullwidth,
+.addDependentsContainer .subscriberDetailsSection #subscriberId.fullwidth {
+    width: 318px;
+    max-width: 318px;
+}
+
+.dj_ie7 .insuranceSection .subscriberDetailsSection #subscriberId,
+.dj_ie7 .primarySubscriberDetailsSection .psNameFields #primSubscriberFirstName {
+    margin-left: -10px;
+}
+
+.subscriberDetailsSection #subscriberSuffix {
+    width: 87px;
+    margin-left: 10px;
+}
+
+.yesSection .optionSection {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+.laterSection .optionSection {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+.primarySubscriberSection {
+    margin-bottom: 20px;
+}
+
+.questionPrompt {
+    margin-bottom: 15px;
+}
+
+.primarySubscriberDetailsSection {
+    margin-top: 15px;
+}
+
+.primarySubscriberDobSection {
+    margin-top: 25px;
+}
+
+.primarySubscriberDobSection .modernLabel14 {
+    margin-bottom: 10px;
+}
+
+.primarySubscriberDetailsSection .fullwidth {
+    width: 281px;
+}
+
+.addDependentsContainer .primarySubscriberDetailsSection .fullwidth {
+    width: 318px;
+    max-width: 318px;
+}
+
+div.enrollmentFormContainer > form#enrollmentForm > div.enrollmentFormContent > div.optionSection .primarySubscriberDetailsSection .fullwidth {
+    width: 281px;
+}
+
+div.enrollmentFormContainer > form#enrollmentForm > div.enrollmentFormContent > div.optionSection .primarySubscriberDetailsSection input.psName,
+.addDependentsContainer .primarySubscriberDetailsSection input.psName {
+    width: 141px;
+}
+
+.addDependentsContainer .primarySubscriberDetailsSection input#primSubscriberFirstName,
+.addDependentsContainer .primarySubscriberDetailsSection input#primSubscriberLastName {
+    width: 142px;
+}
+
+.primarySubscriberDetailsSection input.psName {
+    width: 124px;
+}
+
+.primarySubscriberDetailsSection input#primSubscriberFirstName {
+    width: 125px;
+    margin-top: 10px;
+}
+
+.primarySubscriberDetailsSection input#primSubscriberLastName {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+div.enrollmentFormContainer > form#enrollmentForm > div.enrollmentFormContent > div.optionSection .primarySubscriberDetailsSection #primSubscriberDobMonth.enrollmentSelect.dijitSelect .dijitButtonContents,
+div.enrollmentFormContainer > form#enrollmentForm > div.enrollmentFormContent > div.addDependentsContainer > div.enrollmentAddDependent .primarySubscriberDetailsSection #primSubscriberDobMonth.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 122px;
+}
+
+.primarySubscriberDetailsSection .relationshipToSubscriberSec {
+    margin-top: 10px;
+}
+
+form#enrollmentForm .errorBorder {
+    border-color: #d90000 #d90000 #d90000 #d90000 !important;
+    border-style: solid solid solid solid;
+    border-width: 1px;
+}
+
+#currentLocation.enrollmentSelect.dijitSelect .dijitButtonContents {
+    width: 305px;
+}
+
+form#enrollmentForm .enrollmentSelect.errorBorder {
+    border-width: 0;
+}
+
+.enrollmentSelect.errorBorder:focus {
+    outline: 0;
+}
+
+.enrollmentSelect.errorBorder tr {
+    border-width: 0;
+}
+
+.enrollmentSelect.errorBorder tr td.dijitButtonContents {
+    border-top: 1px solid #d90000;
+    border-bottom: 1px solid #d90000;
+    border-left: 1px solid #d90000;
+}
+
+.enrollmentSelect.errorBorder tr td.dijitArrowButton {
+    border-top: 1px solid #d90000;
+    border-right: 1px solid #d90000;
+    border-bottom: 1px solid #d90000;
+}
+
+.enrollmentSelect.dijitSelectFocused:focus {
+    outline: 0;
+}
+
+.enrollmentSelect.dijitSelectFocused tr {
+    border-width: 0;
+}
+
+.enrollmentSelect.dijitSelectFocused tr td.dijitButtonContents {
+    border-top: 1px solid #237bd2;
+    border-bottom: 1px solid #237bd2;
+    border-left: 1px solid #237bd2;
+}
+
+.enrollmentSelect.dijitSelectFocused tr td.dijitArrowButton {
+    border-top: 1px solid #237bd2;
+    border-right: 1px solid #237bd2;
+    border-bottom: 1px solid #237bd2;
+}
+
+.affiliationsLabel {
+    margin-bottom: 10px;
+}
+
+.affiliationsSubText {
+    margin-bottom: 15px;
+}
+
+div#affiliationContainer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#affiliationContainer.affiliationOnly {
+    margin-top: 0;
+}
+
+div#partialAffiliationContainer {
+    margin-bottom: 5px;
+}
+
+div.enrollmentFormContent.changeEmailContainer {
+    margin-bottom: 25px;
+}
+
+div.greenCheck {
+    float: left;
+}
+
+div.congratulatoryMessage {
+    float: left;
+    margin-bottom: 22px;
+    margin-left: 15px;
+}
+
+div.greenLabel {
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #009c00;
+}
+
+.dj_ie7 div.greenLabel {
+    line-height: 38px;
+}
+
+div.childrenSubtext {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+div.childrenCheckBox {
+}
+
+hr.congratulatoryHR {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.addChildrenPromptContainer {
+    margin-top: 29px;
+    margin-bottom: 24px;
+}
+
+.AddChildrenBox {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.addChildrenMsg {
+    vertical-align: top;
+    color: #313336;
+}
+
+div.marketingContent {
+    width: 440px;
+    margin-right: 45px;
+}
+
+.marketingContent,
+.enrollmentLandingContainer {
+    vertical-align: top;
+}
+
+img#marketingImg {
+    width: 440px;
+    height: 215px;
+}
+
+div.marketingHeader {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+hr.marketingHR {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-color: rgba(255,255,255,0.5) rgba(255,255,255,0.5) rgba(255,255,255,0.5) rgba(255,255,255,0.5);
+}
+
+.dj_gecko .marketingHR {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.dj_ie7 hr.marketingHR {
+    color: #fff;
+    filter: alpha(opacity=50);
+}
+
+div.marketingSubtext,
+div.marketingSubtext p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #fff;
+}
+
+div.marketingSubtext {
+    margin: 20px 0;
+}
+
+div.marketingLearnMore {
+    margin-right: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+div.marketingLearnMore a {
+    margin-right: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+div.dependentName {
+    margin-top: 9px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+div.addChildLink {
+    margin-bottom: 26px;
+}
+
+div.addChildSubtext {
+    margin-bottom: 30px;
+}
+
+div.message1 {
+    margin-bottom: 10px;
+}
+
+div.message2 {
+    margin-bottom: 20px;
+}
+
+div.helpTxt {
+    margin-bottom: 30px;
+}
+
+.addDTCDisclaimerContainer {
+    margin-bottom: 30px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #ffed95;
+    background-color: #fffee3;
+}
+
+.addDTCDisclaimerNote {
+    width: 310px;
+}
+
+.addDTCDisclaimerContainer .initialsSection {
+    float: left;
+    width: 62px;
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #5b6b7b;
+}
+
+.addDTCDisclaimerContainer .initialsSection span {
+}
+
+.addDTCDisclaimerContainer .initialsSection .inputSection {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.addDTCDisclaimerContainer .initialsSection .inputSection input {
+    text-align: center;
+}
+
+.addDTCDisclaimerContainer .disclaimerSection {
+    float: left;
+    width: 228px;
+    margin-left: 15px;
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #5b6b7b;
+}
+
+div#skipBtn_cont,
+div#goBackBtn_cont {
+    margin-right: 15px;
+}
+
+.dj_mac div#skipBtn_cont,
+.dj_mac div#goBackBtn_cont {
+    margin-right: 14px;
+}
+
+form#enrollmentForm div.error {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+form#enrollmentForm .error {
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    color: #d90000;
+}
+
+#password1.errorBorder {
+    margin-bottom: 0;
+}
+
+errors {
+    margin-bottom: 15px;
+}
+
+div.enrollmentFieldRow input.fullWidth {
+    width: 318px;
+}
+
+errors {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+.addressFieldsErrors {
+    float: left;
+}
+
+.caretalks .lightBlueBkgc {
+    background-color: #edf6ff;
+}
+
+.caretalks .solidBlueBorder1 {
+    border: 1px solid #8abce7 !important;
+}
+
+.caretalks .headerPadding {
+    padding: 20px;
+}
+
+.caretalks .headerMargins {
+    padding: 20px;
+}
+
+div #Identification {
+    padding-bottom: 10px;
+}
+
+div #affiliationHint {
+    padding-bottom: 15px;
+}
+
+input#enrollmentCode {
+    width: 318px;
+}
+
+div.waitingEDI {
+    margin-bottom: 10px;
+}
+
+.enrollmentLoadingImg {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.eligibilityButtonRegion {
+    width: 360px;
+    max-width: 360px;
+}
+
+table.depTable {
+    table-layout: fixed;
+}
+
+table.depTable td.inputCol {
+    width: 29px;
+}
+
+.dj_chrome table.depTable td.inputCol {
+    width: 28px;
+}
+
+.dj_ie7 table.depTable td.inputCol {
+    width: 28px;
+}
+
+.dj_ie10 table.depTable td.inputCol {
+    width: 28px;
+}
+
+table.depTable td.rowDivider {
+    width: 340px;
+}
+
+div #primSubscriberNameLabel {
+    padding-top: 10px;
+}
+
+div #primarySubscriberDobLabel {
+    padding-bottom: 10px;
+}
+
+.body,
+.DynamicVerticalCenter {
+    margin-top: 9.5px;
+}
+
+#header {
+    width: 100%;
+    text-align: right;
+}
+
+#navMenu {
+    display: inline-block;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    padding: 11px 10px;
+    min-width: 332px;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.dj_ie7 .caretalks #navMenu {
+    display: inline;
+    zoom: 1;
+    background-color: TRANSPARENT;
+}
+
+#navMenu a {
+    color: #fff;
+}
+
+#navMenu span {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #8c8c8c;
+    cursor: default;
+}
+
+.caretalks #termsOfUsePopUp {
+    width: 600px;
+    height: 656px;
+    max-height: 656px;
+    max-width: 600px;
+}
+
+.caretalks #termsOfUsePopUp .popUpMain {
+    height: 600px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.dj_ie7 .caretalks #termsOfUsePopUp .popUpMain {
+    float: none;
+}
+
+.dj_ie7 .caretalks #termsOfUsePopUp #disclaimerMain {
+    width: auto;
+}
+
+.caretalks #pwdValidationWidget {
+    width: 295px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.caretalks .validationIcons {
+    float: left;
+    margin-top: 2px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.caretalks #pwdValidationWidget .validationMsg {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.caretalks #pwdValidationWidget #arrow {
+    z-index: 2001;
+    float: left;
+    margin-left: -11px;
+}
+
+.dj_ie7 #arrow {
+    margin-top: 10px;
+}
+
+.caretalks #pwdValidationWidget #pwdValidationContent {
+    margin: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.caretalks #failedPwdReq {
+    margin-bottom: 10px;
+}
+
+.caretalks .landingPwdError {
+    margin-top: 20px;
+}
+
+.dijitTooltipContainer.suggestionTooltipContainer {
+    position: relative;
+    top: 18px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: medium;
+    color: #000;
+    background: TRANSPARENT none;
+}
+
+.suggestionTooltipContainer.selectToolTip {
+    top: 36px;
+}
+
+.suggestionTooltipContainer #arrow {
+    z-index: 2001;
+    float: left;
+    margin-top: -5px;
+    margin-left: -31px;
+}
+
+.suggestionTooltipContainer div {
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    color: #313336;
+}
+
+.suggestionTooltipContainer .fieldTip {
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+
+.suggestionTooltipContainer .fieldTip div.tipHeader {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.suggestionTooltipContainer .fieldTip div.tipContent {
+    min-width: 150px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.suggestionTooltipContainer div#currentLocationTooltip {
+    width: 300px;
+}
+
+#tooltipSubscriberCard .dijitTooltipContainer #arrow {
+    z-index: 2001;
+    float: left;
+    margin-top: -5px;
+    margin-left: -31px;
+}
+
+#tooltipSubscriberCard .dijitTooltipContainer {
+    width: 250px !important;
+    height: 200px !important;
+    padding: 15px 20px !important;
+    border: 1px solid #ccc !important;
+    background-color: #fff !important;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+
+#tooltipSubscriberCard .dijitTooltipContainer #subscriberIdTitle {
+    margin-bottom: 10px;
+    font: 16px Verdana !important;
+    font-family: "Open Sans","Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+    color: #313336 !important;
+}
+
+#tooltipSubscriberCard .dijitTooltipContainer #imgContainer {
+    margin: 10px;
+}
+
+#tooltipSubscriberCard .dijitTooltipContainer img#insuranceCardImage {
+    width: 238px;
+    height: 165px;
+}

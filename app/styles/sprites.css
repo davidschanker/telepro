@@ -1,0 +1,4611 @@
+/* CSS taken from Amwell */
+
+.interrogationButtonContainer,
+.interrogationButtonMemberImage,
+.interrogationButtonNonMemberImage {
+    background-image: url(../images/sprites/IMG_HealthPlanQuery.png);
+}
+
+.interrogationButtonContainer {
+    background-position: -0px 0;
+}
+
+.interrogationButtonContainer:hover {
+    background-position: -210px 0;
+}
+
+.interrogationButtonMemberImage {
+    background-position: -420px 0;
+}
+
+.interrogationButtonNonMemberImage {
+    background-position: -598px 0;
+}
+
+.caretalks #WelcomeBarContainer .loginOptions .loginLeftCap,
+.caretalks #WelcomeBarContainer .loginOptions .loginRightCap,
+.caretalks .typeAheadClearX,
+.matchingProviderGrid .providerDetails .availability .provAvailable .icon,
+.matchingProviderGrid .providerDetails .availability .provPhoneOnly .icon,
+.matchingProviderGrid .providerDetails .availability .provWaitingRoom .icon,
+#systemCheckBanner .closeBtn,
+.landingTable .largeStarRating0,
+.landingTable .largeStarRating1,
+.landingTable .largeStarRating2,
+.landingTable .largeStarRating3,
+.landingTable .largeStarRating4,
+.landingTable .largeStarRating5 {
+    background-image: url(../images/sprites/IMG_MemberHome.png);
+}
+
+.caretalks .typeAheadClearX {
+    background-position: 0 -0px;
+}
+
+.matchingProviderGrid .providerDetails .availability .provAvailable .icon {
+    background-position: 0 -24px;
+}
+
+.matchingProviderGrid .providerDetails .availability .provPhoneOnly .icon {
+    background-position: 0 -40px;
+}
+
+.matchingProviderGrid .providerDetails .availability .provWaitingRoom .icon {
+    background-position: 0 -56px;
+}
+
+#systemCheckBanner .closeBtn {
+    background-position: 0 -72px;
+}
+
+.landingTable .largeStarRating0 {
+    background-position: 0 -97px;
+}
+
+.landingTable .largeStarRating1 {
+    background-position: 0 -108px;
+}
+
+.landingTable .largeStarRating2 {
+    background-position: 0 -119px;
+}
+
+.landingTable .largeStarRating3 {
+    background-position: 0 -130px;
+}
+
+.landingTable .largeStarRating4 {
+    background-position: 0 -141px;
+}
+
+.landingTable .largeStarRating5 {
+    background-position: 0 -152px;
+}
+
+.dj_ie .caretalks .matchingProviderGrid .matchedOn,
+.dj_ie #systemCheckBanner,
+.dj_ie .caretalks .landingTable .dijitTabPaneWrapper {
+    background-image: url(../images/sprites/IMG_MemberHome_Gradients.png);
+}
+
+.dj_ie .caretalks .matchingProviderGrid .sortBar.imgBg {
+    background-position: 0 -0px;
+}
+
+.dj_ie .caretalks .matchingProviderGrid .matchedOn {
+    background-position: 0 -40px;
+}
+
+.dj_ie #systemCheckBanner {
+    background-position: 0 -86px;
+}
+
+.dj_ie .caretalks .landingTable .dijitTabPaneWrapper {
+    background-position: 0 -170px;
+}
+
+.ahSprite,
+.AssistantBody .tile .tileIcon,
+#TopBannerRegion .bannerIcon.assistantHome {
+    background-image: url(../images/sprites/IMG_AssistantHome.png);
+}
+
+#TopBannerRegion .bannerIcon.assistantHome {
+    background-position: 0 -0px;
+}
+
+#myPatientsIcon {
+    background-position: 0 -49px;
+}
+
+#myProvidersIcon {
+    background-position: 0 -151px;
+}
+
+#waitingRoomIcon {
+    background-position: 0 -253px;
+}
+
+#messageCenterIcon {
+    background-position: 0 -355px;
+}
+
+#myPatientsIconDisabled {
+    background-position: 0 -457px;
+}
+
+#myProvidersIconDisabled {
+    background-position: 0 -559px;
+}
+
+#waitingRoomIconDisabled {
+    background-position: 0 -661px;
+}
+
+#messageCenterIconDisabled {
+    background-position: 0 -763px;
+}
+
+.tile .tileShade {
+    background-image: url(../images/sprites/IMG_TileShade.png);
+}
+
+.tile.yellow .tileShade {
+    background-position: -0px 0;
+}
+
+.tile.green .tileShade {
+    background-position: -230px 0;
+}
+
+.tile.blue .tileShade {
+    background-position: -460px 0;
+}
+
+.tile.purple .tileShade {
+    background-position: -690px 0;
+}
+
+.findProvider table.ct td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_FindProviderSearchPane.png);
+}
+
+.findProvider table.ct tr.male td.icon .tdCont {
+    background-position: 0 -0px;
+}
+
+.findProvider table.ct tr.female td.icon .tdCont {
+    background-position: 0 -19px;
+}
+
+.findTransferProvider table.ct td.largeIcon .tdCont {
+    background-image: url(../images/sprites/IMG_WarmTransfer.png);
+}
+
+.findTransferProvider table.ct tr.male td.largeIcon .tdCont {
+    background-position: 0 -0px;
+}
+
+.findTransferProvider table.ct tr.female td.largeIcon .tdCont {
+    background-position: 0 -33px;
+}
+
+#findProviderForWaitingRoomPopup .resultsTblCont .DataTable TD.largeIcon .tdCont {
+    background-image: url(../images/sprites/IMG_WarmTransfer.png);
+}
+
+#findProviderForWaitingRoomPopup .resultsTblCont .DataTable tr.male TD.largeIcon .tdCont {
+    background-position: 0 -0px;
+}
+
+#findProviderForWaitingRoomPopup .resultsTblCont .DataTable tr.female TD.largeIcon .tdCont {
+    background-position: 0 -33px;
+}
+
+#TopBannerRegion .bannerIcon.ProviderSearch,
+.searchLink .searchLinkIcon,
+.findDocByNameHeader {
+    background-image: url(../images/sprites/IMG_ProviderSearch.png);
+}
+
+#TopBannerRegion .bannerIcon.ProviderSearch {
+    background-position: -0px 0;
+}
+
+#preferredProvidersButton .searchLinkIcon {
+    background-position: -50px 0;
+}
+
+#pastProvidersButton .searchLinkIcon {
+    background-position: -69px 0;
+}
+
+#primaryCareButton .searchLinkIcon {
+    background-position: -88px 0;
+}
+
+#treatingPhysiciansButton .searchLinkIcon {
+    background-position: -107px 0;
+}
+
+.findDocByNameHeader {
+    background-position: -126px 0;
+}
+
+.pharmacySprite,
+.memberRCDSprite {
+    background-image: url(../images/sprites/IMG_MemberReviewConnectionDetails.png);
+}
+
+.pharmacySprite.cannotPrescribe {
+    background-position: 0 -0px;
+}
+
+.pharmacySprite.addNewPharmacy {
+    background-position: 0 -14px;
+}
+
+.pharmacySprite.pharmacyOption {
+    background-position: 0 -33px;
+}
+
+.pharmacySprite.icon {
+    background-position: 0 -52px;
+}
+
+.memberRCDSprite.alert {
+    background-position: 0 -85px;
+}
+
+.mobileMemberSprite {
+    background-image: url(../images/sprites/IMG_ProviderRCDMobile.png);
+}
+
+.mobileMemberSprite {
+    background-position: 0 -0px;
+}
+
+.phoneMemberSprite {
+    background-image: url(../images/sprites/IMG_ProviderRCDPhone.png);
+}
+
+.phoneMemberSprite {
+    background-position: 0 -0px;
+}
+
+.kioskMemberSprite {
+    background-image: url(../images/sprites/IMG_ProviderRCDKiosk.png);
+}
+
+.kioskMemberSprite {
+    background-position: 0 -0px;
+}
+
+.drawerContainer .drawerTabList.assistant .drawerTab div {
+    background-image: url(../images/sprites/IMG_Tabs_Assistant.png);
+}
+
+.drawerContainer .drawerTab .AsstProviderEntries {
+    background-position: 0 -0px;
+}
+
+.drawerContainer .drawerTabChecked .AsstProviderEntries {
+    background-position: 0 -120px;
+}
+
+.drawerContainer .drawerTab .AsstHealthHistory {
+    background-position: 0 -240px;
+}
+
+.drawerContainer .drawerTabChecked .AsstHealthHistory {
+    background-position: 0 -301px;
+}
+
+.drawerContainer .drawerTab.drawerTabDisabled .AsstHealthHistory {
+    background-position: 0 -362px;
+}
+
+.drawerContainer .drawerTab .AsstNotes {
+    background-position: 0 -423px;
+}
+
+.drawerContainer .drawerTabChecked .AsstNotes {
+    background-position: 0 -472px;
+}
+
+.drawerContainer .drawerTab .AsstSummary {
+    background-position: 0 -521px;
+}
+
+.drawerContainer .drawerTabChecked .AsstSummary {
+    background-position: 0 -577px;
+}
+
+.drawerContainer .drawerTab .AsstPostVisit {
+    background-position: 0 -633px;
+}
+
+.drawerContainer .drawerTabChecked .AsstPostVisit {
+    background-position: 0 -711px;
+}
+
+#pvApptTimeCont #calendarWidget .dijitCalendarIncrementControl,
+.appointmentSchedule .apptCalendar table .dijitCalendarIncrementControl,
+#providerNameBadge .prvIcon,
+#pvApptSummaryCont #summarySection #summaryBoxIcon,
+#pvApptTimeCont #calendarWidget .dijitCalendarCurrentMonth .dijitCalendarDateLabel {
+    background-image: url(../images/sprites/IMG_Sched_Appt.png);
+}
+
+#providerNameBadge .prvIcon.FEMALE,
+.providerNameBadge .prvIcon.FEMALE {
+    background-position: 0 -0px;
+}
+
+#providerNameBadge .prvIcon.MALE,
+.providerNameBadge .prvIcon.MALE {
+    background-position: 0 -33px;
+}
+
+#pvApptTimeCont #calendarWidget .dijitCalendarIncrementControl.dijitCalendarIncrease,
+.appointmentSchedule .apptCalendar table .dijitCalendarIncrementControl.dijitCalendarIncrease {
+    background-position: 0 -66px;
+}
+
+#pvApptTimeCont #calendarWidget .dijitCalendarIncrementControl.dijitCalendarDecrease,
+.appointmentSchedule .apptCalendar table .dijitCalendarIncrementControl.dijitCalendarDecrease {
+    background-position: 0 -78px;
+}
+
+#pvApptSummaryCont #summarySection #summaryBoxIcon {
+    background-position: 0 -90px;
+}
+
+#pvApptTimeCont #calendarWidget .dijitCalendarCurrentMonth .dijitCalendarDateLabel {
+    background-position: 0 -139px;
+}
+
+#pvApptTimeCont #calendarWidget .dijitCalendarCurrentMonth.availableDate .dijitCalendarDateLabel,
+ {
+    background-position: 0 -162px;
+}
+
+#pvApptTimeCont #calendarWidget td.dijitCalendarCurrentMonth.dijitCalendarSelectedDate .dijitCalendarDateLabel {
+    background-position: 0 -185px;
+}
+
+.appointmentSchedule .apptCalendar table td.appointmentDate div.dijitCalendarDateLabel {
+    background-position: 0 -208px;
+}
+
+.drawerContainer .drawerTabList.member .drawerTab div {
+    background-image: url(../images/sprites/IMG_Tabs_Member.png);
+}
+
+.drawerContainer .drawerTab .M_ToStart {
+    background-position: 0 -0px;
+}
+
+.drawerContainer .drawerTabChecked .M_ToStart {
+    background-position: 0 -64px;
+}
+
+.drawerContainer .drawerTab .M_HealthHistory {
+    background-position: 0 -128px;
+}
+
+.drawerContainer .drawerTabChecked .M_HealthHistory {
+    background-position: 0 -235px;
+}
+
+.drawerContainer .drawerTab .ProviderEntries {
+    background-position: 0 -342px;
+}
+
+.drawerContainer .drawerTabChecked .ProviderEntries {
+    background-position: 0 -462px;
+}
+
+.drawerContainer .drawerTab .eNurse {
+    background-position: 0 -582px;
+}
+
+.drawerContainer .drawerTabChecked .eNurse {
+    background-position: 0 -646px;
+}
+
+.drawerContainer .drawerTab .ConversationInfo {
+    background-position: 0 -710px;
+}
+
+.drawerContainer .drawerTabChecked .ConversationInfo {
+    background-position: 0 -831px;
+}
+
+.drawerContainer .member .drawerTab .DSS {
+    background-position: 0 -952px;
+}
+
+.drawerContainer .member .drawerTabChecked .DSS {
+    background-position: 0 -1010px;
+}
+
+.mts-container .contentSection .icon {
+    background-image: url(../images/sprites/IMG_ToStart_Icons.png);
+}
+
+.mts-container .contentSection .icon.hwIcon {
+    background-position: 0 -0px;
+}
+
+.mts-container .contentSection .icon.vid {
+    background-position: 0 -73px;
+}
+
+.mts-container .contentSection .icon.phone {
+    background-position: 0 -119px;
+}
+
+.mts-container .contentSection .icon.chat {
+    background-position: 0 -165px;
+}
+
+.drawerContainer .drawerTabList.proxyProvider .drawerTab div {
+    background-image: url(../images/sprites/IMG_Tabs_ProxyProvider.png);
+}
+
+.drawerContainer .drawerTab .M_ToStart {
+    background-position: 0 -0px;
+}
+
+.drawerContainer .drawerTabChecked .M_ToStart {
+    background-position: 0 -63px;
+}
+
+.drawerContainer .proxyProvider .drawerTab .DSS {
+    background-position: 0 -126px;
+}
+
+.drawerContainer .proxyProvider .drawerTabChecked .DSS {
+    background-position: 0 -183px;
+}
+
+.drawerContainer .proxyProvider .drawerTab .M_HealthHistory {
+    background-position: 0 -240px;
+}
+
+.drawerContainer .proxyProvider .drawerTabChecked .M_HealthHistory {
+    background-position: 0 -346px;
+}
+
+.drawerContainer .proxyProvider .drawerTab .ProviderEntries {
+    background-position: 0 -452px;
+}
+
+.drawerContainer .proxyProvider .drawerTabChecked .ProviderEntries {
+    background-position: 0 -571px;
+}
+
+.drawerContainer .proxyProvider .drawerTab .Rx {
+    background-position: 0 -690px;
+}
+
+.drawerContainer .proxyProvider .drawerTabChecked .Rx {
+    background-position: 0 -718px;
+}
+
+.drawerContainer .proxyProvider .drawerTabDisabled .Rx {
+    background-position: 0 -746px;
+}
+
+.drawerContainer .drawerTabList.provider .drawerTab div {
+    background-image: url(../images/sprites/IMG_Tabs_Provider.png);
+}
+
+.drawerContainer .drawerTab .Notes {
+    background-position: 0 -0px;
+}
+
+.drawerContainer .drawerTabChecked .Notes {
+    background-position: 0 -49px;
+}
+
+.drawerContainer .drawerTab .Encoder {
+    background-position: 0 -98px;
+}
+
+.drawerContainer .drawerTabChecked .Encoder {
+    background-position: 0 -164px;
+}
+
+.drawerContainer .drawerTab .Rx {
+    background-position: 0 -230px;
+}
+
+.drawerContainer .drawerTabChecked .Rx {
+    background-position: 0 -259px;
+}
+
+.drawerContainer .drawerTabDisabled .Rx {
+    background-position: 0 -288px;
+}
+
+.drawerContainer .drawerTab .FollowUp {
+    background-position: 0 -317px;
+}
+
+.drawerContainer .drawerTabChecked .FollowUp {
+    background-position: 0 -395px;
+}
+
+.drawerContainer .drawerTabDisabled .FollowUp {
+    background-position: 0 -473px;
+}
+
+.drawerContainer .drawerTab .DSS {
+    background-position: 0 -551px;
+}
+
+.drawerContainer .drawerTabChecked .DSS {
+    background-position: 0 -609px;
+}
+
+.drawerContainer .drawerTab .HealthHistory {
+    background-position: 0 -667px;
+}
+
+.drawerContainer .drawerTabChecked .HealthHistory {
+    background-position: 0 -728px;
+}
+
+.drawerContainer .drawerTabDisabled .HealthHistory {
+    background-position: 0 -789px;
+}
+
+.drawerContainer .drawerTab .ProvIntake {
+    background-position: 0 -850px;
+}
+
+.drawerContainer .drawerTabChecked .ProvIntake {
+    background-position: 0 -906px;
+}
+
+.convoHeaderRightContainer #sendToPostVisitIcon {
+    background-image: url(../images/sprites/IMG_SendToPostVisitIcon.png);
+}
+
+.convoHeaderRightContainer #sendToPostVisitIcon {
+    background-position: 0 -0px;
+}
+
+.convoHeaderRightContainer #sendToPostVisitIcon.inactive {
+    background-position: 0 -19px;
+}
+
+.dijitEditorIcon {
+    background-image: url(../images/sprites/IMG_Editor.png);
+}
+
+.dijitEditorIconBold {
+    background-position: 0 -0px;
+}
+
+.dijitEditorIconItalic {
+    background-position: 0 -20px;
+}
+
+.dijitEditorIconUnderline {
+    background-position: 0 -40px;
+}
+
+.dijitEditorIconForeColor {
+    background-position: 0 -60px;
+}
+
+.editorToolbarSpellChecker {
+    background-position: 0 -80px;
+}
+
+.RichTextEditable .dijitEditorIconFontName {
+    background-position: 0 -100px;
+}
+
+.RichTextEditable .dijitEditorIconFontSize {
+    background-position: 0 -120px;
+}
+
+.dijitEditorIconInsertUnorderedList {
+    background-position: 0 -140px;
+}
+
+.RichTextEditable .dijitEditorIconCreateLink {
+    background-position: 0 -160px;
+}
+
+.dijitEditorIconJustifyLeft {
+    background-position: 0 -180px;
+}
+
+.dijitEditorIconJustifyRight {
+    background-position: 0 -200px;
+}
+
+.dijitEditorIconJustifyCenter {
+    background-position: 0 -220px;
+}
+
+.dijitEditorIconJustifyFull {
+    background-position: 0 -240px;
+}
+
+.dijitEditorIconViewSource {
+    background-position: 0 -260px;
+}
+
+.dijitEditorIconPreivew {
+    background-position: 0 -278px;
+}
+
+#adminActivityHistoryPagingTable td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_AdminHealthHistory.png);
+}
+
+#adminActivityHistoryPagingTable .pagingTable tr.securemsg td.icon div.tdCont {
+    background-position: -0px center;
+}
+
+#adminActivityHistoryPagingTable .pagingTable tr.conv td.icon div.tdCont {
+    background-position: -26px center;
+}
+
+table.ct td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_HealthHistory_MyHealth.png);
+}
+
+table.ct .conv td.icon .tdCont,
+table.ct td.icon.conv .tdCont {
+    background-position: -0px center;
+}
+
+table.ct .instructions td.icon .tdCont,
+table.ct td.icon.instructions .tdCont {
+    background-position: -20px center;
+}
+
+table.ct .incomplete.conv td.icon .tdCont,
+table.ct .incomplete td.icon.conv .tdCont {
+    background-position: -40px center;
+}
+
+table.ct .incompletePrimary.conv td.icon .tdCont,
+table.ct .incompletePrimary td.icon.conv .tdCont {
+    background-position: -60px center;
+}
+
+table.ct .enurse td.icon .tdCont,
+table.ct td.icon.enurse .tdCont {
+    background-position: -80px center;
+}
+
+table.ct .trackerreminder td.icon .tdCont,
+table.ct td.icon.trackerreminder .tdCont {
+    background-position: -100px center;
+}
+
+table.ct .summary td.icon .tdCont,
+table.ct td.icon.summary .tdCont {
+    background-position: -120px center;
+}
+
+table.ct .article td.icon .tdCont,
+table.ct td.icon.article .tdCont,
+table.ct .hwarticle td.icon .tdCont,
+table.ct td.icon.hwarticle .tdCont {
+    background-position: -140px center;
+}
+
+table.ct .video td.icon .tdCont,
+table.ct td.icon.video .tdCont {
+    background-position: -160px center;
+}
+
+table.ct .med td.icon .tdCont,
+table.ct td.icon.med .tdCont,
+table.ct.med tr.prescribed > td.icon > div.tdCont {
+    background-position: -180px center;
+}
+
+table.ct.med tr.filled > td.icon > div.tdCont,
+table.ct.med tr.processed > td.icon > div.tdCont {
+    background-position: -200px center;
+}
+
+table.ct.med tr.self > td.icon > div.tdCont,
+table.ct .med td.icon.blue .tdCont,
+table.ct td.icon.med.blue .tdCont,
+table.ct.med tr.pending > td.icon > div.tdCont {
+    background-position: -220px center;
+}
+
+table.ct .diag td.icon .tdCont,
+table.ct td.icon.diag .tdCont {
+    background-position: -240px center;
+}
+
+table.ct .proc td.icon .tdCont,
+table.ct td.icon.proc .tdCont {
+    background-position: -260px center;
+}
+
+table.ct .immun td.icon .tdCont,
+table.ct td.icon.immun .tdCont {
+    background-position: -280px center;
+}
+
+table.ct .allergy td.icon .tdCont,
+table.ct td.icon.allergy .tdCont {
+    background-position: -300px center;
+}
+
+table.ct .attach td.icon .tdCont,
+table.ct td.icon.attach .tdCont {
+    background-position: -320px center;
+}
+
+table.ct .sched td.icon .tdCont,
+table.ct td.icon.sched .tdCont {
+    background-position: -340px center;
+}
+
+table.ct .sched td.icon .tdCont,
+table.ct td.icon.schedConfirm .tdCont {
+    background-position: -360px center;
+}
+
+table.ct td.icon.done .tdCont {
+    background-position: -380px center;
+}
+
+table.ct td.icon.fail .tdCont {
+    background-position: -400px center;
+}
+
+table.ct .note td.icon .tdCont {
+    background-position: -420px center;
+}
+
+table.ct .sickslip td.icon .tdCont,
+table.ct .referral td.icon .tdCont {
+    background-position: -440px center;
+}
+
+table.ct td.icon.sendSecureMsg .tdCont {
+    background-position: -460px center;
+}
+
+.KioskBody .dijitButton .dijitIcon.shareAll,
+.KioskBody table.ct td.icon .tdCont,
+.KioskBody table.ct td.action .tdCont .dijitIcon {
+    background-image: url(../images/sprites/IMG_Kiosk_HealthHistory_MyHealth.png);
+}
+
+.KioskBody .dijitButton .dijitIcon.shareAll {
+    background-position: 0 -0px;
+}
+
+.KioskBody table.ct td.action .tdCont .share {
+    background-position: 0 -25px;
+}
+
+.KioskBody table.ct .allergy td.icon .tdCont,
+.KioskBody table.ct td.icon.allergy .tdCont {
+    background-position: 0 -58px;
+}
+
+.KioskBody table.ct .article td.icon .tdCont,
+.KioskBody table.ct td.icon.article .tdCont,
+.KioskBody table.ct .hwarticle td.icon .tdCont,
+.KioskBody table.ct td.icon.hwarticle .tdCont {
+    background-position: 0 -92px;
+}
+
+.KioskBody table.ct .diag td.icon .tdCont,
+.KioskBody table.ct td.icon.diag .tdCont {
+    background-position: 0 -126px;
+}
+
+.KioskBody table.ct .conv td.icon .tdCont,
+.KioskBody table.ct td.icon.conv .tdCont {
+    background-position: 0 -160px;
+}
+
+.KioskBody table.ct .incomplete.conv td.icon .tdCont,
+.KioskBody table.ct .incomplete td.icon.conv .tdCont {
+    background-position: 0 -194px;
+}
+
+.KioskBody table.ct .incompletePrimary.conv td.icon .tdCont,
+.KioskBody table.ct .incompletePrimary td.icon.conv .tdCont {
+    background-position: 0 -228px;
+}
+
+.KioskBody table.ct td.icon.fail .tdCont {
+    background-position: 0 -262px;
+}
+
+.KioskBody table.ct td.icon.done .tdCont {
+    background-position: 0 -296px;
+}
+
+.KioskBody table.ct .enurse td.icon .tdCont,
+.KioskBody table.ct td.icon.enurse .tdCont {
+    background-position: 0 -330px;
+}
+
+.KioskBody table.ct .sickslip td.icon .tdCont,
+.KioskBody table.ct .referral td.icon .tdCont {
+    background-position: 0 -364px;
+}
+
+.KioskBody table.ct .summary td.icon .tdCont,
+.KioskBody table.ct td.icon.summary .tdCont {
+    background-position: 0 -398px;
+}
+
+.KioskBody table.ct .immun td.icon .tdCont,
+.KioskBody table.ct td.icon.immun .tdCont {
+    background-position: 0 -432px;
+}
+
+.KioskBody table.ct .instructions td.icon .tdCont,
+.KioskBody table.ct td.icon.instructions .tdCont {
+    background-position: 0 -466px;
+}
+
+.KioskBody table.ct .attach td.icon .tdCont,
+.KioskBody table.ct td.icon.attach .tdCont {
+    background-position: 0 -500px;
+}
+
+.KioskBody table.ct .note td.icon .tdCont {
+    background-position: 0 -534px;
+}
+
+.KioskBody table.ct .med td.icon .tdCont,
+.KioskBody table.ct td.icon.med .tdCont,
+.KioskBody table.ct.med tr.prescribed > td.icon > div.tdCont {
+    background-position: 0 -568px;
+}
+
+.KioskBody table.ct.med tr.filled > td.icon > div.tdCont,
+.KioskBody table.ct.med tr.processed > td.icon > div.tdCont {
+    background-position: 0 -602px;
+}
+
+.KioskBody table.ct.med tr.self > td.icon > div.tdCont,
+.KioskBody table.ct .med td.icon.blue .tdCont,
+.KioskBody table.ct td.icon.med.blue .tdCont,
+.KioskBody table.ct.med tr.pending > td.icon > div.tdCont {
+    background-position: 0 -636px;
+}
+
+.KioskBody table.ct .proc td.icon .tdCont,
+.KioskBody table.ct td.icon.proc .tdCont {
+    background-position: 0 -670px;
+}
+
+.KioskBody table.ct .sched td.icon .tdCont,
+.KioskBody table.ct td.icon.sched .tdCont {
+    background-position: 0 -704px;
+}
+
+.KioskBody table.ct td.icon.sendSecureMsg .tdCont {
+    background-position: 0 -738px;
+}
+
+.KioskBody table.ct .trackerreminder td.icon .tdCont,
+.KioskBody table.ct td.icon.trackerreminder .tdCont {
+    background-position: 0 -772px;
+}
+
+.KioskBody table.ct .video td.icon .tdCont,
+.KioskBody table.ct td.icon.video .tdCont {
+    background-position: 0 -806px;
+}
+
+table.myAccountEdit.ct td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_Member_MyAccount_Popup.png);
+}
+
+table.ct .hospital td.icon .tdCont,
+table.ct td.icon.hospital .tdCont {
+    background-position: -0px center;
+}
+
+table.ct .pharmacy td.icon .tdCont,
+table.ct td.icon.pharmacy .tdCont {
+    background-position: -18px center;
+}
+
+table.ct .male td.icon .tdCont,
+table.ct td.icon.male .tdCont {
+    background-position: -36px center;
+}
+
+table.ct .female td.icon .tdCont,
+table.ct td.icon.female .tdCont {
+    background-position: -54px center;
+}
+
+table.ct .patientMale td.icon .tdCont,
+table.ct td.icon.patientMale .tdCont {
+    background-position: -72px center;
+}
+
+table.ct .patientFemale td.icon .tdCont,
+table.ct td.icon.patientFemale .tdCont {
+    background-position: -90px center;
+}
+
+table.ct .assistantMale td.icon .tdCont,
+table.ct td.icon.assistantMale .tdCont {
+    background-position: -108px center;
+}
+
+table.ct .assistantFemale td.icon .tdCont,
+table.ct td.icon.assistantFemale .tdCont {
+    background-position: -126px center;
+}
+
+#onlineUsersTable table.ct td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_SYSAdmin_Online_Users_Table.png);
+}
+
+table.ct .memberMale td.icon .tdCont,
+table.ct td.icon.memberMale .tdCont {
+    background-position: -0px center;
+}
+
+table.ct .memberFemale td.icon .tdCont,
+table.ct td.icon.memberFemale .tdCont {
+    background-position: -18px center;
+}
+
+table.ct .providerMale td.icon .tdCont,
+table.ct td.icon.providerMale .tdCont {
+    background-position: -36px center;
+}
+
+table.ct .providerFemale td.icon .tdCont,
+table.ct td.icon.providerFemale .tdCont {
+    background-position: -54px center;
+}
+
+table.ct .assistantMale td.icon .tdCont,
+table.ct td.icon.assistantMale .tdCont {
+    background-position: -72px center;
+}
+
+table.ct .assistantFemale td.icon .tdCont,
+table.ct td.icon.assistantFemale .tdCont {
+    background-position: -90px center;
+}
+
+table.ct .admin td.icon .tdCont,
+table.ct td.icon.admin .tdCont {
+    background-position: -108px center;
+}
+
+table.ct .locked td.icon .tdCont,
+table.ct td.icon.locked .tdCont {
+    background-position: -126px center;
+}
+
+table.ct .incomplete td.icon .tdCont,
+table.ct td.icon.incomplete .tdCont {
+    background-position: -144px center;
+}
+
+table#providerTypeAlternatesTable.ct td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_Admin_Provider_Alternates_Table.png);
+}
+
+table.ct .maleProvider td.icon .tdCont,
+table.ct td.icon.maleProvider .tdCont {
+    background-position: -0px center;
+}
+
+table.ct .femaleProvider td.icon .tdCont,
+table.ct td.icon.femaleProvider .tdCont {
+    background-position: -32px center;
+}
+
+table.ct .administrator td.icon .tdCont,
+table.ct td.icon.administrator .tdCont {
+    background-position: -64px center;
+}
+
+table.ct tr.practiceAdminIcon > td.icon > div,
+.practiceAdminIcon.practiceAdminIconAdd {
+    background-image: url(../images/sprites/IMG_Admin_Support_PracticeAdminIcons.png);
+}
+
+tr.practiceAdminIcon.practiceAdminIconPractice > td.icon > div {
+    background-position: -0px center;
+}
+
+tr.practiceAdminIcon.practiceAdminProviderMALE > td.icon > div {
+    background-position: -18px center;
+}
+
+tr.practiceAdminIcon.practiceAdminProviderFEMALE > td.icon > div {
+    background-position: -36px center;
+}
+
+tr.practiceAdminIcon.practiceAdminAssistantMALE > td.icon > div {
+    background-position: -54px center;
+}
+
+tr.practiceAdminIcon.practiceAdminAssistantFEMALE > td.icon > div {
+    background-position: -72px center;
+}
+
+table.ct tr.practiceReportIcon > td.icon > div {
+    background-image: url(../images/sprites/IMG_Provider_PracticeReportIcons.png);
+}
+
+.practiceReportIcon > td.icon > div {
+    background-position: -0px center;
+}
+
+.prvEntries .peHeader .peHeaderIcon,
+.chatMsgIcon,
+.chatContainer .chatContainerIcon,
+.phoneContainer .operatorIcon,
+.phoneContainer .phoneIcon,
+.chatMsgIcon.SickSlip,
+.chatMsgIcon.Referral,
+.chatMsgIcon.FollowUpAppointment {
+    background-image: url(../images/sprites/IMG_ChatNotification_ProvEntries.png);
+}
+
+.prvEntries .peHeaderIcon.postVisit {
+    background-position: -0px center;
+}
+
+.prvEntries .peHeaderIcon.notes,
+.chatMsgIcon.Notes {
+    background-position: -27px center;
+}
+
+.prvEntries .peHeaderIcon.scripts,
+.chatMsgIcon.Prescription {
+    background-position: -54px center;
+}
+
+.prvEntries .peHeaderIcon.diagnose,
+.chatMsgIcon.Encoder {
+    background-position: -81px center;
+}
+
+.prvEntries .peHeaderIcon.followUp,
+.chatMsgIcon.FollowUp {
+    background-position: -108px center;
+}
+
+.chatMsgIcon.ProviderFemale {
+    background-position: -135px center;
+}
+
+.chatMsgIcon.ProviderMale {
+    background-position: -162px center;
+}
+
+.chatMsgIcon.MemberMale {
+    background-position: -189px center;
+}
+
+.chatMsgIcon.MemberFemale {
+    background-position: -216px center;
+}
+
+.chatMsgIcon.MemberAnon {
+    background-position: -243px center;
+}
+
+.chatMsgIcon.AssistantMale {
+    background-position: -270px center;
+}
+
+.chatMsgIcon.AssistantFemale {
+    background-position: -297px center;
+}
+
+.chatMsgIcon.Information {
+    background-position: -324px center;
+}
+
+.chatMsgIcon.Extend {
+    background-position: -351px center;
+}
+
+.chatMsgIcon.Webcam {
+    background-position: -378px center;
+}
+
+.chatMsgIcon.OutOfTime {
+    background-position: -405px center;
+}
+
+.chatMsgIcon.AssistantEnter,
+.chatMsgIcon.ProviderEnter {
+    background-position: -432px center;
+}
+
+.chatMsgIcon.AssistantExit,
+.chatMsgIcon.ProviderExit {
+    background-position: -459px center;
+}
+
+.chatContainer .chatContainerIcon {
+    background-position: -486px center;
+}
+
+.phoneContainer .operatorIcon {
+    background-position: -513px center;
+}
+
+.phoneContainer .phoneIcon {
+    background-position: -540px center;
+}
+
+.chatMsgIcon.SickSlip,
+.chatMsgIcon.Referral {
+    background-position: -567px center;
+}
+
+.chatMsgIcon.FollowUpAppointment {
+    background-position: -594px center;
+}
+
+.chatMsgIcon.Transfer {
+    background-position: -621px center;
+}
+
+.kioskProviderEntries .prvEntries .peHeader .peHeaderIcon {
+    background-image: url(../images/sprites/IMG_ProviderActivityEntries.png);
+}
+
+.kioskProviderEntries .prvEntries .peHeaderIcon.notes {
+    background-position: -0px center;
+}
+
+.kioskProviderEntries .prvEntries .peHeaderIcon.scripts {
+    background-position: -38px center;
+}
+
+.kioskProviderEntries .prvEntries .peHeaderIcon.diagnose {
+    background-position: -76px center;
+}
+
+.drawerContainer .sprite {
+    background-image: url(../images/sprites/IMG_Drawer.png);
+}
+
+.drawerContainer .toggleControlPane div.expanded {
+    background-position: 0 -0px;
+}
+
+.drawerContainer .toggleControlPane div.collapsed {
+    background-position: 0 -16px;
+}
+
+.drawerContainer .drawerContainerOuter {
+    background-position: 0 -32px;
+}
+
+.myAgendaHdr .myAgendaIcon,
+.widgetItem .widgetIcon,
+.widgetItemLast .widgetIcon,
+.funcWidgetIcon,
+.dijitDialog div.dialogTitleBarIcon.add,
+.dijitDialog div.dialogTitleBarIcon.delete,
+.myAgendaSprite,
+#TopBannerRegion .bannerIcon.MyAgenda {
+    background-image: url(../images/sprites/IMG_MyAgenda.png);
+}
+
+#TopBannerRegion .bannerIcon.MyAgenda {
+    background-position: 0 -0px;
+}
+
+.myAgendaHdr.article .myAgendaIcon,
+.widgetItem .widgetIcon.article,
+.widgetItemLast .widgetIcon.article {
+    background-position: 0 -49px;
+}
+
+.myAgendaHdr.video .myAgendaIcon,
+.widgetItem .widgetIcon.video,
+.widgetItemLast .widgetIcon.video {
+    background-position: 0 -75px;
+}
+
+.myAgendaHdr.conv .myAgendaIcon,
+.widgetItem .widgetIcon.conv,
+.widgetItemLast .widgetIcon.conv {
+    background-position: 0 -101px;
+}
+
+.myAgendaHdr.convRecurring .myAgendaIcon {
+    background-position: 0 -127px;
+}
+
+.myAgendaHdr.trackerReminder .myAgendaIcon,
+.widgetItem .widgetIcon.trackerReminder,
+.widgetItemLast .widgetIcon.trackerReminder {
+    background-position: 0 -153px;
+}
+
+.myAgendaHdr.trackerReminderRecurring .myAgendaIcon {
+    background-position: 0 -179px;
+}
+
+.myAgendaHdr.assessment .myAgendaIcon,
+.widgetItem .widgetIcon.assessment,
+.widgetItemLast .widgetIcon.assessment {
+    background-position: 0 -205px;
+}
+
+.myAgendaHdr.upcomingAppt .myAgendaIcon,
+.widgetItem .widgetIcon.upcomingAppt,
+.widgetItemLast .widgetIcon.upcomingAppt {
+    background-position: 0 -231px;
+}
+
+.myAgendaHdr.waitingRoom .myAgendaIcon,
+.widgetItem .widgetIcon.waitingRoom,
+.widgetItemLast .widgetIcon.waitingRoom {
+    background-position: 0 -257px;
+}
+
+.dijitDialog div.dialogTitleBarIcon.add {
+    background-position: 0 -283px;
+}
+
+.dijitDialog div.dialogTitleBarIcon.delete {
+    background-position: 0 -309px;
+}
+
+.funcWidgetIcon.firstAvailableLink {
+    background-position: 0 -335px;
+}
+
+.funcWidgetIcon.findProviderLink {
+    background-position: 0 -355px;
+}
+
+.funcWidgetIcon.trackerReminderLink {
+    background-position: 0 -375px;
+}
+
+.funcWidgetIcon.mediaLink {
+    background-position: 0 -395px;
+}
+
+.funcWidgetIcon.addTopicLink {
+    background-position: 0 -415px;
+}
+
+.funcWidgetIcon.changePhoneLink {
+    background-position: 0 -435px;
+}
+
+.funcWidgetIcon.resetLink {
+    background-position: 0 -455px;
+}
+
+.funcWidgetIcon.reminderLink {
+    background-position: 0 -475px;
+}
+
+.deleteLinkContainer .deleteIcon {
+    background-position: 0 -495px;
+}
+
+div.collapsablePanel .cpSprite {
+    background-image: url(../images/sprites/IMG_CollapsablePanel.png);
+}
+
+div.collapsablePanel .cpHdr {
+    background-position: 0 -0px;
+}
+
+div.collapsablePanel .cpFtr {
+    background-position: 0 -24px;
+}
+
+div.collapsablePanelHover .cpHdr {
+    background-position: 0 -33px;
+}
+
+div.collapsablePanelHover .cpFtr {
+    background-position: 0 -57px;
+}
+
+div.collapsablePanel.current .cpHdr {
+    background-position: 0 -66px;
+}
+
+div.collapsablePanel.current .cpFtr {
+    background-position: 0 -90px;
+}
+
+#topNav,
+#cwTopNav.dijitMenuBar,
+#cwTopNav .dijitMenuItem,
+#cwTopNav .dijitMenuItemHover,
+#cwTopNav.dijitMenuActive .dijitMenuItemSelected,
+#cwTopNav .dijitMenuItem .ctRightEndCap,
+#cwTopNav .dijitMenuItemHover .ctRightEndCap,
+#cwTopNav.dijitMenuActive .dijitMenuItemSelected .ctRightEndCap,
+#cwTopNav .dijitMenuItem .ctNavDivider,
+#cwTopNav #ctNavDivider,
+#cwTopNav .newMessages .dijitMenuItem.ctDivNavNum,
+#cwTopNav .patientsWaiting .dijitMenuItem .ctDivNavNum,
+#cwTopNav .postVisits .dijitMenuItem .ctDivNavNum,
+#cwTopNav .noNewMessages .dijitMenuItem .ctDivNavNum,
+.BreadcrumbContainer .dijitStackController .dijitToggleButton .dijitButtonNode .dijitButtonText,
+#cwTopNav .ctMenuItem,
+#cwTopNav .ctMenuItem .ctRightEndCap,
+#cwTopNav .ctMenuItem .ctNavDivider,
+#cwTopNav .newMessages .ctMenuItem.ctDivNavNum,
+#cwTopNav .patientsWaiting .ctMenuItem .ctDivNavNum,
+#cwTopNav .postVisits .ctMenuItem .ctDivNavNum,
+#cwTopNav .noNewMessages .ctMenuItem .ctDivNavNum {
+    background-image: url(../images/sprites/IMG_TopNav_provider.png);
+}
+
+#topNav,
+#cwTopNav .dijitMenuItem div,
+#cwTopNav .ctMenuItem div,
+#cwTopNav.dijitMenuBar {
+    background-position: 0 -0px;
+}
+
+#cwTopNav .containerHovered div,
+#cwTopNav .dijitMenuItemActiveFocused div {
+    background-position: 0 -41px;
+}
+
+#cwTopNav .dijitMenuItem,
+#cwTopNav .ctMenuItem {
+    background-position: 0 -82px;
+}
+
+#cwTopNav .containerHovered,
+#cwTopNav.containerHovered .dijitMenuItemSelected,
+#cwTopNav .containerHovered {
+    background-position: 0 -123px;
+}
+
+#cwTopNav .dijitMenuItem .ctRightEndCap,
+#cwTopNav .ctMenuItem .ctRightEndCap {
+    background-position: right -164px;
+}
+
+#cwTopNav .containerHovered .ctRightEndCap,
+#cwTopNav.dijitMenuActive .containerHovered .ctRightEndCap,
+#cwTopNav .containerHovered .ctRightEndCap {
+    background-position: right -205px;
+}
+
+#cwTopNav .dijitMenuItem .ctNavDivider,
+#cwTopNav .ctMenuItem .ctNavDivider,
+#cwTopNav #ctNavDivider {
+    background-position: right -246px;
+}
+
+#cwTopNav .newMessages .dijitMenuItem.ctDivNavNum,
+#cwTopNav .newMessages .ctMenuItem.ctDivNavNum {
+    background-position: 0 -287px;
+}
+
+#cwTopNav .patientsWaiting .dijitMenuItem .ctDivNavNum,
+#cwTopNav .patientsWaiting .ctMenuItem .ctDivNavNum {
+    background-position: 0 -328px;
+}
+
+#cwTopNav .postVisits .dijitMenuItem .ctDivNavNum,
+#cwTopNav .postVisits .ctMenuItem .ctDivNavNum {
+    background-position: 0 -369px;
+}
+
+#cwTopNav .noNewMessages .dijitMenuItem .ctDivNavNum,
+#cwTopNav .noNewMessages .ctMenuItem .ctDivNavNum {
+    background-position: 0 -410px;
+}
+
+.BreadcrumbContainer .dijitStackController .dijitToggleButton .dijitButtonNode .dijitButtonText {
+    background-position: right -451px;
+}
+
+.caretalks #cwAccountNav #totalAllAccountsId,
+.caretalks #cwAccountNav #acctListId,
+.caretalks #cwAccountNav #endDivider,
+.caretalks #cwAccountNav #accountsDropDownButton .dijitArrowButtonChar,
+.caretalks #accountsDropDownButton_dropdown .acctMenuItemHeader .acctMenuHeaderIcon {
+    background-image: url(../images/sprites/IMG_AccountNavRibbonIcons.png);
+}
+
+.caretalks #cwAccountNav #totalAllAccountsId,
+.caretalks #cwAccountNav #acctListId,
+.caretalks #cwAccountNav #endDivider {
+    background-position: 0 -0px;
+}
+
+.caretalks #cwAccountNav #accountsDropDownButton .dijitArrowButtonChar.disabled {
+    background-position: 0 -30px;
+}
+
+.caretalks #cwAccountNav #accountsDropDownButton .dijitArrowButtonChar {
+    background-position: 0 -49px;
+}
+
+.caretalks #cwAccountNav #accountsDropDownButton.dijitDropDownButtonOpened .dijitArrowButtonChar {
+    background-position: 0 -68px;
+}
+
+.caretalks #accountsDropDownButton_dropdown .acctMenuItemHeader .acctMenuHeaderIcon.messagesIcon {
+    background-position: 0 -87px;
+}
+
+.caretalks #accountsDropDownButton_dropdown .acctMenuItemHeader .acctMenuHeaderIcon.patientsIcon {
+    background-position: 0 -105px;
+}
+
+.caretalks #accountsDropDownButton_dropdown .acctMenuItemHeader .acctMenuHeaderIcon.longestWaitIcon {
+    background-position: 0 -123px;
+}
+
+.caretalks #cwAccountNav #mailId.icons0to29,
+.caretalks #cwAccountNav #waitId.icons0to29 {
+    background-image: url(../images/sprites/IMG_AccountNavRibbonIcons0_29.png);
+}
+
+.caretalks #cwAccountNav #mailId._0 {
+    background-position: 0 -0px;
+}
+
+.caretalks #cwAccountNav #waitId._0 {
+    background-position: 0 -31px;
+}
+
+.caretalks #cwAccountNav #mailId._1 {
+    background-position: 0 -62px;
+}
+
+.caretalks #cwAccountNav #waitId._1 {
+    background-position: 0 -93px;
+}
+
+.caretalks #cwAccountNav #mailId._2 {
+    background-position: 0 -124px;
+}
+
+.caretalks #cwAccountNav #waitId._2 {
+    background-position: 0 -155px;
+}
+
+.caretalks #cwAccountNav #mailId._3 {
+    background-position: 0 -186px;
+}
+
+.caretalks #cwAccountNav #waitId._3 {
+    background-position: 0 -217px;
+}
+
+.caretalks #cwAccountNav #mailId._4 {
+    background-position: 0 -248px;
+}
+
+.caretalks #cwAccountNav #waitId._4 {
+    background-position: 0 -279px;
+}
+
+.caretalks #cwAccountNav #mailId._5 {
+    background-position: 0 -310px;
+}
+
+.caretalks #cwAccountNav #waitId._5 {
+    background-position: 0 -341px;
+}
+
+.caretalks #cwAccountNav #mailId._6 {
+    background-position: 0 -372px;
+}
+
+.caretalks #cwAccountNav #waitId._6 {
+    background-position: 0 -403px;
+}
+
+.caretalks #cwAccountNav #mailId._7 {
+    background-position: 0 -434px;
+}
+
+.caretalks #cwAccountNav #waitId._7 {
+    background-position: 0 -465px;
+}
+
+.caretalks #cwAccountNav #mailId._8 {
+    background-position: 0 -496px;
+}
+
+.caretalks #cwAccountNav #waitId._8 {
+    background-position: 0 -527px;
+}
+
+.caretalks #cwAccountNav #mailId._9 {
+    background-position: 0 -558px;
+}
+
+.caretalks #cwAccountNav #waitId._9 {
+    background-position: 0 -589px;
+}
+
+.caretalks #cwAccountNav #mailId._10 {
+    background-position: 0 -620px;
+}
+
+.caretalks #cwAccountNav #waitId._10 {
+    background-position: 0 -651px;
+}
+
+.caretalks #cwAccountNav #mailId._11 {
+    background-position: 0 -682px;
+}
+
+.caretalks #cwAccountNav #waitId._11 {
+    background-position: 0 -713px;
+}
+
+.caretalks #cwAccountNav #mailId._12 {
+    background-position: 0 -744px;
+}
+
+.caretalks #cwAccountNav #waitId._12 {
+    background-position: 0 -775px;
+}
+
+.caretalks #cwAccountNav #mailId._13 {
+    background-position: 0 -806px;
+}
+
+.caretalks #cwAccountNav #waitId._13 {
+    background-position: 0 -837px;
+}
+
+.caretalks #cwAccountNav #mailId._14 {
+    background-position: 0 -868px;
+}
+
+.caretalks #cwAccountNav #waitId._14 {
+    background-position: 0 -899px;
+}
+
+.caretalks #cwAccountNav #mailId._15 {
+    background-position: 0 -930px;
+}
+
+.caretalks #cwAccountNav #waitId._15 {
+    background-position: 0 -961px;
+}
+
+.caretalks #cwAccountNav #mailId._16 {
+    background-position: 0 -992px;
+}
+
+.caretalks #cwAccountNav #waitId._16 {
+    background-position: 0 -1023px;
+}
+
+.caretalks #cwAccountNav #mailId._17 {
+    background-position: 0 -1054px;
+}
+
+.caretalks #cwAccountNav #waitId._17 {
+    background-position: 0 -1085px;
+}
+
+.caretalks #cwAccountNav #mailId._18 {
+    background-position: 0 -1116px;
+}
+
+.caretalks #cwAccountNav #waitId._18 {
+    background-position: 0 -1147px;
+}
+
+.caretalks #cwAccountNav #mailId._19 {
+    background-position: 0 -1178px;
+}
+
+.caretalks #cwAccountNav #waitId._19 {
+    background-position: 0 -1209px;
+}
+
+.caretalks #cwAccountNav #mailId._20 {
+    background-position: 0 -1240px;
+}
+
+.caretalks #cwAccountNav #waitId._20 {
+    background-position: 0 -1271px;
+}
+
+.caretalks #cwAccountNav #mailId._21 {
+    background-position: 0 -1302px;
+}
+
+.caretalks #cwAccountNav #waitId._21 {
+    background-position: 0 -1333px;
+}
+
+.caretalks #cwAccountNav #mailId._22 {
+    background-position: 0 -1364px;
+}
+
+.caretalks #cwAccountNav #waitId._22 {
+    background-position: 0 -1395px;
+}
+
+.caretalks #cwAccountNav #mailId._23 {
+    background-position: 0 -1426px;
+}
+
+.caretalks #cwAccountNav #waitId._23 {
+    background-position: 0 -1457px;
+}
+
+.caretalks #cwAccountNav #mailId._24 {
+    background-position: 0 -1488px;
+}
+
+.caretalks #cwAccountNav #waitId._24 {
+    background-position: 0 -1519px;
+}
+
+.caretalks #cwAccountNav #mailId._25 {
+    background-position: 0 -1550px;
+}
+
+.caretalks #cwAccountNav #waitId._25 {
+    background-position: 0 -1581px;
+}
+
+.caretalks #cwAccountNav #mailId._26 {
+    background-position: 0 -1612px;
+}
+
+.caretalks #cwAccountNav #waitId._26 {
+    background-position: 0 -1643px;
+}
+
+.caretalks #cwAccountNav #mailId._27 {
+    background-position: 0 -1674px;
+}
+
+.caretalks #cwAccountNav #waitId._27 {
+    background-position: 0 -1705px;
+}
+
+.caretalks #cwAccountNav #mailId._28 {
+    background-position: 0 -1736px;
+}
+
+.caretalks #cwAccountNav #waitId._28 {
+    background-position: 0 -1767px;
+}
+
+.caretalks #cwAccountNav #mailId._29 {
+    background-position: 0 -1798px;
+}
+
+.caretalks #cwAccountNav #waitId._29 {
+    background-position: 0 -1829px;
+}
+
+.caretalks #cwAccountNav #mailId.icons30to59,
+.caretalks #cwAccountNav #waitId.icons30to59 {
+    background-image: url(../images/sprites/IMG_AccountNavRibbonIcons30_59.png);
+}
+
+.caretalks #cwAccountNav #mailId._30 {
+    background-position: 0 -0px;
+}
+
+.caretalks #cwAccountNav #waitId._30 {
+    background-position: 0 -31px;
+}
+
+.caretalks #cwAccountNav #mailId._31 {
+    background-position: 0 -62px;
+}
+
+.caretalks #cwAccountNav #waitId._31 {
+    background-position: 0 -93px;
+}
+
+.caretalks #cwAccountNav #mailId._32 {
+    background-position: 0 -124px;
+}
+
+.caretalks #cwAccountNav #waitId._32 {
+    background-position: 0 -155px;
+}
+
+.caretalks #cwAccountNav #mailId._33 {
+    background-position: 0 -186px;
+}
+
+.caretalks #cwAccountNav #waitId._33 {
+    background-position: 0 -217px;
+}
+
+.caretalks #cwAccountNav #mailId._34 {
+    background-position: 0 -248px;
+}
+
+.caretalks #cwAccountNav #waitId._34 {
+    background-position: 0 -279px;
+}
+
+.caretalks #cwAccountNav #mailId._35 {
+    background-position: 0 -310px;
+}
+
+.caretalks #cwAccountNav #waitId._35 {
+    background-position: 0 -341px;
+}
+
+.caretalks #cwAccountNav #mailId._36 {
+    background-position: 0 -372px;
+}
+
+.caretalks #cwAccountNav #waitId._36 {
+    background-position: 0 -403px;
+}
+
+.caretalks #cwAccountNav #mailId._37 {
+    background-position: 0 -434px;
+}
+
+.caretalks #cwAccountNav #waitId._37 {
+    background-position: 0 -465px;
+}
+
+.caretalks #cwAccountNav #mailId._38 {
+    background-position: 0 -496px;
+}
+
+.caretalks #cwAccountNav #waitId._38 {
+    background-position: 0 -527px;
+}
+
+.caretalks #cwAccountNav #mailId._39 {
+    background-position: 0 -558px;
+}
+
+.caretalks #cwAccountNav #waitId._39 {
+    background-position: 0 -589px;
+}
+
+.caretalks #cwAccountNav #mailId._40 {
+    background-position: 0 -620px;
+}
+
+.caretalks #cwAccountNav #waitId._40 {
+    background-position: 0 -651px;
+}
+
+.caretalks #cwAccountNav #mailId._41 {
+    background-position: 0 -682px;
+}
+
+.caretalks #cwAccountNav #waitId._41 {
+    background-position: 0 -713px;
+}
+
+.caretalks #cwAccountNav #mailId._42 {
+    background-position: 0 -744px;
+}
+
+.caretalks #cwAccountNav #waitId._42 {
+    background-position: 0 -775px;
+}
+
+.caretalks #cwAccountNav #mailId._43 {
+    background-position: 0 -806px;
+}
+
+.caretalks #cwAccountNav #waitId._43 {
+    background-position: 0 -837px;
+}
+
+.caretalks #cwAccountNav #mailId._44 {
+    background-position: 0 -868px;
+}
+
+.caretalks #cwAccountNav #waitId._44 {
+    background-position: 0 -899px;
+}
+
+.caretalks #cwAccountNav #mailId._45 {
+    background-position: 0 -930px;
+}
+
+.caretalks #cwAccountNav #waitId._45 {
+    background-position: 0 -961px;
+}
+
+.caretalks #cwAccountNav #mailId._46 {
+    background-position: 0 -992px;
+}
+
+.caretalks #cwAccountNav #waitId._46 {
+    background-position: 0 -1023px;
+}
+
+.caretalks #cwAccountNav #mailId._47 {
+    background-position: 0 -1054px;
+}
+
+.caretalks #cwAccountNav #waitId._47 {
+    background-position: 0 -1085px;
+}
+
+.caretalks #cwAccountNav #mailId._48 {
+    background-position: 0 -1116px;
+}
+
+.caretalks #cwAccountNav #waitId._48 {
+    background-position: 0 -1147px;
+}
+
+.caretalks #cwAccountNav #mailId._49 {
+    background-position: 0 -1178px;
+}
+
+.caretalks #cwAccountNav #waitId._49 {
+    background-position: 0 -1209px;
+}
+
+.caretalks #cwAccountNav #mailId._50 {
+    background-position: 0 -1240px;
+}
+
+.caretalks #cwAccountNav #waitId._50 {
+    background-position: 0 -1271px;
+}
+
+.caretalks #cwAccountNav #mailId._51 {
+    background-position: 0 -1302px;
+}
+
+.caretalks #cwAccountNav #waitId._51 {
+    background-position: 0 -1333px;
+}
+
+.caretalks #cwAccountNav #mailId._52 {
+    background-position: 0 -1364px;
+}
+
+.caretalks #cwAccountNav #waitId._52 {
+    background-position: 0 -1395px;
+}
+
+.caretalks #cwAccountNav #mailId._53 {
+    background-position: 0 -1426px;
+}
+
+.caretalks #cwAccountNav #waitId._53 {
+    background-position: 0 -1457px;
+}
+
+.caretalks #cwAccountNav #mailId._54 {
+    background-position: 0 -1488px;
+}
+
+.caretalks #cwAccountNav #waitId._54 {
+    background-position: 0 -1519px;
+}
+
+.caretalks #cwAccountNav #mailId._55 {
+    background-position: 0 -1550px;
+}
+
+.caretalks #cwAccountNav #waitId._55 {
+    background-position: 0 -1581px;
+}
+
+.caretalks #cwAccountNav #mailId._56 {
+    background-position: 0 -1612px;
+}
+
+.caretalks #cwAccountNav #waitId._56 {
+    background-position: 0 -1643px;
+}
+
+.caretalks #cwAccountNav #mailId._57 {
+    background-position: 0 -1674px;
+}
+
+.caretalks #cwAccountNav #waitId._57 {
+    background-position: 0 -1705px;
+}
+
+.caretalks #cwAccountNav #mailId._58 {
+    background-position: 0 -1736px;
+}
+
+.caretalks #cwAccountNav #waitId._58 {
+    background-position: 0 -1767px;
+}
+
+.caretalks #cwAccountNav #mailId._59 {
+    background-position: 0 -1798px;
+}
+
+.caretalks #cwAccountNav #waitId._59 {
+    background-position: 0 -1829px;
+}
+
+.caretalks #cwAccountNav #mailId.icons60to99,
+.caretalks #cwAccountNav #waitId.icons60to99 {
+    background-image: url(../images/sprites/IMG_AccountNavRibbonIcons60_99.png);
+}
+
+.caretalks #cwAccountNav #mailId._60 {
+    background-position: 0 -0px;
+}
+
+.caretalks #cwAccountNav #waitId._60 {
+    background-position: 0 -31px;
+}
+
+.caretalks #cwAccountNav #mailId._61 {
+    background-position: 0 -62px;
+}
+
+.caretalks #cwAccountNav #waitId._61 {
+    background-position: 0 -93px;
+}
+
+.caretalks #cwAccountNav #mailId._62 {
+    background-position: 0 -124px;
+}
+
+.caretalks #cwAccountNav #waitId._62 {
+    background-position: 0 -155px;
+}
+
+.caretalks #cwAccountNav #mailId._63 {
+    background-position: 0 -186px;
+}
+
+.caretalks #cwAccountNav #waitId._63 {
+    background-position: 0 -217px;
+}
+
+.caretalks #cwAccountNav #mailId._64 {
+    background-position: 0 -248px;
+}
+
+.caretalks #cwAccountNav #waitId._64 {
+    background-position: 0 -279px;
+}
+
+.caretalks #cwAccountNav #mailId._65 {
+    background-position: 0 -310px;
+}
+
+.caretalks #cwAccountNav #waitId._65 {
+    background-position: 0 -341px;
+}
+
+.caretalks #cwAccountNav #mailId._66 {
+    background-position: 0 -372px;
+}
+
+.caretalks #cwAccountNav #waitId._66 {
+    background-position: 0 -403px;
+}
+
+.caretalks #cwAccountNav #mailId._67 {
+    background-position: 0 -434px;
+}
+
+.caretalks #cwAccountNav #waitId._67 {
+    background-position: 0 -465px;
+}
+
+.caretalks #cwAccountNav #mailId._68 {
+    background-position: 0 -496px;
+}
+
+.caretalks #cwAccountNav #waitId._68 {
+    background-position: 0 -527px;
+}
+
+.caretalks #cwAccountNav #mailId._69 {
+    background-position: 0 -558px;
+}
+
+.caretalks #cwAccountNav #waitId._69 {
+    background-position: 0 -589px;
+}
+
+.caretalks #cwAccountNav #mailId._70 {
+    background-position: 0 -620px;
+}
+
+.caretalks #cwAccountNav #waitId._70 {
+    background-position: 0 -651px;
+}
+
+.caretalks #cwAccountNav #mailId._71 {
+    background-position: 0 -682px;
+}
+
+.caretalks #cwAccountNav #waitId._71 {
+    background-position: 0 -713px;
+}
+
+.caretalks #cwAccountNav #mailId._72 {
+    background-position: 0 -744px;
+}
+
+.caretalks #cwAccountNav #waitId._72 {
+    background-position: 0 -775px;
+}
+
+.caretalks #cwAccountNav #mailId._73 {
+    background-position: 0 -806px;
+}
+
+.caretalks #cwAccountNav #waitId._73 {
+    background-position: 0 -837px;
+}
+
+.caretalks #cwAccountNav #mailId._74 {
+    background-position: 0 -868px;
+}
+
+.caretalks #cwAccountNav #waitId._74 {
+    background-position: 0 -899px;
+}
+
+.caretalks #cwAccountNav #mailId._75 {
+    background-position: 0 -930px;
+}
+
+.caretalks #cwAccountNav #waitId._75 {
+    background-position: 0 -961px;
+}
+
+.caretalks #cwAccountNav #mailId._76 {
+    background-position: 0 -992px;
+}
+
+.caretalks #cwAccountNav #waitId._76 {
+    background-position: 0 -1023px;
+}
+
+.caretalks #cwAccountNav #mailId._77 {
+    background-position: 0 -1054px;
+}
+
+.caretalks #cwAccountNav #waitId._77 {
+    background-position: 0 -1085px;
+}
+
+.caretalks #cwAccountNav #mailId._78 {
+    background-position: 0 -1116px;
+}
+
+.caretalks #cwAccountNav #waitId._78 {
+    background-position: 0 -1147px;
+}
+
+.caretalks #cwAccountNav #mailId._79 {
+    background-position: 0 -1178px;
+}
+
+.caretalks #cwAccountNav #waitId._79 {
+    background-position: 0 -1209px;
+}
+
+.caretalks #cwAccountNav #mailId._80 {
+    background-position: 0 -1240px;
+}
+
+.caretalks #cwAccountNav #waitId._80 {
+    background-position: 0 -1271px;
+}
+
+.caretalks #cwAccountNav #mailId._81 {
+    background-position: 0 -1302px;
+}
+
+.caretalks #cwAccountNav #waitId._81 {
+    background-position: 0 -1333px;
+}
+
+.caretalks #cwAccountNav #mailId._82 {
+    background-position: 0 -1364px;
+}
+
+.caretalks #cwAccountNav #waitId._82 {
+    background-position: 0 -1395px;
+}
+
+.caretalks #cwAccountNav #mailId._83 {
+    background-position: 0 -1426px;
+}
+
+.caretalks #cwAccountNav #waitId._83 {
+    background-position: 0 -1457px;
+}
+
+.caretalks #cwAccountNav #mailId._84 {
+    background-position: 0 -1488px;
+}
+
+.caretalks #cwAccountNav #waitId._84 {
+    background-position: 0 -1519px;
+}
+
+.caretalks #cwAccountNav #mailId._85 {
+    background-position: 0 -1550px;
+}
+
+.caretalks #cwAccountNav #waitId._85 {
+    background-position: 0 -1581px;
+}
+
+.caretalks #cwAccountNav #mailId._86 {
+    background-position: 0 -1612px;
+}
+
+.caretalks #cwAccountNav #waitId._86 {
+    background-position: 0 -1643px;
+}
+
+.caretalks #cwAccountNav #mailId._87 {
+    background-position: 0 -1674px;
+}
+
+.caretalks #cwAccountNav #waitId._87 {
+    background-position: 0 -1705px;
+}
+
+.caretalks #cwAccountNav #mailId._88 {
+    background-position: 0 -1736px;
+}
+
+.caretalks #cwAccountNav #waitId._88 {
+    background-position: 0 -1767px;
+}
+
+.caretalks #cwAccountNav #mailId._89 {
+    background-position: 0 -1798px;
+}
+
+.caretalks #cwAccountNav #waitId._89 {
+    background-position: 0 -1829px;
+}
+
+.caretalks #cwAccountNav #mailId._90 {
+    background-position: 0 -1860px;
+}
+
+.caretalks #cwAccountNav #waitId._90 {
+    background-position: 0 -1891px;
+}
+
+.caretalks #cwAccountNav #mailId._91 {
+    background-position: 0 -1922px;
+}
+
+.caretalks #cwAccountNav #waitId._91 {
+    background-position: 0 -1953px;
+}
+
+.caretalks #cwAccountNav #mailId._92 {
+    background-position: 0 -1984px;
+}
+
+.caretalks #cwAccountNav #waitId._92 {
+    background-position: 0 -2015px;
+}
+
+.caretalks #cwAccountNav #mailId._93 {
+    background-position: 0 -2046px;
+}
+
+.caretalks #cwAccountNav #waitId._93 {
+    background-position: 0 -2077px;
+}
+
+.caretalks #cwAccountNav #mailId._94 {
+    background-position: 0 -2108px;
+}
+
+.caretalks #cwAccountNav #waitId._94 {
+    background-position: 0 -2139px;
+}
+
+.caretalks #cwAccountNav #mailId._95 {
+    background-position: 0 -2170px;
+}
+
+.caretalks #cwAccountNav #waitId._95 {
+    background-position: 0 -2201px;
+}
+
+.caretalks #cwAccountNav #mailId._96 {
+    background-position: 0 -2232px;
+}
+
+.caretalks #cwAccountNav #waitId._96 {
+    background-position: 0 -2263px;
+}
+
+.caretalks #cwAccountNav #mailId._97 {
+    background-position: 0 -2294px;
+}
+
+.caretalks #cwAccountNav #waitId._97 {
+    background-position: 0 -2325px;
+}
+
+.caretalks #cwAccountNav #mailId._98 {
+    background-position: 0 -2356px;
+}
+
+.caretalks #cwAccountNav #waitId._98 {
+    background-position: 0 -2387px;
+}
+
+.caretalks #cwAccountNav #mailId._99 {
+    background-position: 0 -2418px;
+}
+
+.caretalks #cwAccountNav #waitId._99 {
+    background-position: 0 -2449px;
+}
+
+.caretalks #cwAccountNav #mailId._99plus {
+    background-position: 0 -2480px;
+}
+
+.caretalks #cwAccountNav #waitId._99plus {
+    background-position: 0 -2511px;
+}
+
+div.navbardropdown.navbarHasDropDownOpen,
+div.navbardropdown.navbarHasDropDownOpen > div.dijitRight,
+ul li.memberNav div.menuSelected,
+ul li.memberNav div.menuSelected div.navItemRightTop,
+.caretalks .caretalksMenuBox .dijitMenuItemIcon,
+.caretalks .caretalksMenuBox {
+    background-image: url(../images/sprites/IMG_TopNav.png);
+}
+
+ul li.memberNav div.menuSelected div.navItemRightTop {
+    background-position: right -0px;
+}
+
+ul li.memberNav div.menuSelected {
+    background-position: -5px -152px;
+}
+
+div.navbardropdown.navbarHasDropDownOpen {
+    background-position: 0 -304px;
+}
+
+div.navbardropdown.navbarHasDropDownOpen > div.dijitRight {
+    background-position: right -456px;
+}
+
+.todo18x18Menu {
+    background-position: 0 -608px;
+}
+
+.waiting18x18Menu {
+    background-position: 0 -628px;
+}
+
+.upcomingAppt18x18Menu {
+    background-position: 0 -648px;
+}
+
+.symptom18x18Menu {
+    background-position: 0 -668px;
+}
+
+.lifeStyle18x18Menu {
+    background-position: 0 -688px;
+}
+
+.condition18x18Menu {
+    background-position: 0 -708px;
+}
+
+.wellness18x18Menu {
+    background-position: 0 -728px;
+}
+
+.genIntake18x18Menu {
+    background-position: 0 -748px;
+}
+
+.simpleSearch18x18Menu {
+    background-position: 0 -768px;
+}
+
+.advSearch18x18Menu {
+    background-position: 0 -788px;
+}
+
+.sendMsg18x18Menu {
+    background-position: 0 -808px;
+}
+
+.sentMsg18x18Menu {
+    background-position: 0 -828px;
+}
+
+.drafts18x18Menu {
+    background-position: 0 -848px;
+}
+
+.contacts18x18Menu {
+    background-position: 0 -868px;
+}
+
+#MyAgendaDropDownMenu {
+    background-position: right -888px;
+}
+
+#MessageCenterDropDownMenu {
+    background-position: right -976px;
+}
+
+#ProviderSearchDropDownMenu {
+    background-position: right -1065px;
+}
+
+#ENurseDropDownMenu {
+    background-position: right -1124px;
+}
+
+.pastEngagementContainer .pagingTable td.icon div.tdCont,
+table td.tableImage > div,
+#TopBannerRegion .bannerIcon.PastEngagements {
+    background-image: url(../images/sprites/IMG_MyHistory.png);
+}
+
+.pagingTable tr.conv td.icon .tdCont,
+.pagingTable tr td.icon.conv .tdCont {
+    background-position: 0 -0px;
+}
+
+.pagingTable tr.conv.deleted td.icon .tdCont {
+    background-position: 0 -26px;
+}
+
+.pagingTable tr.conv.incomplete td.icon .tdCont,
+.pagingTable tr.incomplete td.icon.conv .tdCont {
+    background-position: 0 -52px;
+}
+
+.pagingTable tr.conv.incompletePrimary td.icon .tdCont,
+.pagingTable tr.incompletePrimary td.icon.conv .tdCont {
+    background-position: 0 -78px;
+}
+
+.pagingTable tr.trackerreminder td.icon .tdCont {
+    background-position: 0 -104px;
+}
+
+.pagingTable tr.trackerreminder.deleted td.icon .tdCont {
+    background-position: 0 -130px;
+}
+
+.pagingTable tr.video td.icon .tdCont {
+    background-position: 0 -156px;
+}
+
+.pagingTable tr.video.deleted td.icon .tdCont {
+    background-position: 0 -182px;
+}
+
+.pagingTable tr.article td.icon .tdCont {
+    background-position: 0 -208px;
+}
+
+.pagingTable tr.article.deleted td.icon .tdCont {
+    background-position: 0 -234px;
+}
+
+.pagingTable tr.enurse td.icon .tdCont {
+    background-position: 0 -260px;
+}
+
+.pagingTable tr.enurse.deleted td.icon .tdCont {
+    background-position: 0 -286px;
+}
+
+table td.tableImage > div.conv.complete {
+    background-position: 0 -312px;
+}
+
+table td.tableImage > div.conv.incomplete {
+    background-position: 0 -362px;
+}
+
+table td.tableImage > div.conv.incompletePrimary {
+    background-position: 0 -412px;
+}
+
+table td.tableImage > div.trackerreminder.complete {
+    background-position: 0 -462px;
+}
+
+table td.tableImage > div.assess.complete {
+    background-position: 0 -512px;
+}
+
+table td.tableImage > div.article.complete {
+    background-position: 0 -562px;
+}
+
+table td.tableImage > div.video.complete {
+    background-position: 0 -612px;
+}
+
+table td.tableImage > div.conv.deleted {
+    background-position: 0 -662px;
+}
+
+table td.tableImage > div.trackerreminder.deleted {
+    background-position: 0 -712px;
+}
+
+table td.tableImage > div.assess.deleted {
+    background-position: 0 -762px;
+}
+
+table td.tableImage > div.article.deleted {
+    background-position: 0 -812px;
+}
+
+table td.tableImage > div.video.deleted {
+    background-position: 0 -862px;
+}
+
+#TopBannerRegion .bannerIcon.PastEngagements {
+    background-position: 0 -912px;
+}
+
+.provDetailsSprite,
+.providerDetails .smallIcon,
+.matchingProviderList .icon {
+    background-image: url(../images/sprites/IMG_ProviderDetails.png);
+}
+
+.providerDetails .schedAppt {
+    background-position: -0px 0;
+}
+
+.providerDetails .leaveVoiceMsg {
+    background-position: -20px 0;
+}
+
+.providerDetails .sendSecureMsg {
+    background-position: -40px 0;
+}
+
+.providerDetails .viewPractice {
+    background-position: -60px 0;
+}
+
+.providerDetails .cannotPrescribe {
+    background-position: -80px 0;
+}
+
+.providerDetails .addPreferred {
+    background-position: -99px 0;
+}
+
+.providerDetails .removePreferred {
+    background-position: -118px 0;
+}
+
+.providerDetails .audio {
+    background-position: -137px 0;
+}
+
+.providerDetails .video {
+    background-position: -157px 0;
+}
+
+table td#aboutSearch .smallIcon,
+.coveringProviders .smallIcon {
+    background-position: -177px 0;
+}
+
+.providerDetails .restrictPatients .smallIcon {
+    background-position: -197px 0;
+}
+
+.matchingProviderList .subDivider .largeIcon,
+.matchingProviderList .coveringProviders .icon {
+    background-position: -217px 0;
+}
+
+.noMatching .noResultIcon {
+    background-image: url(../images/sprites/IMG_NoMatchingProviders.png);
+}
+
+.noMatching .noResultIcon.modifySearchIcon {
+    background-position: 0 -0px;
+}
+
+.noMatching .noResultIcon.partialMatchesIcon {
+    background-position: 0 -74px;
+}
+
+.noMatching .noResultIcon.waitForNextIcon {
+    background-position: 0 -148px;
+}
+
+.portingOptIconSmall,
+.returnToTop .rttIcon {
+    background-image: url(../images/sprites/IMG_PortingOpts_Small.png);
+}
+
+.portingOptIconSmall.print {
+    background-position: 0 -0px;
+}
+
+.portingOptIconSmall.pdf {
+    background-position: 0 -18px;
+}
+
+.portingOptIconSmall.ccr {
+    background-position: 0 -36px;
+}
+
+.portingOptIconSmall.secureMsg,
+.portingOptIconSmall.message {
+    background-position: 0 -51px;
+}
+
+.portingOptIconSmall.email {
+    background-position: 0 -69px;
+}
+
+.portingOptIconSmall.healthSummary {
+    background-position: 0 -83px;
+}
+
+.portingOptIconSmall.healthVault {
+    background-position: 0 -98px;
+}
+
+.returnToTop .rttIcon {
+    background-position: 0 -117px;
+}
+
+.portingOptIcon,
+.returnToTop .rttIcon {
+    background-image: url(../images/sprites/IMG_PortingOpts.png);
+}
+
+.portingOptIcon.print {
+    background-position: 0 -0px;
+}
+
+.portingOptIcon.pdf {
+    background-position: 0 -19px;
+}
+
+.portingOptIcon.exportToCcr {
+    background-position: 0 -38px;
+}
+
+.portingOptIcon.secureMsg,
+.portingOptIcon.message {
+    background-position: 0 -57px;
+}
+
+.portingOptIcon.email {
+    background-position: 0 -76px;
+}
+
+.portingOptIcon.healthSummary {
+    background-position: 0 -95px;
+}
+
+.portingOptIcon.healthVault {
+    background-position: 0 -114px;
+}
+
+.returnToTop .rttIcon {
+    background-position: 0 -133px;
+}
+
+.phSprite,
+.ProviderBody .tile .tileIcon,
+#waitCont div.wrIcon,
+#TopBannerRegion .bannerIcon.providerHome,
+.providerDashboard .option .icon {
+    background-image: url(../images/sprites/IMG_ProviderHome.png);
+}
+
+#TopBannerRegion .bannerIcon.providerHome {
+    background-position: 0 -0px;
+}
+
+.ProviderBody .msgLink.largeLink.tile.new .tileIcon {
+    background-position: 0 -48px;
+}
+
+.ProviderBody .msgLink.largeLink.tile .tileIcon {
+    background-position: 0 -151px;
+}
+
+.ProviderBody .refLink.largeLink .tileIcon {
+    background-position: 0 -254px;
+}
+
+.ProviderBody .msgLink.smallLink.tile.new .tileIcon {
+    background-position: 0 -357px;
+}
+
+.ProviderBody .msgLink.smallLink.tile .tileIcon {
+    background-position: 0 -410px;
+}
+
+.ProviderBody .refLink.smallLink .tileIcon {
+    background-position: 0 -463px;
+}
+
+.ProviderBody .practiceLink.smallLink .tileIcon {
+    background-position: 0 -510px;
+}
+
+.ProviderBody .profileLink.smallLink .tileIcon {
+    background-position: 0 -547px;
+}
+
+.ProviderBody .msgLink.medLink.tile.new .tileIcon {
+    background-position: 0 -597px;
+}
+
+.ProviderBody .msgLink.medLink.tile .tileIcon {
+    background-position: 0 -650px;
+}
+
+.ProviderBody .refLink.medLink .tileIcon {
+    background-position: 0 -703px;
+}
+
+.ProviderBody .profileLink.medLink .tileIcon {
+    background-position: 0 -750px;
+}
+
+.ProviderBody .msgLink.biggerLink.tile.new .tileIcon {
+    background-position: 0 -800px;
+}
+
+.ProviderBody .msgLink.biggerLink.tile .tileIcon {
+    background-position: 0 -853px;
+}
+
+.ProviderBody .refLink.biggerLink .tileIcon {
+    background-position: 0 -906px;
+}
+
+.ProviderBody .practiceLink.biggerLink .tileIcon {
+    background-position: 0 -953px;
+}
+
+.ProviderBody .profileLink.biggerLink .tileIcon {
+    background-position: 0 -990px;
+}
+
+.ProviderBody .msgLink.biggestLink.tile.new .tileIcon {
+    background-position: 0 -1040px;
+}
+
+.ProviderBody .msgLink.biggestLink.tile .tileIcon {
+    background-position: 0 -1093px;
+}
+
+.ProviderBody .refLink.biggestLink .tileIcon {
+    background-position: 0 -1146px;
+}
+
+.ProviderBody .profileLink.biggestLink .tileIcon {
+    background-position: 0 -1193px;
+}
+
+.providerDashboard #nextPatientContainer.option .icon {
+    background-position: 0 -1243px;
+}
+
+.providerDashboard #manageAvailabilityContainer.option .icon {
+    background-position: 0 -1346px;
+}
+
+.providerDashboard #continueToHomeContainer.option .icon {
+    background-position: 0 -1449px;
+}
+
+#waitCont div.wrIcon {
+    background-position: 0 -1571px;
+}
+
+#availInfoIcon.default,
+.availabilityInfoIcon.default {
+    background-position: 0 -1590px;
+}
+
+#availInfoIcon.changedByAnother,
+.availabilityInfoIcon.changedByAnother {
+    background-position: 0 -1609px;
+}
+
+.tile .tileRibbon {
+    background-image: url(../images/sprites/IMG_TileRibbon.png);
+}
+
+.tile.yellow .tileRibbon {
+    background-position: 0 -0px;
+}
+
+.tile.green .tileRibbon {
+    background-position: 0 -229px;
+}
+
+.tile.blue .tileRibbon {
+    background-position: 0 -443px;
+}
+
+.tile.lightblue .tileRibbon {
+    background-position: 0 -670px;
+}
+
+.tile.aqua2 .tileRibbon {
+    background-position: 0 -897px;
+}
+
+#insideAmWell .memberHomeHeader div,
+.toolsHeader div {
+    background-image: url(../images/sprites/IMG_MemberHome_caps.png);
+}
+
+#insideAmWell .memberHomeHeader .leftCap {
+    background-position: 0 -0px;
+}
+
+#insideAmWell .memberHomeHeader .rightCap {
+    background-position: right -30px;
+}
+
+.toolsHeader .leftCap {
+    background-position: 0 -60px;
+}
+
+.toolsHeader .rightCap {
+    background-position: right -90px;
+}
+
+#insideAmWell .memberHomeHeader .middleCap,
+.toolsHeader .middleCap {
+    background-position: 0 -120px;
+}
+
+.providerHomeHeader div {
+    background-image: url(../images/sprites/IMG_ProviderHome_caps.png);
+}
+
+.providerHomeHeader .headerLeftCap {
+    background-position: 0 -0px;
+}
+
+.providerHomeHeader .headerMid {
+    background-position: 0 -30px;
+}
+
+.providerHomeHeader .headerRightCap {
+    background-position: right -60px;
+}
+
+body.MemberBody .mhDarkBlueBg {
+    background-image: url(../images/sprites/IMG_MemberHome_darkBlueCaps.png);
+}
+
+#leftTalkNow {
+    background-position: 0 -0px;
+}
+
+#midTalkNow {
+    background-position: 0 -324px;
+}
+
+#rightTalkNow {
+    background-position: 0 -648px;
+}
+
+.starRatingSprite,
+.pagingTable tr td.rating .tdCont {
+    background-image: url(../images/sprites/IMG_StarRating.png);
+}
+
+.starRating0,
+.pagingTable tr.rating_0 td.rating .tdCont {
+    background-position: 0 -0px;
+}
+
+.starRating1,
+.pagingTable tr.rating_1 td.rating .tdCont {
+    background-position: 0 -9px;
+}
+
+.starRating2,
+.pagingTable tr.rating_2 td.rating .tdCont {
+    background-position: 0 -18px;
+}
+
+.starRating3,
+.pagingTable tr.rating_3 td.rating .tdCont {
+    background-position: 0 -27px;
+}
+
+.starRating4,
+.pagingTable tr.rating_4 td.rating .tdCont {
+    background-position: 0 -36px;
+}
+
+.starRating5,
+.pagingTable tr.rating_5 td.rating .tdCont {
+    background-position: 0 -45px;
+}
+
+.largeStarRatingSprite {
+    background-image: url(../images/sprites/IMG_StarRating_Large.png);
+}
+
+.largeStarRating0 {
+    background-position: 0 -0px;
+}
+
+.largeStarRating1 {
+    background-position: 0 -11px;
+}
+
+.largeStarRating2 {
+    background-position: 0 -22px;
+}
+
+.largeStarRating3 {
+    background-position: 0 -33px;
+}
+
+.largeStarRating4 {
+    background-position: 0 -44px;
+}
+
+.largeStarRating5 {
+    background-position: 0 -55px;
+}
+
+.largeProvStarRatingSprite {
+    background-image: url(../images/sprites/IMG_StarRating_Large_provider.png);
+}
+
+.largeProvStarRating0 {
+    background-position: 0 -0px;
+}
+
+.largeProvStarRating1 {
+    background-position: 0 -11px;
+}
+
+.largeProvStarRating2 {
+    background-position: 0 -22px;
+}
+
+.largeProvStarRating3 {
+    background-position: 0 -33px;
+}
+
+.largeProvStarRating4 {
+    background-position: 0 -44px;
+}
+
+.largeProvStarRating5 {
+    background-position: 0 -55px;
+}
+
+.vLargeProvStarRating {
+    background-image: url(../images/sprites/IMG_ProviderRatings_Star.png);
+}
+
+.vLargeProvStarRating.empty {
+    background-position: 0 -0px;
+}
+
+.vLargeProvStarRating.selected {
+    background-position: 0 -39px;
+}
+
+.kioskStarRatingSprite {
+    background-image: url(../images/sprites/IMG_StarRatings_Large.png);
+}
+
+.kioskStarRating0 {
+    background-position: 0 -0px;
+}
+
+.kioskStarRating1 {
+    background-position: 0 -23px;
+}
+
+.kioskStarRating2 {
+    background-position: 0 -46px;
+}
+
+.kioskStarRating3 {
+    background-position: 0 -69px;
+}
+
+.kioskStarRating4 {
+    background-position: 0 -92px;
+}
+
+.kioskStarRating5 {
+    background-position: 0 -115px;
+}
+
+.vLargeKioskProvStarRating {
+    background-image: url(../images/sprites/IMG_Kiosk_ProviderRatings_Star.png);
+}
+
+.vLargeKioskProvStarRating.empty {
+    background-position: 0 -0px;
+}
+
+.vLargeKioskProvStarRating.selected {
+    background-position: 0 -60px;
+}
+
+.MemberBody #myAccountContent .summaryIcon {
+    background-image: url(../images/sprites/IMG_MyAccount_member_summary.png);
+}
+
+.MemberBody #myAccountContent #editProfile .summaryIcon {
+    background-position: 0 -0px;
+}
+
+.MemberBody #myAccountContent #editPreferences .summaryIcon {
+    background-position: 0 -73px;
+}
+
+.MemberBody #myAccountContent #editPassword .summaryIcon {
+    background-position: 0 -146px;
+}
+
+.MemberBody #myAccountContent #editPayment .summaryIcon {
+    background-position: 0 -219px;
+}
+
+.MemberBody #myAccountContent #viewBilling .summaryIcon {
+    background-position: 0 -292px;
+}
+
+.MemberBody #myAccountContent #editDevices .summaryIcon {
+    background-position: 0 -365px;
+}
+
+.MemberBody #tabPane .menuCollapsablePanel .menuIcon {
+    background-image: url(../images/sprites/IMG_MyAccount_member_menu.png);
+}
+
+.MemberBody #tabPane .menuCollapsablePanel .menuIcon.memberProfile {
+    background-position: 0 -0px;
+}
+
+.MemberBody #tabPane .menuCollapsablePanel .menuIcon.preferences {
+    background-position: 0 -19px;
+}
+
+.MemberBody #tabPane .menuCollapsablePanel .menuIcon.password {
+    background-position: 0 -38px;
+}
+
+.MemberBody #tabPane .menuCollapsablePanel .menuIcon.payment {
+    background-position: 0 -57px;
+}
+
+.MemberBody #tabPane .menuCollapsablePanel .menuIcon.billing {
+    background-position: 0 -76px;
+}
+
+.MemberBody #tabPane .menuCollapsablePanel .menuIcon.mobileDevices {
+    background-position: 0 -95px;
+}
+
+#myAccountContent .summaryIcon {
+    background-image: url(../images/sprites/IMG_MyAccount_provider_summary.png);
+}
+
+#myAccountContent #editProfile .summaryIcon {
+    background-position: 0 -0px;
+}
+
+#myAccountContent #editPreferences .summaryIcon {
+    background-position: 0 -73px;
+}
+
+#myAccountContent #editPassword .summaryIcon {
+    background-position: 0 -146px;
+}
+
+#myAccountContent #editPayment .summaryIcon {
+    background-position: 0 -219px;
+}
+
+#myAccountContent #viewEarningsActivity .summaryIcon {
+    background-position: 0 -292px;
+}
+
+#myAccountContent #editCoveringProviders .summaryIcon {
+    background-position: 0 -365px;
+}
+
+#myAccountContent #editDevices .summaryIcon {
+    background-position: 0 -438px;
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon,
+#myDevicesTable .deviceIcon .tdCont,
+#myClientsTable .deviceIcon .tdCont {
+    background-image: url(../images/sprites/IMG_MyAccount_provider_menu.png);
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon.memberProfile {
+    background-position: 0 -0px;
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon.providerPreferences {
+    background-position: 0 -19px;
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon.coveringProviders {
+    background-position: 0 -38px;
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon.password {
+    background-position: 0 -57px;
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon.payment {
+    background-position: 0 -76px;
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon.mobileDevices,
+#myDevicesTable .deviceIcon .tdCont {
+    background-position: 0 -95px;
+}
+
+#myClientsTable .deviceIcon .tdCont {
+    background-position: 0 -114px;
+}
+
+.ProviderBody #tabPane .menuCollapsablePanel .menuIcon.earnignsActivity {
+    background-position: 0 -133px;
+}
+
+#assistantMyAccountContent .summaryIcon {
+    background-image: url(../images/sprites/IMG_MyAccount_assistant_summary.png);
+}
+
+#assistantMyAccountContent #editProfile .summaryIcon {
+    background-position: 0 -0px;
+}
+
+#assistantMyAccountContent #editPreferences .summaryIcon {
+    background-position: 0 -73px;
+}
+
+#assistantMyAccountContent #editPassword .summaryIcon {
+    background-position: 0 -146px;
+}
+
+.AssistantBody #tabPane .menuCollapsablePanel .menuIcon {
+    background-image: url(../images/sprites/IMG_MyAccount_assistant_menu.png);
+}
+
+.AssistantBody #tabPane .menuCollapsablePanel .menuIcon.assistantProfile {
+    background-position: 0 -0px;
+}
+
+.AssistantBody #tabPane .menuCollapsablePanel .menuIcon.assistantPreferences {
+    background-position: 0 -19px;
+}
+
+.AssistantBody #tabPane .menuCollapsablePanel .menuIcon.password {
+    background-position: 0 -38px;
+}
+
+#TopBannerRegion,
+#TopBannerRegion div {
+    background-image: url(../images/sprites/IMG_PageTitle_member.png);
+}
+
+#TopBannerRegion {
+    background-position: 0 -0px;
+}
+
+#TopBannerRegion > div {
+    background-position: 0 -56px;
+}
+
+#TopBannerRegion > div > div {
+    background-position: right -112px;
+}
+
+div.calloutWrapper > div.calloutCap,
+div.calloutWrapper > div.calloutCap > div,
+.caretalks #WelcomeBarContainer .loginOptions .loginLeftCap,
+.caretalks #WelcomeBarContainer .loginOptions .loginRightCap {
+    background-image: url(../images/sprites/IMG_CalloutCorners_member.png);
+}
+
+div.calloutWrapper > div.calloutWrapperTopCap {
+    background-position: 0 -0px;
+}
+
+div.calloutWrapper > div.calloutWrapperTopCap > div.topCapRight {
+    background-position: right -11px;
+}
+
+div.calloutWrapper > div.calloutWrapperBottomCap {
+    background-position: 0 -22px;
+}
+
+div.calloutWrapper > div.calloutWrapperBottomCap > div.bottomCapRight {
+    background-position: right -33px;
+}
+
+.caretalks #WelcomeBarContainer .loginOptions .loginLeftCap {
+    background-position: 0 -44px;
+}
+
+.caretalks #WelcomeBarContainer .loginOptions .loginRightCap {
+    background-position: right -92px;
+}
+
+body.NonMemberBody div.calloutWrapper > div.calloutCap,
+body.NonMemberBody div.calloutWrapper > div.calloutCap > div {
+    background-image: url(../images/sprites/IMG_CalloutCorners_nonMember.png);
+}
+
+body.NonMemberBody div.calloutWrapper > div.calloutWrapperTopCap {
+    background-position: 0 -0px;
+}
+
+body.NonMemberBody div.calloutWrapper > div.calloutWrapperTopCap > div.topCapRight {
+    background-position: right -11px;
+}
+
+body.NonMemberBody div.calloutWrapper > div.calloutWrapperBottomCap {
+    background-position: 0 -22px;
+}
+
+body.NonMemberBody div.calloutWrapper > div.calloutWrapperBottomCap > div.bottomCapRight {
+    background-position: right -33px;
+}
+
+#WelcomeBar,
+#WelcomeBar > div > div,
+.AdminBody.NonMemberBody #WelcomeBar,
+.AdminBody.NonMemberBody #WelcomeBar > div > div,
+.MemberBody #WelcomeBar,
+.MemberBody #WelcomeBar > div > div,
+.ProviderBody.NonMemberBody #WelcomeBar,
+.ProviderBody.NonMemberBody #WelcomeBar > div > div,
+.AssistantBody.NonMemberBody #WelcomeBar {
+    background-image: url(../images/sprites/IMG_WelcomeBar.png);
+}
+
+#WelcomeBar,
+#WelcomeBar {
+    background-position: 0 -0px;
+}
+
+#WelcomeBar > div > div,
+#WelcomeBar > div > div {
+    background-position: right -20px;
+}
+
+.ProviderBody.NonMemberBody #WelcomeBar,
+.AssistantBody.NonMemberBody #WelcomeBar,
+.MemberBody #WelcomeBar,
+.AdminBody.NonMemberBody #WelcomeBar {
+    background-position: 0 -40px;
+}
+
+.ProviderBody.NonMemberBody #WelcomeBar > div > div,
+.AssistantBody.NonMemberBody #WelcomeBar > div > div,
+.MemberBody #WelcomeBar > div > div,
+.AdminBody.NonMemberBody #WelcomeBar > div > div {
+    background-position: right -65px;
+}
+
+.pagingTable td.msgIcon div.tdCont,
+.pagingTable tr.attachment td.attachmentIcon div.tdCont,
+.messageCenterToolbar .toolbarButtonIcon,
+.menuButtonIcon.addContactIcon,
+#addContactsMenu .dijitMenuItemIcon,
+#addProviderContactsMenu .dijitMenuItemIcon,
+#addAssistantContactsMenu .dijitMenuItemIcon,
+#TopBannerRegion .bannerIcon.messageCenter {
+    background-image: url(../images/sprites/IMG_MessageCenter.png);
+}
+
+#TopBannerRegion .bannerIcon.messageCenter {
+    background-position: 0 -0px;
+}
+
+.pagingTable tr.Read td.msgIcon div.tdCont,
+#outboxPagingTable tr td.msgIcon div.tdCont {
+    background-position: 0 -48px;
+}
+
+.pagingTable tr.Replied td.msgIcon div.tdCont,
+#outboxPagingTable tr td.msgIcon div.tdCont {
+    background-position: 0 -73px;
+}
+
+.pagingTable tr.Unread td.msgIcon div.tdCont {
+    background-position: 0 -98px;
+}
+
+.pagingTable tr.Read.atCost td.msgIcon div.tdCont,
+#outboxPagingTable tr.atCost td.msgIcon div.tdCont {
+    background-position: 0 -123px;
+}
+
+.pagingTable tr.Replied.atCost td.msgIcon div.tdCont,
+#outboxPagingTable tr.atCost td.msgIcon div.tdCont {
+    background-position: 0 -148px;
+}
+
+.pagingTable tr.Unread.atCost td.msgIcon div.tdCont {
+    background-position: 0 -173px;
+}
+
+.pagingTable tr.attachment td.attachmentIcon div.tdCont {
+    background-position: 0 -198px;
+}
+
+.messageCenterToolbar .toolbarButtonIcon.new {
+    background-position: 0 -217px;
+}
+
+.messageCenterToolbar .toolbarButtonIcon.reply {
+    background-position: 0 -236px;
+}
+
+.messageCenterToolbar .toolbarButtonIcon.replyAll {
+    background-position: 0 -255px;
+}
+
+.messageCenterToolbar .toolbarButtonIcon.forward {
+    background-position: 0 -274px;
+}
+
+.messageCenterToolbar .toolbarButtonIcon.accept {
+    background-position: 0 -293px;
+}
+
+.messageCenterToolbar .toolbarButtonIcon.decline {
+    background-position: 0 -312px;
+}
+
+.messageCenterToolbar .toolbarButtonIcon.delete {
+    background-position: 0 -331px;
+}
+
+.menuButtonIcon.addContactIcon {
+    background-position: 0 -350px;
+}
+
+.dijitMenuItemIcon.addPhysician {
+    background-position: 0 -369px;
+}
+
+.dijitMenuItemIcon.addPatient {
+    background-position: 0 -388px;
+}
+
+.dijitMenuItemIcon.addAssistant {
+    background-position: 0 -407px;
+}
+
+.dijitMenuItemIcon.addPharmacy {
+    background-position: 0 -426px;
+}
+
+.dijitMenuItemIcon.addHospital {
+    background-position: 0 -445px;
+}
+
+.dijitMenuItemIcon.addOtherPoint {
+    background-position: 0 -464px;
+}
+
+.spreadsheet td .iconCont > .icon,
+.adminSpreadsheet td .adminIconCont > .icon {
+    background-image: url(../images/sprites/IMG_SpreadsheetIcons.png);
+}
+
+.spreadsheet td.male .iconCont > .icon {
+    background-position: 0 -0px;
+}
+
+.spreadsheet td.female .iconCont > .icon {
+    background-position: 0 -33px;
+}
+
+.spreadsheet td.outNetworkProvider .iconCont > .icon {
+    background-position: 0 -66px;
+}
+
+.spreadsheet td.pharmacy .iconCont > .icon {
+    background-position: 0 -99px;
+}
+
+.spreadsheet td.hospital .iconCont > .icon {
+    background-position: 0 -132px;
+}
+
+.spreadsheet td.otherPointOfCare .iconCont > .icon {
+    background-position: 0 -165px;
+}
+
+.spreadsheet td.membermale .iconCont > .icon {
+    background-position: 0 -198px;
+}
+
+.spreadsheet td.memberfemale .iconCont > .icon {
+    background-position: 0 -231px;
+}
+
+.adminSpreadsheet td.admin .adminIconCont > .icon {
+    background-position: 0 -264px;
+}
+
+.spreadsheet td.assistantmale .iconCont > .icon {
+    background-position: 0 -297px;
+}
+
+.spreadsheet td.assistantfemale .iconCont > .icon {
+    background-position: 0 -330px;
+}
+
+.spreadsheet td.male.unenrolled .iconCont > .icon {
+    background-position: 0 -363px;
+}
+
+.spreadsheet td.female.unenrolled .iconCont > .icon {
+    background-position: 0 -396px;
+}
+
+table#invitePatientsTable td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_InvitePatientIcons.png);
+}
+
+.invitePatientsTable td.memberMale .icon {
+    background-position: 0 -0px;
+}
+
+.invitePatientsTable td.memberFemale .icon {
+    background-position: 0 -25px;
+}
+
+table#inviteChildrenTable td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_InvitePatientIcons.png);
+}
+
+.inviteChildrenTable td.memberMale .icon {
+    background-position: 0 -0px;
+}
+
+.inviteChildrenTable td.memberFemale .icon {
+    background-position: 0 -25px;
+}
+
+.invitePatientBreadCrumbs table.breadcrumbTable .icon {
+    background-image: url(../images/sprites/IMG_Invite_Patient_Breadcrumbs.png);
+}
+
+table.breadcrumbTable .patient.on.icon {
+    background-position: 0 -0px;
+}
+
+.breadcrumbTable .patient.off.icon {
+    background-position: 0 -51px;
+}
+
+.breadcrumbTable .patient.offOn.icon {
+    background-position: 0 -102px;
+}
+
+table.breadcrumbTable .provider.on.icon {
+    background-position: 0 -153px;
+}
+
+.breadcrumbTable .provider.off.icon {
+    background-position: 0 -204px;
+}
+
+.breadcrumbTable .provider.offOn.icon {
+    background-position: 0 -255px;
+}
+
+table.breadcrumbTable .schedule.on.icon {
+    background-position: 0 -306px;
+}
+
+.breadcrumbTable .schedule.off.icon {
+    background-position: 0 -357px;
+}
+
+.breadcrumbTable .schedule.offOn.icon {
+    background-position: 0 -408px;
+}
+
+table.breadcrumbTable .insurance.on.icon {
+    background-position: 0 -459px;
+}
+
+.breadcrumbTable .insurance.off.icon {
+    background-position: 0 -510px;
+}
+
+.breadcrumbTable .insurance.offOn.icon {
+    background-position: 0 -561px;
+}
+
+table.breadcrumbTable .cost.on.icon {
+    background-position: 0 -612px;
+}
+
+.breadcrumbTable .cost.off.icon {
+    background-position: 0 -663px;
+}
+
+.breadcrumbTable .cost.offOn.icon {
+    background-position: 0 -714px;
+}
+
+.loggedOffPage .imageContainer,
+.dijitDialog div.dialogTitleBarIcon.error {
+    background-image: url(../images/sprites/IMG_ConnectionLost.png);
+}
+
+.loggedOffPage .imageContainer {
+    background-position: 0 -0px;
+}
+
+.dijitDialog div.dialogTitleBarIcon.error {
+    background-position: 0 -214px;
+}
+
+.caretalks .dijitCalendarDecrease,
+.caretalks .dijitCalendarIncrease {
+    background-image: url(../images/sprites/IMG_CalendarArrows.png);
+}
+
+.caretalks .dijitCalendarDecrease {
+    background-position: 0 -0px;
+}
+
+.caretalks .dijitCalendarIncrease {
+    background-position: 0 -12px;
+}
+
+.caretalks .dijitCalendarDecrease.disabledDecrementMonth {
+    background-position: 0 -24px;
+}
+
+.caretalks .dijitCalendarIncrease.disabledIncrementMonth {
+    background-position: 0 -36px;
+}
+
+.caretalks .dijitCalendarDecrease:hover {
+    background-position: 0 -48px;
+}
+
+.caretalks .dijitCalendarIncrease:hover {
+    background-position: 0 -60px;
+}
+
+.caretalks .homePageContent .dijitCalendarDecrease,
+.caretalks .homePageContent .dijitCalendarIncrease {
+    background-image: url(../images/sprites/IMG_CalendarArrows_provider.png);
+}
+
+.caretalks .homePageContent .dijitCalendarDecrease,
+.caretalks .homePageContent .dijitCalendarDecrease:hover,
+.caretalks .homePageContent .dijitCalendarDecrease.disabledDecrementMonth {
+    background-position: 0 -0px;
+}
+
+.caretalks .homePageContent .dijitCalendarIncrease,
+.caretalks .homePageContent .dijitCalendarIncrease:hover,
+.caretalks .homePageContent .dijitCalendarIncrease.disabledIncrementMonth {
+    background-position: 0 -12px;
+}
+
+.engGradient {
+    background-image: url(../images/sprites/IMG_EngGradients.png);
+}
+
+.convoHeaderClass.engGradient {
+    background-position: 0 -0px;
+}
+
+.bgMid_EngPurple.engGradient,
+.bgMid_EngPurple_Grad.engGradient {
+    background-position: 0 -41px;
+}
+
+.bgMid_EngGreen.engGradient,
+.bgMid_EngGreen_Grad.engGradient {
+    background-position: 0 -242px;
+}
+
+#waitingRoomCont .chatInWaitingRoomCont #waitingIndicator {
+    background-image: url(../images/sprites/IMG_EngWaitingRoom.png);
+}
+
+#waitingIndicator.nextPatient {
+    background-position: 0 -0px;
+}
+
+#waitingIndicator.patientsAhead1 {
+    background-position: 0 -134px;
+}
+
+#waitingIndicator.patientsAhead2 {
+    background-position: 0 -268px;
+}
+
+#waitingIndicator.patientsAhead3 {
+    background-position: 0 -402px;
+}
+
+#waitingIndicator.patientsAhead4 {
+    background-position: 0 -536px;
+}
+
+#waitingIndicator.patientsAhead5 {
+    background-position: 0 -670px;
+}
+
+#waitingIndicator.patientsAhead6 {
+    background-position: 0 -804px;
+}
+
+.assessSprite,
+.eNurseMenuItemInner .smallIcon,
+#TopBannerRegion .bannerIcon.enurse {
+    background-image: url(../images/sprites/IMG_AssessmentHome.png);
+}
+
+.searchIcon.xxlargeIcon {
+    background-position: -0px 0;
+}
+
+#assessSymptom .assessSprite {
+    background-position: -73px 0;
+}
+
+#assessLifestyle .assessSprite {
+    background-position: -146px 0;
+}
+
+#assessCondition .assessSprite {
+    background-position: -219px 0;
+}
+
+#assessWellness .assessSprite {
+    background-position: -292px 0;
+}
+
+#TopBannerRegion .bannerIcon.enurse {
+    background-position: -365px 0;
+}
+
+.genericAssess_0.xlargeIcon {
+    background-position: -415px 0;
+}
+
+.genericAssess_1.xlargeIcon {
+    background-position: -464px 0;
+}
+
+.genericAssess_2.xlargeIcon {
+    background-position: -513px 0;
+}
+
+.genericAssess_3.xlargeIcon {
+    background-position: -562px 0;
+}
+
+.genericAssess_4.xlargeIcon {
+    background-position: -611px 0;
+}
+
+.eNurseMenuItemInner .suggestedAssess.smallIcon {
+    background-position: -660px 0;
+}
+
+.eNurseMenuItemInner .incompleteAssess.smallIcon {
+    background-position: -679px 0;
+}
+
+.eNurseMenuItemInner .completedAssess.smallIcon {
+    background-position: -698px 0;
+}
+
+.eNurseMenuItemInner .deleteIcon.deleteInProgress {
+    background-position: -717px 0;
+}
+
+#enrollmentProgress .progressBar {
+    background-image: url(../images/sprites/IMG_ProgressBar_MemberEnrollment.png);
+}
+
+#enrollmentProgress .progressBar.step0 {
+    background-position: -0px 0;
+}
+
+#enrollmentProgress .progressBar.step1 {
+    background-position: -917px 0;
+}
+
+#enrollmentProgress .progressBar.step2 {
+    background-position: -1834px 0;
+}
+
+#enrollmentProgress .progressBar.step3 {
+    background-position: -2751px 0;
+}
+
+#enrollmentProgress .progressBar.dependents {
+    background-image: url(../images/sprites/IMG_ProgressBar_MemberEnrollment_dependents.png);
+}
+
+#enrollmentProgress .progressBar.dependents.step0 {
+    background-position: -0px 0;
+}
+
+#enrollmentProgress .progressBar.dependents.step1 {
+    background-position: -917px 0;
+}
+
+#enrollmentProgress .progressBar.dependents.step2 {
+    background-position: -1834px 0;
+}
+
+#enrollmentProgress .progressBar.dependents.step3 {
+    background-position: -2751px 0;
+}
+
+#enrollmentProgress .progressBar.dependents.step4 {
+    background-position: -3668px 0;
+}
+
+#enrollmentProgress .progressIcon,
+#wontBeCharged .icon {
+    background-image: url(../images/sprites/IMG_MemberEnrollment_icons.png);
+}
+
+#enrollmentProgress .progressIcon.account {
+    background-position: -0px 0;
+}
+
+#enrollmentProgress .progressIcon.profile {
+    background-position: -25px 0;
+}
+
+#enrollmentProgress .progressIcon.profile.disabled {
+    background-position: -50px 0;
+}
+
+#enrollmentProgress .progressIcon.healthHistory {
+    background-position: -75px 0;
+}
+
+#enrollmentProgress .progressIcon.healthHistory.disabled {
+    background-position: -100px 0;
+}
+
+#enrollmentProgress .progressIcon.enrollDependents {
+    background-position: -125px 0;
+}
+
+#enrollmentProgress .progressIcon.enrollDependents.disabled {
+    background-position: -150px 0;
+}
+
+#enrollmentProgress .progressIcon.confirmation {
+    background-position: -175px 0;
+}
+
+#enrollmentProgress .progressIcon.confirmation.disabled {
+    background-position: -200px 0;
+}
+
+#wontBeCharged .icon {
+    background-position: -225px 0;
+}
+
+.enrollFinishSprite,
+#TopBannerRegion .bannerIcon.finishIcon {
+    background-image: url(../images/sprites/IMG_MemberEnrollFinish.png);
+}
+
+#showAvailableProviders .screenshot {
+    background-position: -0px 0;
+}
+
+#yourHomePage .screenshot {
+    background-position: -187px 0;
+}
+
+.credentialsIcon {
+    background-position: -374px 0;
+}
+
+.healthVaultBox .healthVaultBoxTitle {
+    background-position: -398px 0;
+}
+
+#TopBannerRegion .bannerIcon.finishIcon {
+    background-position: -1093px 0;
+}
+
+.enrollFinishBtn > div {
+    background-image: url(../images/sprites/IMG_MemberEnrollFinish_btns.png);
+}
+
+#showAvailableProviders > .left {
+    background-position: 0 -0px;
+}
+
+#showAvailableProviders > .middle {
+    background-position: 0 -138px;
+}
+
+#showAvailableProviders > .right {
+    background-position: 0 -276px;
+}
+
+#showAvailableProviders:hover > .left {
+    background-position: 0 -414px;
+}
+
+#showAvailableProviders:hover > .middle {
+    background-position: 0 -552px;
+}
+
+#showAvailableProviders:hover > .right {
+    background-position: 0 -690px;
+}
+
+#yourHomePage > .left {
+    background-position: 0 -828px;
+}
+
+#yourHomePage > .middle {
+    background-position: 0 -966px;
+}
+
+#yourHomePage > .right {
+    background-position: 0 -1104px;
+}
+
+#yourHomePage:hover > .left {
+    background-position: 0 -1242px;
+}
+
+#yourHomePage:hover > .middle {
+    background-position: 0 -1380px;
+}
+
+#yourHomePage:hover > .right {
+    background-position: 0 -1518px;
+}
+
+.expandablePanelIcon {
+    background-image: url(../images/sprites/IMG_ExpandablePane.png);
+}
+
+.expandablePanelIcon.expandablePaneIconCollapsed {
+    background-position: -0px 0;
+}
+
+.expandablePanelIcon.expandablePaneIconExpanded {
+    background-position: -14px 0;
+}
+
+.findPracticeProvider table.ct td.icon .tdCont,
+.findPracticeProvider table.ct tr.memberInPanel td.mipIcon .tdCont {
+    background-image: url(../images/sprites/IMG_FindPracticeProviderPane.png);
+}
+
+.findPracticeProvider table.ct tr.male td.icon .tdCont {
+    background-position: 0 -0px;
+}
+
+.findPracticeProvider table.ct tr.female td.icon .tdCont {
+    background-position: 0 -19px;
+}
+
+.findPracticeProvider table.ct tr.maleDisabled td.icon .tdCont {
+    background-position: 0 -38px;
+}
+
+.findPracticeProvider table.ct tr.femaleDisabled td.icon .tdCont {
+    background-position: 0 -57px;
+}
+
+.findPracticeProvider table.ct tr.memberInPanel td.mipIcon .tdCont {
+    background-position: 0 -76px;
+}
+
+.myPatientsSprite,
+#patientTbl tr > td.icon > div.tdCont,
+#patientTbl tr.onMH > td.mhIcon > div.tdCont,
+#patientTbl tr.notOnMH > td.mhIcon > div.tdCont,
+#TopBannerRegion .bannerIcon.myPatients {
+    background-image: url(../images/sprites/IMG_MyPatients.png);
+}
+
+.myPatientsSprite.invite {
+    background-position: -0px 0;
+}
+
+.myPatientsSprite.add {
+    background-position: -19px 0;
+}
+
+.myPatientsSprite.create {
+    background-position: -38px 0;
+}
+
+.myPatientsSprite.import {
+    background-position: -57px 0;
+}
+
+.myPatientsSprite.export {
+    background-position: -76px 0;
+}
+
+.myPatientsSprite.undo {
+    background-position: -95px 0;
+}
+
+#patientTbl tr.male > td.icon > div.tdCont {
+    background-position: -114px 0;
+}
+
+#patientTbl tr.female > td.icon > div.tdCont {
+    background-position: -133px 0;
+}
+
+.myPatientsSprite.helpIcon {
+    background-position: -152px 0;
+}
+
+#patientTbl tr.onMH > td.mhIcon > div.tdCont {
+    background-position: -171px 0;
+}
+
+#patientTbl tr.notOnMH > td.mhIcon > div.tdCont {
+    background-position: -185px 0;
+}
+
+.myPatientsSprite.dialogTitleBarIcon.addPatient {
+    background-position: -199px 0;
+}
+
+.myPatientsSprite.dialogTitleBarIcon.info {
+    background-position: -224px 0;
+}
+
+.myPatientsSprite.dialogTitleBarIcon.confirm {
+    background-position: -249px 0;
+}
+
+.myPatientsSprite.dialogTitleBarIcon.create {
+    background-position: -274px 0;
+}
+
+.myPatientsSprite.dialogTitleBarIcon.error {
+    background-position: -299px 0;
+}
+
+#TopBannerRegion .bannerIcon.myPatients {
+    background-position: -324px 0;
+}
+
+.patientProfileSprite,
+#patientRecord .biToolbarIcon,
+#patientRecord .mhtToolbarIcon,
+#patientRecord .mhToolbarIcon,
+#patientRecord .hhToolbarIcon,
+#patientRecord #discussionBoard .addPostingIcon,
+#appointmentTable tr > td.icon > div.tdCont,
+#providerTable tr > td.icon > div.tdCont {
+    background-image: url(../images/sprites/IMG_PatientProfile.png);
+}
+
+#patientRecord .mhtToolbarIcon.addTeamMember,
+.patientProfileSprite.addProviders {
+    background-position: 0 -0px;
+}
+
+#patientRecord .mhtToolbarIcon.appointTeamManager {
+    background-position: 0 -20px;
+}
+
+#patientRecord .mhToolbarIcon.consultSpecialist {
+    background-position: 0 -40px;
+}
+
+#patientRecord .mhToolbarIcon.conferenceCall {
+    background-position: 0 -60px;
+}
+
+#patientRecord .mhToolbarIcon.secureMessage,
+#patientRecord .hhToolbarIcon.secureMessage,
+#patientRecord .biToolbar .secureMessage {
+    background-position: 0 -80px;
+}
+
+#patientRecord .mhToolbarIcon.suggestFollowUp {
+    background-position: 0 -100px;
+}
+
+#patientRecord .hhToolbarIcon.attachAFile {
+    background-position: 0 -120px;
+}
+
+#patientRecord .hhToolbarIcon.consultSpecialist {
+    background-position: 0 -140px;
+}
+
+#patientRecord .hhToolbarIcon.getFullAccessToHH {
+    background-position: 0 -160px;
+}
+
+#patientRecord .hhToolbarIcon.createMedicalHome {
+    background-position: 0 -180px;
+}
+
+#patientRecord #discussionBoard .addPostingIcon {
+    background-position: 0 -200px;
+}
+
+#patientRecord .hhToolbarIcon.exportToCcr {
+    background-position: 0 -220px;
+}
+
+#appointmentTable tr > td.icon > div.tdCont,
+.patientProfileSprite.appt {
+    background-position: 0 -240px;
+}
+
+#providerTable tr.male > td.icon > div.tdCont {
+    background-position: 0 -260px;
+}
+
+#providerTable tr.female > td.icon > div.tdCont {
+    background-position: 0 -280px;
+}
+
+#editPatientRecordPopup .patientProfileSprite.editPatientRecordPopup {
+    background-position: 0 -300px;
+}
+
+#patientRecord .biToolbar .editPatientRecord {
+    background-position: 0 -326px;
+}
+
+#patientRecord .dijitToolbar .sendInvitation {
+    background-position: 0 -346px;
+}
+
+.sendInvitationDialog .dialogTitleBarIcon {
+    background-position: 0 -366px;
+}
+
+table.providerTbl tr > td.providerIcon > div.tdCont {
+    background-image: url(../images/sprites/IMG_ProviderIcons.png);
+}
+
+table.providerTbl tr.male.available > td.providerIcon > div.tdCont {
+    background-position: 0 -0px;
+}
+
+table.providerTbl tr.female.available > td.providerIcon > div.tdCont {
+    background-position: 0 -26px;
+}
+
+table.providerTbl tr.male.busy > td.providerIcon > div.tdCont {
+    background-position: 0 -52px;
+}
+
+table.providerTbl tr.female.busy > td.providerIcon > div.tdCont {
+    background-position: 0 -78px;
+}
+
+table.providerTbl tr.male.offline > td.providerIcon > div.tdCont {
+    background-position: 0 -104px;
+}
+
+table.providerTbl tr.female.offline > td.providerIcon > div.tdCont {
+    background-position: 0 -130px;
+}
+
+.viewProvidersSprite,
+#providersTable tr > td.icon > div.tdCont,
+#providersTable tr.mhMember > td.mhIcon > div.tdCont,
+#providersTable tr.mhManager > td.mhIcon > div.tdCont {
+    background-image: url(../images/sprites/IMG_ViewProviders.png);
+}
+
+#providersTable tr.male > td.icon > div.tdCont {
+    background-position: -0px 0;
+}
+
+#providersTable tr.female > td.icon > div.tdCont {
+    background-position: -19px 0;
+}
+
+#providersTable tr.mhManager > td.mhIcon > div.tdCont {
+    background-position: -38px 0;
+}
+
+#providersTable tr.mhMember > td.mhIcon > div.tdCont {
+    background-position: -52px 0;
+}
+
+.postVisitIcon {
+    background-image: url(../images/sprites/IMG_WaitingRoomPostVisitIndicators.png);
+}
+
+.postVisitIcon.female {
+    background-position: -0px 0;
+}
+
+.postVisitIcon.male {
+    background-position: -25px 0;
+}
+
+.postVisitIcon.provider.female {
+    background-position: -50px 0;
+}
+
+.postVisitIcon.provider.male {
+    background-position: -75px 0;
+}
+
+.practiceProviderIcon {
+    background-image: url(../images/sprites/IMG_WaitingRoomPracticeProviders.png);
+}
+
+.practiceProviderIcon.female-busy {
+    background-position: -0px 0;
+}
+
+.practiceProviderIcon.male-busy {
+    background-position: -25px 0;
+}
+
+.practiceProviderIcon.female-avail {
+    background-position: -50px 0;
+}
+
+.practiceProviderIcon.male-avail {
+    background-position: -75px 0;
+}
+
+.practiceProviderIcon.female-offline {
+    background-position: -100px 0;
+}
+
+.practiceProviderIcon.male-offline {
+    background-position: -125px 0;
+}
+
+.patientIndicatorIcon {
+    background-image: url(../images/sprites/IMG_WaitingRoomWaitingIndicators.png);
+}
+
+.patientIndicatorIcon.newPatient,
+.patientIndicatorIcon.guestPatient {
+    background-position: -0px 0;
+}
+
+.patientIndicatorIcon.newPatient.mobile,
+.patientIndicatorIcon.guestPatient.mobile {
+    background-position: -25px 0;
+}
+
+.patientIndicatorIcon.newPatient.kiosk,
+.patientIndicatorIcon.guestPatient.kiosk {
+    background-position: -50px 0;
+}
+
+.patientIndicatorIcon.newPatient.phone,
+.patientIndicatorIcon.guestPatient.phone {
+    background-position: -75px 0;
+}
+
+.patientIndicatorIcon.newPatient.cleared,
+.patientIndicatorIcon.guestPatient.cleared {
+    background-position: -100px 0;
+}
+
+.patientIndicatorIcon.newPatient.cleared.mobile,
+.patientIndicatorIcon.guestPatient.cleared.mobile {
+    background-position: -125px 0;
+}
+
+.patientIndicatorIcon.newPatient.cleared.phone,
+.patientIndicatorIcon.guestPatient.cleared.phone {
+    background-position: -150px 0;
+}
+
+.patientIndicatorIcon.newPatient.highPriority,
+.patientIndicatorIcon.guestPatient.highPriority {
+    background-position: -175px 0;
+}
+
+.patientIndicatorIcon.newPatient.highPriority.mobile,
+.patientIndicatorIcon.guestPatient.highPriority.mobile {
+    background-position: -200px 0;
+}
+
+.patientIndicatorIcon.newPatient.highPriority.phone,
+.patientIndicatorIcon.guestPatient.highPriority.phone {
+    background-position: -225px 0;
+}
+
+.patientIndicatorIcon.female {
+    background-position: -250px 0;
+}
+
+.patientIndicatorIcon.female.mobile {
+    background-position: -275px 0;
+}
+
+.patientIndicatorIcon.female.kiosk {
+    background-position: -300px 0;
+}
+
+.patientIndicatorIcon.female.phone {
+    background-position: -325px 0;
+}
+
+.patientIndicatorIcon.female.cleared {
+    background-position: -350px 0;
+}
+
+.patientIndicatorIcon.female.cleared.mobile {
+    background-position: -375px 0;
+}
+
+.patientIndicatorIcon.female.cleared.phone {
+    background-position: -400px 0;
+}
+
+.patientIndicatorIcon.female.highPriority {
+    background-position: -425px 0;
+}
+
+.patientIndicatorIcon.female.highPriority.mobile {
+    background-position: -450px 0;
+}
+
+.patientIndicatorIcon.female.highPriority.phone {
+    background-position: -475px 0;
+}
+
+.patientIndicatorIcon.male {
+    background-position: -500px 0;
+}
+
+.patientIndicatorIcon.male.mobile {
+    background-position: -525px 0;
+}
+
+.patientIndicatorIcon.male.kiosk {
+    background-position: -550px 0;
+}
+
+.patientIndicatorIcon.male.phone {
+    background-position: -575px 0;
+}
+
+.patientIndicatorIcon.male.cleared {
+    background-position: -600px 0;
+}
+
+.patientIndicatorIcon.male.cleared.mobile {
+    background-position: -625px 0;
+}
+
+.patientIndicatorIcon.male.cleared.phone {
+    background-position: -650px 0;
+}
+
+.patientIndicatorIcon.male.highPriority {
+    background-position: -675px 0;
+}
+
+.patientIndicatorIcon.male.highPriority.mobile {
+    background-position: -700px 0;
+}
+
+.patientIndicatorIcon.male.highPriority.phone {
+    background-position: -725px 0;
+}
+
+.patientIndicatorIcon.provider.female {
+    background-position: -750px 0;
+}
+
+.patientIndicatorIcon.provider.female.cleared {
+    background-position: -775px 0;
+}
+
+.patientIndicatorIcon.provider.female.highPriority {
+    background-position: -800px 0;
+}
+
+.patientIndicatorIcon.provider.male {
+    background-position: -825px 0;
+}
+
+.patientIndicatorIcon.provider.male.cleared {
+    background-position: -850px 0;
+}
+
+.patientIndicatorIcon.provider.male.highPriority {
+    background-position: -875px 0;
+}
+
+#TopBannerRegion div.bannerIcon.WaitingRoom,
+#TopBannerRegion div.bannerIcon.patientsWaiting,
+.patientInteractionIcon,
+.wrSpriteCommon,
+#waitingRoomContainer #availInfoIcon {
+    background-image: url(../images/sprites/IMG_WaitingRoomInteractionCommon.png);
+}
+
+#TopBannerRegion div.bannerIcon.WaitingRoom {
+    background-position: -0px 0;
+}
+
+#TopBannerRegion div.bannerIcon.patientsWaiting {
+    background-position: -50px 0;
+}
+
+.patientInteractionIcon.patientInfo,
+#waitingRoomContainer #availInfoIcon.default {
+    background-position: -100px 0;
+}
+
+#waitingRoomContainer #availInfoIcon.changedByAnother {
+    background-position: -119px 0;
+}
+
+.patientInteractionIcon.patientQuickChat {
+    background-position: -138px 0;
+}
+
+.patientInteractionIcon.patientQuickChat.disabled {
+    background-position: -157px 0;
+}
+
+.patientInteractionIcon.patientNotes {
+    background-position: -176px 0;
+}
+
+.patientInteractionIcon.patientNotes.disabled {
+    background-position: -195px 0;
+}
+
+.patientInteractionIcon.patientRecord {
+    background-position: -214px 0;
+}
+
+.patientInteractionIcon.patientRecord.disabled {
+    background-position: -233px 0;
+}
+
+.patientInteractionIcon.removePatient {
+    background-position: -252px 0;
+}
+
+.patientInteractionIcon.removePatient.disabled {
+    background-position: -271px 0;
+}
+
+.updateIcon {
+    background-position: -290px 0;
+}
+
+.provProfileSprite {
+    background-image: url(../images/sprites/IMG_ProviderProfile.png);
+}
+
+table.timeSlotTbl td.switchCell .switchIcon,
+td.hourCell .switchIcon {
+    background-position: -0px 0;
+}
+
+table.timeSlotTbl tr.timeSlotHover td.switchCell .switchIcon,
+tr.hourCellHover table.timeSlotTbl tr.empty td.switchCell .switchIcon,
+tr.hourCellHover td.hourCell .switchIcon {
+    background-position: -13px 0;
+}
+
+.dateHeader .removeAll .removeAllIcon,
+table.timeSlotTbl tr.appt td.switchCell .switchIcon {
+    background-position: -26px 0;
+}
+
+table.timeSlotTbl tr.available td.switchCell .switchIcon,
+tr.allAvailable td.hourCell .switchIcon {
+    background-position: -39px 0;
+}
+
+table.timeSlotTbl tr.available.timeSlotHover td.switchCell .switchIcon,
+tr.hourCellHover.allAvailable table.timeSlotTbl tr td.switchCell .switchIcon,
+tr.hourCellHover.allAvailable td.hourCell .switchIcon,
+table.timeSlotTbl tr.appt td.switchCell:hover .switchIcon,
+.dateHeader .removeAll:hover .removeAllIcon {
+    background-position: -52px 0;
+}
+
+.provProfileSprite.deleteLink {
+    background-position: -65px 0;
+}
+
+table.timeSlotTbl td.apptIcon div.tdCont {
+    background-position: -76px 0;
+}
+
+.provProfileSprite.add {
+    background-position: -95px 0;
+}
+
+.provProfileSprite.remove {
+    background-position: -114px 0;
+}
+
+.provProfileSprite.panel {
+    background-position: -133px 0;
+}
+
+.provProfileSprite.waitingRoom {
+    background-position: -152px 0;
+}
+
+.provProfileSprite.inbox {
+    background-position: -171px 0;
+}
+
+.slotsToRemove .warningIcon {
+    background-position: -190px 0;
+}
+
+.provProfileSprite.add.dialogTitleBarIcon {
+    background-position: -209px 0;
+}
+
+.provProfileSprite.remove.dialogTitleBarIcon {
+    background-position: -234px 0;
+}
+
+.provProfileSprite.confirm.dialogTitleBarIcon {
+    background-position: -259px 0;
+}
+
+.bulkImportSprite,
+#TopBannerRegion .bannerIcon.importPatientList,
+.previewTblCont table.ct td.icon .tdCont,
+#importsTbl table.ct td.icon .tdCont {
+    background-image: url(../images/sprites/IMG_BulkImport.png);
+}
+
+#TopBannerRegion .bannerIcon.importPatientList {
+    background-position: -0px 0;
+}
+
+.progress.step1 .progressBar {
+    background-position: -50px 0;
+}
+
+.progress.step2 .progressBar {
+    background-position: -968px 0;
+}
+
+.progress.step3 .progressBar {
+    background-position: -1886px 0;
+}
+
+.progress .progressIcons > .step1 > .icon {
+    background-position: -2804px 0;
+}
+
+.progress.step2 .progressIcons > .step2 > .icon,
+.progress.step3 .progressIcons > .step2 > .icon {
+    background-position: -2847px 0;
+}
+
+.progress.step1 .progressIcons > .step2 > .icon {
+    background-position: -2890px 0;
+}
+
+.progress.step3 .progressIcons > .step3 > .icon {
+    background-position: -2933px 0;
+}
+
+.progress.step1 .progressIcons > .step3 > .icon,
+.progress.step2 .progressIcons > .step3 > .icon {
+    background-position: -2976px 0;
+}
+
+.previewTblCont table.ct tr.female td.icon .tdCont {
+    background-position: -3019px 0;
+}
+
+.previewTblCont table.ct tr.male td.icon .tdCont {
+    background-position: -3038px 0;
+}
+
+.dialogTitleBarIcon.bulkImportSprite.edit {
+    background-position: -3057px 0;
+}
+
+.bulkImportSprite.error {
+    background-position: -3082px 0;
+}
+
+.bulkImportSprite.instructions {
+    background-position: -3107px 0;
+}
+
+.bulkImportSprite.importing {
+    background-position: -3132px 0;
+}
+
+.bulkImportSprite.tabIcon {
+    background-position: -3157px 0;
+}
+
+.bulkImportSprite.returnIcon {
+    background-position: -3170px 0;
+}
+
+#importsTbl table.ct td.icon .tdCont {
+    background-position: -3186px 0;
+}
+
+#TopBannerRegion .bannerIcon.exportPatientRecords {
+    background-image: url(../images/sprites/IMG_ExportPatients.png);
+}
+
+#TopBannerRegion .bannerIcon.exportPatientRecords {
+    background-position: -0px 0;
+}
+
+#TopBannerRegion .bannerIcon.calendar,
+.caretalks .bigPicker .leftCurve,
+.caretalks .bigPicker .rightCurve,
+.caretalks .bigPicker .calDecrease .calArrowLrg,
+.caretalks .bigPicker .calIncrease .calArrowLrg,
+.caretalks .bigPicker .calIncrease:hover .calArrowLrg,
+.caretalks .bigPicker .calDecrease:hover .calArrowLrg,
+.caretalks .bigPicker .calDecrease.disabledDecrementMonth:hover .calArrowLrg,
+.caretalks .bigPicker .footerLeft,
+.caretalks .bigPicker .footerRight,
+.caretalks .bigPicker tfoot div.calendarLegend .apptBlock {
+    background-image: url(../images/sprites/IMG_ProviderCalendar.png);
+}
+
+#TopBannerRegion .bannerIcon.calendar {
+    background-position: 0 -0px;
+}
+
+.caretalks .bigPicker .leftCurve {
+    background-position: 0 -48px;
+}
+
+.caretalks .bigPicker .rightCurve {
+    background-position: 0 -98px;
+}
+
+.caretalks .bigPicker .calDecrease .calArrowLrg {
+    background-position: 0 -148px;
+}
+
+.caretalks .bigPicker .calIncrease .calArrowLrg {
+    background-position: 0 -167px;
+}
+
+.caretalks .bigPicker .calIncrease:hover .calArrowLrg {
+    background-position: 0 -186px;
+}
+
+.caretalks .bigPicker .calDecrease:hover .calArrowLrg {
+    background-position: 0 -205px;
+}
+
+.caretalks .bigPicker .calDecrease.disabledDecrementMonth:hover .calArrowLrg {
+    background-position: 0 -224px;
+}
+
+.caretalks .bigPicker tfoot div.calendarLegend .apptBlock {
+    background-position: 0 -243px;
+}
+
+.caretalks .bigPicker .footerLeft {
+    background-position: 0 -251px;
+}
+
+.caretalks .bigPicker .footerRight {
+    background-position: right -259px;
+}
+
+.managePaymentMethods .statusLight {
+    background-image: url(../images/sprites/IMG_AdminManagePaymentMethods.png);
+}
+
+.managePaymentMethods .statusLight.online,
+.managePaymentMethods .statusLight.live {
+    background-position: 0 -0px;
+}
+
+.managePaymentMethods .statusLight.offline,
+.managePaymentMethods .statusLight.stubbed {
+    background-position: 0 -19px;
+}
+
+.managePaymentMethods .statusLight.pending,
+.managePaymentMethods .statusLight.diagnostic {
+    background-position: 0 -38px;
+}

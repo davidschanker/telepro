@@ -1,0 +1,51 @@
+
+
+<div collapse="navbarIsHidden" class="primary-navbar nav-collapse collapse" ng-class="{in: navbarIsHidden}">
+	<div class="container">
+
+		<!-- Theme Primary Nav! -->
+		<nav class="navbar navbar-custom navbar-fixed-top">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button> -->
+		      <a class="navbar-brand" href="#">Telepro Health</a>
+		    </div>
+		    <div id="navbar" class="navbar-collapse collapse">
+		      <ul class="nav navbar-nav">
+		      	<li ng-repeat="tab in primaryNav" ng-class="{active: matchStatePartial('{{tab.state}}')}"><a ui-sref="{{tab.state}}">{{tab.label}}</a></li>
+
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#about">About</a></li>
+		        <li><a href="#contact">Contact</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li class="divider"></li>
+		            <li class="dropdown-header">Nav header</li>
+		            <li><a href="#">Separated link</a></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+
+		<!-- Primary Nav tabs  -->
+		<!-- <ul class="nav"> -->
+			<!-- <li ng-repeat="tab in primaryNav" ng-class="{active: matchStatePartial('{{tab.state}}')}"><a ui-sref="{{tab.state}}">{{tab.label}}</a></li> -->
+
+			<!-- External link -->
+			<!-- <li><a href="http://google.com">Google</a</li> -->
+		<!-- </ul> -->
+
+	</div>
+</div>

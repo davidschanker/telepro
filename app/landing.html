@@ -1,0 +1,425 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html xmlns='http://www.w3.org/1999/xhtml' style="visibility: hidden;" class="" dir="ltr">
+<head>
+
+		
+			<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,requiresActiveX=true" />
+		
+		
+	
+	<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+	
+    
+		
+		
+	<meta http-equiv="Keywords" content="" />
+	<meta http-equiv="Description" content="Online doctors available 24 hours a day. Skip the urgent care hassle and see a doctor right now on your computer, tablet or phone." />
+	<link  rel="icon" type="image/x-icon" href="/static/release_119926/images/favicon.ico"/>
+	<link  rel="shortcut icon" type="image/x-icon" href="/static/release_119926/images/favicon.ico"/>
+
+
+
+
+<div id="loadingOverlay" class="loadingOverlay pageOverlay">
+	<div id="loadingImage" class="rotatingImage"></div>
+</div>
+<noscript>
+    <style>
+        /* ensure no-javascript browsers aren't obstructed */
+        #loadingOverlay { display: none !important; }
+    </style>
+</noscript>
+
+
+<style>
+	body{
+		ms-touch-action: none; 
+		background-image: url('/static/release_119926/images/common/Landing_Bkgd.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: white;
+		}
+</style>
+<style type='text/css'>
+	
+		
+		
+
+
+
+		
+@import url(styles/core.css);
+
+
+
+
+
+		
+@import url(styles/consumerEnrollment.css);
+
+
+	
+	
+	
+	@import url(styles/sprites.css);
+
+</style>
+
+
+
+
+	<link href="styles/core.css" rel="stylesheet" type="text/css">
+	
+
+	<link href="styles/consumerEnrollment.css" rel="stylesheet" type="text/css">
+	
+	<link href="styles/sprites.css" rel="stylesheet" type="text/css">
+
+
+
+<title>Amwell – Consult a Doctor, Therapist or Nutritionist Online</title>
+
+
+
+
+	
+			
+			
+			
+			
+			
+				
+				
+			
+	
+
+
+
+<script type='text/javascript' >
+	// Frame busting code, as recommended by "Busting Frame Busting: A Study of
+	// Clickjacking Vulnerabilities on Popular Sites", by Rydstedt, Bursztein,
+	// Boneh, and Jackson, May 25, 2010
+	if (self == top) {
+		document.documentElement.style.visibility = "visible";
+	}
+	else {
+		top.location = self.location;
+	}
+
+	
+	var caretalks = {config: {},session: {},MESSAGES: {  msgStore: []},context: {  addObject: function(key, value) {    this[key] = value;  }},_valData: null,_onLoads: [],_loaded: false};if(typeof cookieAlert === 'undefined'){
+			if(!document.cookie.length){
+				document.cookie = "caretalks.cookie-test=true";
+				if(document.cookie.indexOf("caretalks.cookie-test=true") == -1){
+					document.location = 'cookieAlert.htm';
+				}
+			}
+		}if (dojoConfig == undefined) {
+		var localeStr = "en_US";
+		if (localeStr != null) {
+			localeStr = localeStr.replace("_", "-");
+			localeStr = localeStr.replace("iw", "he"); 
+		}
+		
+		var dojoConfig = {
+			async: true,
+			baseUrl: '/static/release_119926/js/dojo',
+			parseOnLoad: false,
+			usePlainJson: true,
+			isDebug: false,
+			locale: (localeStr != null ? localeStr.toLowerCase() : null),
+			currencyFormatSymbol: "$",
+			preventBackButtonFix: false,
+			xdWaitSeconds: 10,
+			contextPath: '/',
+			dojoBlankHtmlUrl: 'about:blank',
+			packages: [{
+				name: "caretalks",
+				location: "../caretalks",
+				main: "caretalks"
+			}],
+			deps: ['caretalks/layers/entryLayer'],
+			modulePaths: {
+				swfobject: '../swfobject',
+				caretalks: '../caretalks',
+				'caretalks.app.widgets': '/app/widgets'
+			}
+		};
+	}
+
+    caretalks.kiosk = {};
+	caretalks.config.CONTEXT_PATH = '/';
+	caretalks.config.helpId = '/WEB-INF/jsp/enrollment/stepwise/landing.jsp';
+	caretalks.config.serverDate = new Date();
+	caretalks.config.serverDate.setTime(1426024842790);
+	caretalks.config.defaultTimeout = 120000;
+	caretalks.config.heartbeatFrequencyMS = 5000;
+	caretalks.config.heartbeatTimeoutMS = 20000;
+	caretalks.config.heartbeatFailures = 1;
+	caretalks.config.heartbeatExpiration = 60;
+	caretalks.config.isDebug = false;
+	
+	caretalks.config.billingName = "Amwell";
+	
+	caretalks.config.applicationName = "Amwell";
+	caretalks.config.suppressFirebugWarning = false;
+	// CSRF token cookie name is domain-specific. See DomainScopedCookieFilter. 
+	caretalks.config.csrfTokenCookieName = "CSRF_TOKEN-cookie." + window.location.hostname;
+	caretalks.config.csrfTokenParamName = "csrfToken";
+	
+	caretalks.config.release = "release_119926";
+	
+	caretalks.config.rtl = false;
+
+	caretalks.config.MEDIA_PATH = "/static/release_119926/";
+	
+	caretalks.config.IMAGE_PREFIX = '/static/'+ caretalks.config.release + '/images/';
+	caretalks.config.SWF_PATH = '/static/'+ caretalks.config.release + '/swf/';
+
+	// Set a flag when window.onload has fired
+	(function() {
+		window.__window_loaded = false;
+		var ool = null;
+		var f = function() {
+			window.__window_loaded = true;
+			if (ool) ool();
+		};
+		if (window.addEventListener) {
+			window.addEventListener("load", f, false);
+		}
+		else if (window.attachEvent) {
+			window.attachEvent("onload", f);
+		}
+		else {
+			ool = window.onload;
+			window.onload = f;
+		}
+	})();
+
+	
+	
+	caretalks.session.userType = 'anon';
+ 		
+
+
+
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+	caretalks.context.addObject("includeMiddleName", false);
+	caretalks.context.addObject("tooltips", {"emailAddress":{"text":"You'll use this to log in","header":"Your Email"}});
+</script>
+
+
+<script type='text/javascript' src='/static/release_119926/js/generated/i18n/anon.js'></script>
+
+
+
+<script type='text/javascript' src='/static/release_119926/js/caretalks/layers/entryLayer.js' ></script>
+</head>
+
+
+
+<body id='landingBody' class='caretalks ' onload='' >
+
+
+
+	<img src="/static/release_119926/images/common/Landing_Bkgd.jpg" style="display: none" />
+
+
+
+<script type='text/javascript' src='/static/release_119926/js/caretalks/enrollment/ConsumerLanding.js' ></script>
+<div id="header" class="invisibleForLoading loadingContent">
+	
+
+
+<div id="navMenu" class="transparency">
+	<span>
+		
+		
+			<a href="https://amwell.com/loginConsumer.htm">Log In</a>
+			<span> | </span>
+		
+		
+			<a href="/guest/systemTest.htm">Test Computer</a>
+			<span> | </span>
+		
+		
+			<a id="help" onclick="caretalks.help.getHelp();">Help</a>
+			<span> | </span>
+		
+		<a href="https://amwell.com/loginPhysician.htm">Provider Login</a>	
+	</span>
+</div>
+</div>
+<div class="body DynamicVerticalCenter invisibleForLoading loadingContent">
+<div>
+<div class="landingContainer clearFix dijitInline transparency">
+	
+		<div class="marketingContent dijitInline">
+	
+		<div class="imgBrandContainer"><img alt="American Well" src="/static/release_119926/images/common/IMG_Landing_Logo.png" id="marketingImg"/></div>
+	
+	
+		<div class="modernHeaderXL marketingHeader">Login or Enroll</div>
+		<hr class="marketingHR" />
+	
+	
+		<div class="modernLabel16 marketingSubtext"><span style="">&nbsp;</span><em style="font-weight: bold;">Amwell makes it easy for you to talk to providers, immediately, from home. You don't need to call ahead or wait for a provider - simply log on or call.</em></div>
+	
+	
+		<div class="modernLabel16 marketingLearnMore"><a href="http://www.americanwell.com/" target="_blank" id="learnMoreLink">
+		Learn More</a>></div>
+	
+</div><!-- end marketing content -->
+	
+	<div class="enrollmentLandingContainer dijitInline">
+		<div class="enrollmentBrandingImg"><img src="/static/release_119926/images/common/IMG_Login_FormTopLogo.jpg" id="brandingLogo" /></div>
+		<div class="enrollmentFormContainer">
+			<form id="enrollmentForm" name="enrollmentForm" action="/landing.htm" method="POST" autocomplete="off"><input type="hidden" name="csrfToken"
+		value="1CiFVaFSt0LhBUqRciKymhJR" />
+				<div class="enrollmentFormContent">
+					<div id="nameFields" class="enrollmentFieldRow">
+						
+							
+							
+								<input id="firstName" name="firstName" class="nameField modernInput1 firstOnly" placeholder="First Name" type="text" value="" maxlength="255" autocomplete="off"/>
+								<input id="lastName" name="lastName" class="nameField modernInput1 lastOnly" placeholder="Last Name" type="text" value="" maxlength="255" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearFix"></div>
+					<div id="nameErrors">
+						
+
+		
+		<div class="error" id="firstName.errors" style="display: none;"></div>
+	
+	
+		
+		<div class="error" id="lastName.errors" style="display: none;"></div>
+	
+	
+
+
+					</div>
+					<div id="emailFields" class="enrollmentFieldRow">
+						<input id="emailAddress" name="emailAddress" class="fullWidth modernInput1" placeholder="Email" type="text" value="" maxlength="200" autocomplete="off"/>
+	
+		
+		<div class="error" id="emailAddress.errors" style="display: none;"></div>
+	
+	
+
+
+						<input id="emailAddress2" name="emailAddress2" class="fullWidth modernInput1" placeholder="Confirm Email" type="text" value="" maxlength="200" autocomplete="off"/>
+						
+	
+		
+		<div class="error" id="emailAddress2.errors" style="display: none;"></div>
+	
+	
+
+
+					</div>
+					<div id="passwordField" class="enrollmentFieldRow">
+						<input name="password1" type="password" placeholder="Password" id="password1" class="modernInput1 fullWidth" />
+						<div id="failedPwdReq" class="error hideme">Password does not meet requirements</div>
+					</div>
+					
+					<div id="disclaimerField">
+
+
+<input id="disclaimerIds" name="disclaimerIds" type="hidden" value="WKCDIHDZNOPQZBGMXOVRPWVTPfOVTWGSLDdSaEIROJLHDfCTIfbTFXCSHPFUZTPNWObZdFUDQOZZc"/>
+						<input type='checkbox' name='disclaimerAccept' id='disclaimerAccept'/>
+						<label class="modernLabel14" id="disclaimerPromptLabel">I agree to these </label>
+							<a href="#" id="tosLink">Terms of Use.</a>
+						
+						
+	
+		
+		<div class="error" id="disclaimerAccept.errors" style="display: none;"></div>
+	
+	
+
+
+					</div>
+				</div>
+				<input type="submit" value="Sign Up" id="submitBtn"/>
+				<div class="loginLandingPrompt modernLabel16">
+					Already have an account? 
+					<a href="https://amwell.com/loginConsumer.htm" id="enrollmentFormLoginLink" class="loginLink">Log In</a>
+				</div>
+			</form>
+		</div><!-- End Enrollment Form Container -->
+	</div><!-- End enrollment landing container --></div><!-- end landingContainer --></div><!-- End Absolute-Center --></div><!--end body --><div id="landingFooter">
+
+
+
+
+
+<div id="FooterRegion" class="fontB1 transparencyWhite loadingFooter loadingContent">
+	<div class="footerCopyrightContainer">
+		<div class="footerCopyrightLine">
+			<span class="footerPhone fontB3 strong">Phone Access or Support Call 855-818-DOCS</span><wbr /> <span class="footerCopyright footerCustomerCopyright fontB1">&#169; 2015 Amwell. All rights reserved.</span><wbr /> <span class="footerCopyright footerAmWellCopyright fontB1">&#169; 2007-2015 American Well Corporation. All rights reserved.</span><wbr /> <span class="footerCopyright footerAMACopyright fontB1">CPT copyright 2014 American Medical Association. All rights reserved.</span>
+			<div class="footerExtraLine"><span class="footerExtra fontB1">Online Care Group provides the clinical services for Amwell.  Online Care Group is an independent company.  Please see Online Care Group for more information (<a href="http://www.americanwell.com/doctors-available-24-hours/">http://www.americanwell.com/doctors-available-24-hours/</a>).</span></div>
+		</div>
+		<div class="footerSiteMapLine">
+			<ul class="fontB1">
+				
+				<li><span onclick="caretalks.legal.loadLegalDialog('terms');" class="link">Terms of Use</span></li><li><span onclick="caretalks.legal.loadLegalDialog('privacy');" class="link">Privacy Policy</span></li><li><span onclick="caretalks.legal.loadLegalDialog('legal');" class="link">Legal Notices</span></li><li><span onclick="caretalks.contactUs.contact()" class="link">Contact Us</span></li>
+			</ul>
+		</div>
+		
+		
+		<!-- OC-595: Add Vidyo Logo to Footer only on login -->
+					
+		
+		<table class="footerBadgeTable footerTableWithBadge" align="center">
+			<tbody>
+				<tr>
+					
+						<td class="footerHealthPlanLogoCell">
+	
+	
+		
+		<img id="brandingImg" border="0" src="/images/common/IMG_Footer2_GenericHealthPlan_blank.png" />
+
+						</td>
+					
+					<td class="footerAmWellLogoCell">
+	
+		
+		<img id="brandingImg" border="0" src="/images/common/IMG_Footer2_PoweredByAmericanWell.png" />
+	
+
+
+					</td>
+					
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+</div>
+
+<div class="PreloadedImgDiv hideme"><img src="/static/release_119926/images/sprites/IMG_ConnectionLost.png" style="width: 0px; height: 0px" /></div>
+
+
+<iframe class="backButtonPreventerFrame" name="dj_history" id="dj_history" src="/static/release_119926/js/dojo/resources/iframe_history.html"></iframe> 
+
+</body>
+</html>
+
+<!-- This page is /WEB-INF/jsp/enrollment/stepwise/landing.jsp -->
