@@ -126,6 +126,25 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
   color: #ccc;
 }
 
+.panel-signup {
+  border-color: #55c3c0;
+}
+.panel-signup > .panel-heading {
+  color: #fff;
+  background-color: #55c3c0;
+  border-color: #55c3c0;
+}
+.panel-signup > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #55c3c0 ;
+}
+.panel-signup > .panel-heading .badge {
+  color: #55c3c0;
+  background-color: #fff;
+}
+.panel-signup > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #55c3c0;
+}
+
 div[background-image] {
   position: fixed;
   left: 0;
@@ -158,11 +177,11 @@ div[background-image] {
   margin-right: 20px;
 }
 
-div[pull-left]{
-  float:left;
-}
-div[pull-right]{
-  float:right;
+body.modal-open {
+overflow: auto;
 }
 
-
+.semiOpaque {
+  background-color: rgba(255,255,255, 0.5);
+  color: inherit;
+}

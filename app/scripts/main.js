@@ -54,6 +54,24 @@ TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 					controller: 'ProviderCtrl'
 				}
 			}
+		})
+		.state('viewdoctors', {
+			url: '/viewdoctors',
+			views: {
+				'content': {
+					templateUrl: 'views/viewdoctors.html',
+					controller: 'ViewDocsCtrl'
+				}
+			}
+		})
+		.state('sample', {
+			url: '/sample',
+			views: {
+				'content': {
+					templateUrl: 'views/sample.html',
+					controller: 'SampleCtrl'
+				}
+			}
 		});
 	}).run(function($log, $rootScope, $location) {
 		

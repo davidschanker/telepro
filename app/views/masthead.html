@@ -4,7 +4,7 @@
 	<div class="container">
 
 		<!-- Theme Primary Nav! -->
-		<nav class="navbar navbar-custom navbar-fixed-top">
+		<nav class="navbar navbar-inverse navbar-fixed-top"> <!-- or you can use navbar-custom for the teal/green -->
 		  <div class="container">
 		    <div class="navbar-header">
 		      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -19,7 +19,7 @@
 		      <ul class="nav navbar-nav">
 		      	<li ng-repeat="tab in primaryNav" ng-class="{active: matchStatePartial('{{tab.state}}')}"><a ui-sref="{{tab.state}}">{{tab.label}}</a></li>
 
-		        <li><a href="#">Home</a></li>
+		        <!-- <li><a href="#">Home</a></li>
 		        <li><a href="#about">About</a></li>
 		        <li><a href="#contact">Contact</a></li>
 		        <li class="dropdown">
@@ -33,7 +33,7 @@
 		            <li><a href="#">Separated link</a></li>
 		            <li><a href="#">One more separated link</a></li>
 		          </ul>
-		        </li>
+		        </li> -->
 		      </ul>
 		    </div><!--/.nav-collapse -->
 		  </div>

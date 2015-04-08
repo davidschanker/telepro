@@ -1,4 +1,4 @@
-<div> this is the dashboard page! </div>
+<!-- <div> this is the dashboard page! </div>
 <div class="btn-group" dropdown is-open="status.isopen">
   <button type="button" class="btn btn-primary dropdown-toggle" dropdown-toggle ng-disabled="disabled">
     Button dropdown <span class="caret"></span>
@@ -10,4 +10,123 @@
     <li class="divider"></li>
     <li><a href="#">Separated link</a></li>
   </ul>
-</div>
+</div> -->
+
+<!-- This is the dashboard page -->
+
+<div class="container theme-showcase" role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <h1>Telepro Health</h1>
+    <p>Tired of waiting in doctors offices for appointments? Telepro Health is here to solve your worries. Using our state-of-the-art video conferencing software, we bring doctors to you. Interested? Signup <a href="#signup">here.</a></p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+  <div class="row">
+    <accordion class="col-md-8" close-others="oneAtATime">
+      <accordion-group is-open="status1.open">
+        <accordion-heading>
+          <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status1.open, 'glyphicon-chevron-right': !status1.open}"></i>
+          <!-- <span>&nbsp</span> -->
+          Who is Telepro Health?
+        </accordion-heading>
+        <p>Telepro Health’s Online Care Group is a physician owned and operated medical practice that has been operating for over 2 years. We exclusively provide telehealth on various Telepro Health platforms. At this time, we utilize primarily Board Certified Pediatricians, Family Medicine, Emergency Medicine, and Internal Medicine physicians and provide acute (urgent) care via telehealth. We practice across 47 states; 24 hours a day, 365 days a year. <br><br>
+
+        In addition to our medical practice, the Online Care Group also manages a nation-wide Behavioral Health practice (staffed by PhD’s, Psy.D’s and LCSW’s) , as well as a Nutrition practice (staffed by Registered Dieticians). Our providers are both single- and  multi-state licensed and credentialed to work across the country.</p>
+      </accordion-group>
+      <accordion-group is-open="status2.open">
+        <accordion-heading>
+          <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status2.open, 'glyphicon-chevron-right': !status2.open}"></i>
+          <!-- <span>&nbsp</span> -->
+          What types of care do our physicians provide?
+        </accordion-heading>
+        <p>We operate as an urgent care model. Some examples of the typical types of conditions that we treat include:</p>
+        <ul>
+        <li>Acute Bronchitis</li>
+        <li>Conjunctivitis</li>
+        <li>UTI</li>
+        <li>Sinusitis</li>
+        <li>Pharyngitis</li>
+        <li>Diarrhea</li>
+        <li>Fever</li>
+        <li>Headache</li>
+        <li>Influenza</li>
+        <li>Respiratory Infection</li>
+        <li>Back pain</li>
+        <li>Sprains and strains</li>
+        <li>Smoking Cessation</li>
+        <li>Minor behavioral health concerns</li>
+        <li>Weight loss</li>
+        <li>Exacerbations of chronic disease (asthma, diabetes)</li>
+        </ul>
+        <p>Our patients have simple to actute care needs, that don’t require a trip to the Emergency room. Patients may also be seen for triage or prescription refills.</p>
+        <p>&nbsp;</p>
+      </accordion-group>
+      <accordion-group is-open="status3.open">
+        <accordion-heading>
+          <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status3.open, 'glyphicon-chevron-right': !status3.open}"></i>
+          <!-- <span>&nbsp</span> -->
+          What can be prescribed?
+        </accordion-heading>
+        <p>In most states, prescriptions may result from a telehealth encounter if sufficient data is available to make a proper diagnosis. However, in the case of some states, telehealth encounters are not always eligible for a prescription.</p>
+        <p>Online Care Group physicians can only prescribe certain medications online. We do not allow prescribing of:</p>
+        <ul>
+        <li>Controlled substances (narcotics, anxiety medications, ADHD medications)</li>
+        <li>Muscle relaxants</li>
+        <li>Medications for erectile dysfunction</li>
+        <li>Any additional state specific controlled medications (additional pain medications, pseudoephedrine)</li>
+        </ul>
+        <p>Also, please note, there MUST be video connection in order to prescribe; physicians cannot prescribe based on a phone or chat encounter.</p>
+        <p>&nbsp;</p>
+      </accordion-group>
+      <accordion-group is-open="status4.open">
+        <accordion-heading>
+          <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status4.open, 'glyphicon-chevron-right': !status4.open}"></i>
+          <!-- <span>&nbsp</span> -->
+          What qualifications are required to apply?
+        </accordion-heading>
+        <p>Telepro Health has several requirements for candidates to join the group:</p>
+        <ul>
+        <li>Licensed to practice in at least one state</li>
+        <li>Must be board certified</li>
+        <li>Must have graduate from an accredited Residency Program</li>
+        <li>Carry an active DEA license</li>
+        </ul>
+        <p>&nbsp;</p>
+      </accordion-group>
+      <accordion-group is-open="status5.open">
+        <accordion-heading>
+          <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status5.open, 'glyphicon-chevron-right': !status5.open}"></i>
+          <!-- <span>&nbsp</span> -->
+          How does the scheduling work? How many hours are expected?
+        </accordion-heading>
+        <p>Currently we are offering providers the ability to work on-demand for TeleproHealth clients. In certain circumstances we may schedule or “purchase” provider time based on state specific volume or need.</p>
+        <p>&nbsp;</p>
+      </accordion-group>
+      <accordion-group is-open="status6.open">
+        <accordion-heading>
+          <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status6.open, 'glyphicon-chevron-right': !status6.open}"></i>
+          <!-- <span>&nbsp</span> -->
+          What type of computer equipment is required by providers and patients?
+        </accordion-heading>
+        <p>A mobile Apple device, preferably an iPad, but the technology will work on an iPhone, with the iOS 8.0 or later software.</p>
+        <p>&nbsp;</p>
+      </accordion-group>
+      <accordion-group is-open="status7.open">
+        <accordion-heading>
+          <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status7.open, 'glyphicon-chevron-right': !status7.open}"></i>
+          <!-- <span>&nbsp</span> -->
+          How will I be paid?
+        </accordion-heading>
+        <p>Most providers are paid fee for service based on the visits that they perform. Those that make themselves available during peak hours and who have licenses in busy states are generally most active in seeing patients. In select situations, we may ask providers to be scheduled for shifts. In these occasions the provider may be be paid hourly, or a combination of hourly stipend plus fee for service payment.</p>
+        <p>&nbsp;</p>
+      </accordion-group>
+
+    </accordion>
+  </div>
+
+  
+
+
+</div> <!-- /container -->

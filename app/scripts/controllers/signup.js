@@ -30,11 +30,35 @@ angular.module('TeleproApp')
 		// ======================================================
 		// EVENT LISTENERS
 
-		$scope.open = function (size) {
+		$scope.userOut = {
+			firstname: "",
+			lastname: "",
+			email: "",
+			email2: "",
+			password: ""
+		};
+
+		$scope.signup = function() {
+			$log.info('firstname: ' + $scope.user.firstname)
+			$log.info('lastname: ' + $scope.user.lastname)
+			$log.info('email: ' + $scope.user.email)
+			$log.info('email2: ' + $scope.user.email2)
+			$log.info('password: ' + $scope.user.password)
+
+			$scope.userOut.firstname = 'Firstname = ' + $scope.user.firstname
+			$scope.userOut.lastname = 'Lastname = ' + $scope.user.lastname
+			$scope.userOut.email = 'email = ' + $scope.user.email
+			$scope.userOut.email2 = 'email2 = ' + $scope.user.email2
+			$scope.userOut.password = 'password = ' + $scope.user.password
+		};
+
+		$scope.openSigninModal = function (size) {
+
+			// $scope.hello = 5;
 
 		    var modalInstance = $modal.open({
-		      templateUrl: 'views/signupModal.html',
-		      controller: 'SignupModalCtrl',
+		      templateUrl: 'views/signinModal.html',
+		      controller: 'SigninModalCtrl',
 		      size: size,
 		      resolve: {
 		        items: function () {
@@ -50,15 +74,21 @@ angular.module('TeleproApp')
 		    });
 		};
 
-		$scope.open2 = function() {
-			$scope.item = 2;
-		}
-
-		$scope.item = 3;
-
 	})
 
-	.controller('SignupModalCtrl', function($scope, $modalInstance) {
+	.controller('SigninModalCtrl', function($scope, $modalInstance, $log) {
+		$scope.signinOut = {
+			username: "",
+			password: ""
+		};
+
+		$scope.signin = function() {
+			$scope.signinOut.username = 'Username = ' + $scope.signin.username
+			$scope.signinOut.password = 'Password = ' + $scope.signin.password
+
+			$log.info('userin: ' + $scope.signin.username)
+			$log.info('userout: ' + $scope.signinOut.username)
+		};
 
 		$scope.items = ['item1', 'item2', 'item3'];
 		$scope.selected = {

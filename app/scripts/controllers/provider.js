@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('TeleproApp')
-	.controller('ProviderCtrl', ['$log', '$scope', function($log, $scope) {
+	.controller('ProviderCtrl', function($log, $scope, $modal) {
 
 		// ===========================================================
 		// PRIVATE METHODS AND VARS (not in $scope)
@@ -29,12 +29,24 @@ angular.module('TeleproApp')
 
 		// ======================================================
 		// EVENT LISTENERS
+		$scope.openSigninModal = function(size) {
+			var modalInstance = $modal.open({
+				templateUrl: 'views/signinModal.html',
+				controller: 'SigninModalCtrl',
+				size:size,
+				resolve: {
+					items: function() {
+						return $scope.items;
+					}
+				}
+			});
 
-		$scope.compressorData = 
-		{
-			series: [
-				{name: 'Compressor Availability', data: [95, 96, 92, 91, 85, 88, null, null, null, null, null, null]}
-			]
-		}
+			modalInstance.result.then(function (selectedItem) {
+				$scope.selected = selectedItem;
+			}, function () {
+				$log.info('Modal dismissed at: ' + new Date());
+			});
+		};
+		
 
-	}]);
+	});
