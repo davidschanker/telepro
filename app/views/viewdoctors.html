@@ -1,0 +1,83 @@
+<div class="container theme-showcase" role="main" id="ViewDocs">
+  <div class="page-header">
+    <h1>Available Physicians</h1>
+  </div>
+  <!-- <div class="panel panel-default"> -->
+<!--     <div ng-if="initializing == true">
+	  <i class="icon-spinner icon-spin" style="font-size:18pt;"></i>
+	</div> -->
+
+<!-- 	<div ng-if="initializing == false">
+	  <span class="pull-left">Total Cases: {{cases.length}}</span>
+    </div> -->
+
+<!--     <div class="panel-heading">Available Doctors: {{doctors.available.length}}</div>
+	<table id="docTable" class="table table-select table-hover format col-md-6">
+	  <thead>
+	  	<tr>
+	  	  <th class="sortable">Name</th>
+	  	  <th class="sortable">Occupation</th>
+	  	  <th class="sortable">Rating</th>
+	  	  <th class="sortable">Status</th>
+	  	</tr>
+	  </thead>
+	  <tbody>
+	  	<tr ng-repeat="doctor in doctors.available">
+	  	  <td>{{doctor.name}}</td>
+	  	  <td>{{doctor.desc}}</td>
+	  	  <td>{{doctor.rating}}</td>
+	  	  <td>{{doctor.status}}</td>
+	  	</tr>
+	  </tbody>
+	</table>
+  </div> -->
+
+	<div class="panel panel-default">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading" style="font-size:40;">Total Doctors: {{doctors.available.length}}</div>
+	<!--   <div class="panel-body">
+	    <p>Currently Available: {{doctors.available.length}}</p>
+	  </div> -->
+
+	  <!-- Table -->
+	  <table id="docTable" class="table table-hover">
+	    <thead>
+	    	<tr>
+	    	  <th class="sortable">Name</th>
+	    	  <th class="sortable">Occupation</th>
+	    	  <th class="sortable">Rating</th>
+	    	  <th class="sortable">Status</th>
+	    	</tr>
+	    </thead>
+	    <tbody>
+	    	<tr ng-repeat="doctor in doctors.available">
+	    	  <td>{{doctor.name}}</td>
+	    	  <td>{{doctor.desc}}</td>
+	    	  <td>{{doctor.rating}}</td>
+	    	  <td>{{doctor.status}}</td>
+	    	</tr>
+	    </tbody>
+	  </table>
+	</div>
+</div>
+
+<!-- 	<div native-table table-data="cases" filtered="filteredCase" model="filteredData" page-lengths="[5,10,20]" style="border:0px; padding:0px; margin-top: 25px;">
+	  <table id="caseTable" class="table dataTable table-bordered table-select format">
+		<thead>
+		  <tr>
+			<th native-th="CaseNumber" class="sortable">Case Number</th>
+			<th native-th="AssetName" class="sortable">AssetName</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr ng-repeat="case in filteredCases" ng-click="caseTable.open = !caseTable.open; displayCase(case.Id)" class={{selected}}>
+			<td>{{case.CaseNumber}}</td>
+			<td>{{case.AssetName}}</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+  </div>
+</div> -->
+
+{{doctors.available}}{{doctors.available}}

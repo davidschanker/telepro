@@ -1,0 +1,29 @@
+{
+	 "folders": [
+		{
+		 "folder_exclude_patterns": [
+			"bower_components", 
+			"components",
+			"tests"
+		 ], 
+		 "path": "C:/Users/davidschanker/Desktop/Git/TeleproHealth/App",
+		 "file_exclude_patterns": [
+			"wp-app.php",
+			"wp-blog-header.php",
+			"wp-activate.php",
+			"wp-comments-post.php",
+			"wp-cron.php",
+			"wp-links-opml.php",
+			"wp-load.php",
+			"wp-login.php",
+			"wp-mail.php",
+			"wp-pass.php",
+			"wp-register.php",
+			"wp-settings.php",
+			"wp-signup.php",
+			"wp-trackback.php",
+			"xmlrpc.php"
+		 ]
+		}
+	 ]
+	}

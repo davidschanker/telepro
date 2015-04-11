@@ -1,0 +1,19 @@
+<div class="modal-header">
+    <h3 class="modal-title">Sign In</h3>
+</div>
+<div class="modal-body">
+    <form role="form">
+        <div class="form-group">
+            <input class="form-control" ng-model="signin.username" placeholder="Username">
+        </div>
+        <div class="form-group">
+            <input class="form-control" ng-model="signin.password" placeholder="Password" type="password">
+        </div>
+    </form>
+    {{signinOut.username}}
+    {{signinOut.password}}
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="signin()">Sign In</button>
+    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+</div>
