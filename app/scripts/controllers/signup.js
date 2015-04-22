@@ -30,6 +30,13 @@ angular.module('TeleproApp')
 		// ======================================================
 		// EVENT LISTENERS
 
+		$scope.user = {};
+		  
+		// necessary?
+	    // $scope.allowValidation = function () {
+	    //   $scope.$broadcast('kickOffValidations');
+	    // }
+
 		$scope.userOut = {
 			firstname: "",
 			lastname: "",
@@ -39,17 +46,31 @@ angular.module('TeleproApp')
 		};
 
 		$scope.signup = function() {
-			$log.info('firstname: ' + $scope.user.firstname)
-			$log.info('lastname: ' + $scope.user.lastname)
-			$log.info('email: ' + $scope.user.email)
-			$log.info('email2: ' + $scope.user.email2)
-			$log.info('password: ' + $scope.user.password)
 
-			$scope.userOut.firstname = 'Firstname = ' + $scope.user.firstname
-			$scope.userOut.lastname = 'Lastname = ' + $scope.user.lastname
-			$scope.userOut.email = 'email = ' + $scope.user.email
-			$scope.userOut.email2 = 'email2 = ' + $scope.user.email2
-			$scope.userOut.password = 'password = ' + $scope.user.password
+			//Check to see if an account with that email already exists. If so, throw error. If not, create a new account
+
+			if ($scope.signup.email != $scope.signup.email) {
+				$scope.validationFailed = true
+				$log.info('validation failed!')
+			} else {
+				$scope.validationFailed = false
+				$log.info('firstname: ' + $scope.signup.firstname)
+				$log.info('lastname: ' + $scope.signup.lastname)
+				$log.info('email: ' + $scope.signup.email)
+				$log.info('email2: ' + $scope.signup.email2)
+				$log.info('password: ' + $scope.signup.password)
+
+				$scope.userOut.firstname = 'Firstname = ' + $scope.signup.firstname
+				$scope.userOut.lastname = 'Lastname = ' + $scope.signup.lastname
+				$scope.userOut.email = 'email = ' + $scope.signup.email
+				$scope.userOut.email2 = 'email2 = ' + $scope.signup.email2
+				$scope.userOut.password = 'password = ' + $scope.signup.password
+			}
+		};
+
+		$scope.reset = function() {
+		    $scope.validationFailed = false
+		    $scope.signup = null
 		};
 
 		$scope.openSigninModal = function (size) {
@@ -76,15 +97,19 @@ angular.module('TeleproApp')
 
 	})
 
-	.controller('SigninModalCtrl', function($scope, $modalInstance, $log) {
+	.controller('SigninModalCtrl', function($scope, $modalInstance, $log, $state) {
 		$scope.signinOut = {
 			username: "",
 			password: ""
 		};
 
 		$scope.signin = function() {
-			$scope.signinOut.username = 'Username = ' + $scope.signin.username
-			$scope.signinOut.password = 'Password = ' + $scope.signin.password
+			//$scope.signinOut.username = 'Username = ' + $scope.signin.username
+			//$scope.signinOut.password = 'Password = ' + $scope.signin.password
+
+			// Do some kind of validation, then forward to new page
+			$state.transitionTo('patienthome.myhealth')
+			$modalInstance.dismiss('cancel')
 
 			$log.info('userin: ' + $scope.signin.username)
 			$log.info('userout: ' + $scope.signinOut.username)

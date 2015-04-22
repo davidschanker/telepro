@@ -11,7 +11,8 @@ var TeleproApp = angular.module('TeleproApp', [
 	//'ngSanitize',
 	'ui.bootstrap',
 	//'datagridModule'
-	'ui.router'
+	'ui.router',
+	'ui.router.tabs'
 ]);
 
 //APPLICATION ENVIRONMENT VARS
@@ -41,7 +42,7 @@ TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 			url: '/signup',
 			views: {
 				'content': {
-					templateUrl: 'views/amwellLanding.html',
+					templateUrl: 'views/signup.html',
 					controller: 'SignupCtrl'
 				}
 			}
@@ -70,6 +71,39 @@ TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 				'content': {
 					templateUrl: 'views/sample.html',
 					controller: 'SampleCtrl'
+				}
+			}
+		})
+		.state('patienthome', {
+			url: '/patienthome',
+			views: {
+				'content': {
+					templateUrl: 'views/patient/patienthome.html',
+					controller: 'PatientHomeCtrl'
+				}
+			}
+		})
+		.state('patienthome.myhealth', {
+			url: '/myhealth',
+			templateUrl: 'views/patient/myhealth.html'
+			// template: '<span>myhealth!</span>'
+		})
+		.state('patienthome.myproviders', {
+			url: '/myproviders',
+			templateUrl: 'views/patient/myproviders.html'
+			// template: '<span>myproviders!</span>'
+		})
+		.state('patienthome.calendar', {
+			url: '/calendar',
+			templateUrl: 'views/patient/calendar.html'
+			// template: '<span>calendar!</span>'
+		})
+		.state('video', {
+			url: '/video',
+			views: {
+				'content': {
+					templateUrl: 'views/video.html',
+					controller: 'VideoCtrl'
 				}
 			}
 		});

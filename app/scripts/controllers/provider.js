@@ -29,6 +29,14 @@ angular.module('TeleproApp')
 
 		// ======================================================
 		// EVENT LISTENERS
+
+		$scope.validdob = "/^(0?[1-9]|1[012])\/(0?[1-9]|[12][0-9]|3[01])\/((19\d\d)|([2-9]\d{3}))$/" //can't read this in, hardcoded in html
+
+		$scope.reset = function() {
+		    $scope.validationFailed = false
+		    $scope.provider = null
+		};
+
 		$scope.openSigninModal = function(size) {
 			var modalInstance = $modal.open({
 				templateUrl: 'views/signinModal.html',

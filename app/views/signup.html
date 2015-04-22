@@ -1,0 +1,106 @@
+
+<div background-image></div>
+	
+<!-- <div id="navMenu" class="transparency">
+	<span>
+		
+			<a href="https://amwell.com/loginConsumer.htm">Log In</a>
+			<span> | </span>
+		
+		
+			<a href="/guest/systemTest.htm">Test Computer</a>
+			<span> | </span>
+		
+		
+			<a id="help" onclick="caretalks.help.getHelp();">Help</a>
+			<span> | </span>
+		
+		<a href="https://amwell.com/loginPhysician.htm">Provider Login</a>	
+	</span>
+</div> -->
+
+
+<div class="jumbotron semiOpaque row" >
+	<!-- <div class="landingContainer clearFix dijitInline transparency span6" style="width:46%"> -->
+	<div class="modernLabel16 marketingSubtext col-md-7" style="font-size: 60;">
+		<em style="font-weight: bold; font-size: 40px;">TeleproHealth makes it easy for you to talk to providers, immediately, from home. You don't need to call ahead or wait for a provider - simply log on or call.
+		</em>
+	</div>
+	
+	<!-- </div>	 -->
+	<!-- <br style="clear:both;"/> -->
+	<div class= "col-md-5">
+		<div class="panel panel-signup" style=" color: green;">
+		    <div class="panel-heading">
+		        Sign Up or Enroll
+		    </div>
+		    <div class="panel-body">
+                <form name="signupForm" ng-submit="signup()" novalidate> 
+
+                    <div class="form-group" show-errors>
+                    	<input type="text" class="form-control" name="firstname" ng-model="signup.firstname" placeholder="First Name" required>
+                    	<span class="help-block" ng-if="signupForm.firstname.$error.required">Please include your first name</span>
+					</div>
+                    <div class="form-group" show-errors>
+                        <input type="text" class="form-control" name="lastname" ng-model="signup.lastname" placeholder="Last Name" required>
+                        <span class="help-block" ng-if="signupForm.lastname.$error.required">Please include your last name</span>
+                    </div>
+
+					<!-- <div class="form-group" show-errors>
+                        <input type="email" class="form-control" name="email" ng-model="signup.email" ng-focus="focus=false" ng-blur="focus=true" placeholder="Email" required>
+                        <span class="help-block" ng-if="signupForm.email.$error.required">Please include an email address</span>
+                        <span class="help-block" ng-if="signupForm.email.$error && focus">Please enter a valid email address</span>
+                        {{signupForm.email}}
+                    </div> -->
+
+                    <div class="form-group" show-errors>
+                        <input type="email" class="form-control" name="email" ng-model="signup.email" placeholder="Email" required>
+                        <span class="help-block" ng-if="signupForm.email.$error.required">Please include an email address</span>
+                        <span class="help-block" ng-if="signupForm.email.$error.email">Please enter a valid email address</span>
+                    </div>
+                    <div class="form-group" show-errors>
+                        <input type="email" class="form-control" name="email2" ng-model="signup.email2" placeholder="Confirm Email" required>
+                    	<span class="help-block" ng-if="signupForm.email2.$error.required">Please include an email address</span>
+                    	<span class="help-block" ng-if="signupForm.email2.$error.email && !signupForm.email2.$error.required">Your email address is invalid</span>
+                    	<span ng-if="validationFailed">Your email addresses do not match</span>
+                    </div>
+                    <div class="form-group" show-errors>
+                        <input type="password" class="form-control" name="password" ng-model="signup.password" placeholder="Password" required>
+                        <span class="help-block" ng-if="signupForm.password.$error.required">Please include a password</span>
+                    </div>
+                    <div class="form-group">
+                    	<button type="submit" class="btn btn-primary" ng-disabled="signupForm.$invalid">Submit</button>
+                    	<button type="reset" ng-click="reset()" class="btn btn-default">Reset</button>
+                    </div>
+                    <div class="form-group">
+                    	<div class="modernLabel16">Already have an account?
+						<a href="" class="arrow" ng-click="openSigninModal()">Sign in</a>
+					    </div>
+					</div>
+					<!-- {{userOut.firstname}}
+					{{userOut.lastname}}
+					{{userOut.email}}
+					{{userOut.email2}}
+					{{userOut.password}} -->
+
+                </form>
+		    </div>
+		</div>
+	</div>
+</div>
+
+
+<div class="jumbotron semiOpaque row" id="landingFooter">
+	<div>
+		<span class="fontB1" style="font-size:20px;">Phone Access or Support Call 1-800-TELEPRO</span><br>
+		<span class="footerCopyright footerCustomerCopyright fontB1">&#169; 2015 Telepro Health. All rights reserved.</span><br>
+		
+		<span class="footerExtra fontB1">BSchank Care Group provides the clinical services for Telepro.  BSchank Care Group is an independent company.  Please see BSchank Care Group for more information (<a href="http://www.google.com">http://www.bschankcare.com/doctors-available-24-hours/</a>).</span>
+		<ul class="fontB1">
+			
+			<li><span onclick="caretalks.legal.loadLegalDialog('terms');" class="link">Terms of Use</span></li><li><span onclick="caretalks.legal.loadLegalDialog('privacy');" class="link">Privacy Policy</span></li><li><span onclick="caretalks.legal.loadLegalDialog('legal');" class="link">Legal Notices</span></li><li><span onclick="caretalks.contactUs.contact()" class="link">Contact Us</span></li>
+		</ul>
+
+	</div>
+</div>
+

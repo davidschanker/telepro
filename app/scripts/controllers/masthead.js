@@ -16,7 +16,9 @@ angular.module('TeleproApp')
 			,{state: 'signup', label: 'Patient Signup'}
 			,{state: 'provider', label: 'Provider Signup'}
 			,{state: 'viewdoctors', label: 'View Doctors'}
-			,{state: 'sample', label: 'Sample other page'}
+			// ,{state: 'sample', label: 'Sample other page'}
+			,{state: 'patienthome.myhealth', label: 'Patient Home'}
+			,{state: 'video', label: 'Video Chat'}
 		];
 
 		$scope.user = {
