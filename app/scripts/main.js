@@ -13,6 +13,7 @@ var TeleproApp = angular.module('TeleproApp', [
 	//'datagridModule'
 	'ui.router',
 	'ui.router.tabs'
+	// 'ngAnimate'
 ]);
 
 //APPLICATION ENVIRONMENT VARS
@@ -104,6 +105,15 @@ TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 				'content': {
 					templateUrl: 'views/video.html',
 					controller: 'VideoCtrl'
+				}
+			}
+		})
+		.state('dash2', {
+			url: '/dash2',
+			views: {
+				'content': {
+					templateUrl: 'views/dash2.html',
+					controller: 'Dash2Ctrl'
 				}
 			}
 		});

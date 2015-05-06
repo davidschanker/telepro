@@ -35,4 +35,24 @@ angular.module('TeleproApp')
 		$scope.takePicture = function() {
 			$scope.pictureTaken = true;
 		}
+
+		$scope.exitPicture = function() {
+			$scope.pictureTaken = false;
+		}
+
+		$scope.takeVideo = function() {
+			$scope.takingVideo = true;
+		}
+
+		$scope.exitVideo = function() {
+			$scope.takingVideo = false;
+		}
+
+		$scope.shareScreen = function() {
+			$scope.sharingScreen = true;
+		}
+
+		$scope.exitScreen = function() {
+			$scope.sharingScreen = false;
+		}
 	});

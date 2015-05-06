@@ -15,10 +15,11 @@ angular.module('TeleproApp')
 			{state: 'dashboard', label: 'Site Dashboard'}
 			,{state: 'signup', label: 'Patient Signup'}
 			,{state: 'provider', label: 'Provider Signup'}
-			,{state: 'viewdoctors', label: 'View Doctors'}
+			// ,{state: 'viewdoctors', label: 'View Doctors'}
 			// ,{state: 'sample', label: 'Sample other page'}
 			,{state: 'patienthome.myhealth', label: 'Patient Home'}
 			,{state: 'video', label: 'Video Chat'}
+			,{state: 'dash2', label: 'Dash 2'}
 		];
 
 		$scope.user = {
