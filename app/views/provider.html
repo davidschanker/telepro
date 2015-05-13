@@ -1,92 +1,95 @@
-<!-- This is the provider page -->
-<div class="container-fluid theme-showcase" role="main">
-  <!-- <div class="jumbotron"> 
-    <h1>Provider Enrollment</h1>
-    <p>Provider Enrollment: Verify your identity</p>
-  </div> -->
 
-  <div class="page-header">
-    <h1>Provider Enrollment: Verify your identity</h1>
-  </div>
-<!--   <div class="well">
-    <p>Provider Enrollment:Verify your identity</p>
-  </div> -->
+<div class="container">
+  <!-- This is the provider page -->
+  <div class="container-fluid theme-showcase" role="main">
+    <!-- <div class="jumbotron"> 
+      <h1>Provider Enrollment</h1>
+      <p>Provider Enrollment: Verify your identity</p>
+    </div> -->
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 stlye="font-weight: bold;">Verify your identity</h4>
-      <span>Please provide the following information. Fields marked with an (*) are required.</span>
+    <div class="page-header">
+      <h1>Provider Enrollment: Verify your identity</h1>
     </div>
-    <div class="panel-body">
-      <h4> Identification </h4>
-      <div class="row">
-        <div class="col-md-5">
+  <!--   <div class="well">
+      <p>Provider Enrollment:Verify your identity</p>
+    </div> -->
 
-          <form name="signupForm" novalidate>
-            <div class="form-group" show-errors>
-                <input type="text" class="form-control" name="firstname" ng-model="provider.firstname" placeholder="*First Name" required>
-                <span class="help-block" ng-if="signupForm.firstname.$error.required">Please include your first name</span>
-            </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 stlye="font-weight: bold;">Verify your identity</h4>
+        <span>Please provide the following information. Fields marked with an (*) are required.</span>
+      </div>
+      <div class="panel-body">
+        <h4> Identification </h4>
+        <div class="row">
+          <div class="col-md-5">
 
-            <div class="form-group" show-errors>
-                <input type="text" class="form-control" name="lastname" ng-model="provider.lastname" placeholder="*Last Name" required>
-                <span class="help-block" ng-if="signupForm.lastname.$error.required">Please include your last name</span>
-            </div>
-            <div class="form-group" show-errors>
-                <input type="text" class="form-control" name="zipcode" ng-model="provider.zipcode" placeholder="*Zip Code" required>
-                <span class="help-block" ng-if="signupForm.zipcode.$error.required">Please include your zipcode</span>
-            </div>
-            <div class="form-group" show-errors>
-                <input type="text" class="form-control" name="dob" ng-model="provider.dob" placeholder="*Date of Birth: MM/DD/YYYY" ng-pattern="/^(0?[1-9]|1[012])\/(0?[1-9]|[12][0-9]|3[01])\/((19\d\d)|([2-9]\d{3}))$/" required>
-                <span class="help-block" ng-if="signupForm.dob.$error.required">Please include your date of birth</span>
-                <span class="help-block" ng-if="signupForm.dob.$error.pattern">Please input a valid date with the format MM/DD/YYYY</span>
-            </div>
-            <!-- <div class="form-group">
-                <input class="form-control" type="date" ng-model="provider.dob" placeholder="*Date of Birth: MM/DD/YYYY">
-            </div>
-            <div class="form-group row">
-              <div class="col-md-4">
-                <label for="dob">*Date of Birth:</label>
+            <form name="signupForm" novalidate>
+              <div class="form-group" show-errors>
+                  <input type="text" class="form-control" name="firstname" ng-model="provider.firstname" placeholder="*First Name" required>
+                  <span class="help-block" ng-if="signupForm.firstname.$error.required">Please include your first name</span>
               </div>
-              <div class="col-md-8">
-                <input class="form-control" type="date" ng-model="provider.dob" placeholder="*Date of Birth: MM/DD/YYYY">
+
+              <div class="form-group" show-errors>
+                  <input type="text" class="form-control" name="lastname" ng-model="provider.lastname" placeholder="*Last Name" required>
+                  <span class="help-block" ng-if="signupForm.lastname.$error.required">Please include your last name</span>
               </div>
-            </div> -->
-            <div class="form-group" show-errors>
-                <input type="text" class="form-control" name="taxid" ng-model="provider.taxid" placeholder="*Tax ID:" required>
-                <span class="help-block" ng-if="signupForm.taxid.$error.required">Please include your Tax ID</span>
-            </div>
-            <div class="form-group" show-errors>
-                <input type="text" class="form-control" name="npi" ng-model="provider.npi" placeholder="*National Provider Identifier (NPI):" required>
-                <span class="help-block" ng-if="signupForm.npi.$error.required">Please include your NPI</span>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" name="deanum" ng-model="provider.deanum" placeholder="DEA Number:">
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary" ng-click="verify()" ng-disabled="signupForm.$invalid">Continue</button>
-              <button type="reset" class="btn btn-default" ng-click="reset()">Reset Button</button>
-            </div>
-            <div class="form-group">
-              <div class="modernLabel16">Already have an account?
-                <a href="" class="arrow" ng-click="openSigninModal()">Sign in</a>
+              <div class="form-group" show-errors>
+                  <input type="text" class="form-control" name="zipcode" ng-model="provider.zipcode" placeholder="*Zip Code" required>
+                  <span class="help-block" ng-if="signupForm.zipcode.$error.required">Please include your zipcode</span>
               </div>
-                  <!-- <button class="btn btn-primary" ng-click="openSignupModal()">Sign In</button> -->
-            </div>
-          </form>
-        </div>
-        <div class="col-md-5 col-md-offset-1">
-          <div class="well row">
-            <div class="col-md-7">
-              <p>The information you provide here will help us to verify your account credentials. This information must match the information we have on file for you.</p>
-            </div>
-            <div class="col-md-5">
-              <img src="/app/images/doctorIcon.png" alt="" width="160" height="160" />
+              <div class="form-group" show-errors>
+                  <input type="text" class="form-control" name="dob" ng-model="provider.dob" placeholder="*Date of Birth: MM/DD/YYYY" ng-pattern="/^(0?[1-9]|1[012])\/(0?[1-9]|[12][0-9]|3[01])\/((19\d\d)|([2-9]\d{3}))$/" required>
+                  <span class="help-block" ng-if="signupForm.dob.$error.required">Please include your date of birth</span>
+                  <span class="help-block" ng-if="signupForm.dob.$error.pattern">Please input a valid date with the format MM/DD/YYYY</span>
+              </div>
+              <!-- <div class="form-group">
+                  <input class="form-control" type="date" ng-model="provider.dob" placeholder="*Date of Birth: MM/DD/YYYY">
+              </div>
+              <div class="form-group row">
+                <div class="col-md-4">
+                  <label for="dob">*Date of Birth:</label>
+                </div>
+                <div class="col-md-8">
+                  <input class="form-control" type="date" ng-model="provider.dob" placeholder="*Date of Birth: MM/DD/YYYY">
+                </div>
+              </div> -->
+              <div class="form-group" show-errors>
+                  <input type="text" class="form-control" name="taxid" ng-model="provider.taxid" placeholder="*Tax ID:" required>
+                  <span class="help-block" ng-if="signupForm.taxid.$error.required">Please include your Tax ID</span>
+              </div>
+              <div class="form-group" show-errors>
+                  <input type="text" class="form-control" name="npi" ng-model="provider.npi" placeholder="*National Provider Identifier (NPI):" required>
+                  <span class="help-block" ng-if="signupForm.npi.$error.required">Please include your NPI</span>
+              </div>
+              <div class="form-group">
+                  <input type="text" class="form-control" name="deanum" ng-model="provider.deanum" placeholder="DEA Number:">
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary" ng-click="verify()" ng-disabled="signupForm.$invalid">Continue</button>
+                <button type="reset" class="btn btn-default" ng-click="reset()">Reset Button</button>
+              </div>
+              <div class="form-group">
+                <div class="modernLabel16">Already have an account?
+                  <a href="" class="arrow" ng-click="openSigninModal()">Sign in</a>
+                </div>
+                    <!-- <button class="btn btn-primary" ng-click="openSignupModal()">Sign In</button> -->
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5 col-md-offset-1">
+            <div class="well row">
+              <div class="col-md-7">
+                <p>The information you provide here will help us to verify your account credentials. This information must match the information we have on file for you.</p>
+              </div>
+              <div class="col-md-5">
+                <img src="/app/images/doctorIcon.png" alt="" width="160" height="160" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
+  </div>
 </div>

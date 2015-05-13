@@ -25,7 +25,7 @@ TeleproApp.value('api', {
 TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 
 	//Illegal routes rerouted here
-	$urlRouterProvider.otherwise('/dashboard');
+	// $urlRouterProvider.otherwise('/dashboard');
 
 	//States
 	$stateProvider
@@ -99,6 +99,30 @@ TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 			templateUrl: 'views/patient/calendar.html'
 			// template: '<span>calendar!</span>'
 		})
+		.state('providerhome', {
+			url: '/providerhome',
+			views: {
+				'content': {
+					templateUrl: 'views/provider/providerhome.html',
+					controller: 'ProviderHomeCtrl'
+				}
+			}
+		})
+		.state('providerhome.myhealth', {
+			url: '/myhealth',
+			templateUrl: 'views/provider/myhealth.html'
+			// template: '<span>myhealth!</span>'
+		})
+		.state('providerhome.myproviders', {
+			url: '/myproviders',
+			templateUrl: 'views/provider/myproviders.html'
+			// template: '<span>myproviders!</span>'
+		})
+		.state('providerhome.calendar', {
+			url: '/calendar',
+			templateUrl: 'views/provider/calendar.html'
+			// template: '<span>calendar!</span>'
+		})
 		.state('video', {
 			url: '/video',
 			views: {
@@ -110,7 +134,8 @@ TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 		})
 		.state('dash2', {
 			url: '/dash2',
-			views: {
+			views: 
+			{
 				'content': {
 					templateUrl: 'views/dash2.html',
 					controller: 'Dash2Ctrl'

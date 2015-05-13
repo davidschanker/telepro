@@ -1,50 +1,52 @@
-<div class="container-fluid theme-showcase" role="main">
-	<div class="page-header">
-		<h1>Video Chat with a Doctor</h1>
+<div class="container">
+	<div class="container-fluid theme-showcase" role="main">
+		<div class="page-header">
+			<h1>Video Chat with a Doctor</h1>
+		</div>
+	<!-- <iframe width="854" height="510" src="https://www.youtube.com/embed/v11FU_97L-g" frameborder="0" allowfullscreen></iframe> -->
+		<div>
+			<iframe width="854" height="510" src="https://www.youtube.com/embed/v11FU_97L-g" frameborder="0" allowfullscreen></iframe>
+	    </div>
+		<!-- 4:3 aspect ratio -->
+	<!-- 	<div class="embed-responsive embed-responsive-4by3">
+		  <iframe class="embed-responsive-item" src="//www.youtube.com/watch?v=v11FU_97L-g?rel=0" allowfullscreen></iframe>
+		</div> -->
+		<br>
+		<button class="btn btn-success" ng-click="takePicture()">Take Picture</button>
+		<button class="btn btn-info" ng-click="takeVideo()">Record Video</button>
+		<button class="btn btn-warning" ng-click="shareScreen()">Share Screen</button>
+		<br><br>
+
+		<div class="alert alert-success" role="alert" ng-show="pictureTaken">
+		  <button type="button" class="close" ng-click="exitPicture()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		  <strong>Success!</strong> A picture was taken
+		</div>
+
+		<div class="alert alert-info" role="alert" ng-show="takingVideo">
+		  <button type="button" class="close" ng-click="exitVideo()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		  <strong>Awesome!</strong> Video is being recorded
+		</div>
+
+		<div class="alert alert-warning" role="alert" ng-show="sharingScreen">
+		  <button type="button" class="close" ng-click="exitScreen()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		  <strong>Notice!</strong> You are sharing your screen
+		</div>
+
+
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h4 stlye="font-weight: bold;">Video footer</h4>
+		    <span>This is at the bottom of the video page</span>
+		  </div>
+		  <div class="panel-body">
+		    <h4>Information</h4>
+		    This video chat will help you talk with your doctor and help you get healthier.
+		    <a href="//www.google.com">More information</a>
+
+		  </div>
+		</div>
+
+
+
 	</div>
-<!-- <iframe width="854" height="510" src="https://www.youtube.com/embed/v11FU_97L-g" frameborder="0" allowfullscreen></iframe> -->
-	<div>
-		<iframe width="854" height="510" src="https://www.youtube.com/embed/v11FU_97L-g" frameborder="0" allowfullscreen></iframe>
-    </div>
-	<!-- 4:3 aspect ratio -->
-<!-- 	<div class="embed-responsive embed-responsive-4by3">
-	  <iframe class="embed-responsive-item" src="//www.youtube.com/watch?v=v11FU_97L-g?rel=0" allowfullscreen></iframe>
-	</div> -->
-	<br>
-	<button class="btn btn-success" ng-click="takePicture()">Take Picture</button>
-	<button class="btn btn-info" ng-click="takeVideo()">Record Video</button>
-	<button class="btn btn-warning" ng-click="shareScreen()">Share Screen</button>
-	<br><br>
-
-	<div class="alert alert-success" role="alert" ng-show="pictureTaken">
-	  <button type="button" class="close" ng-click="exitPicture()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	  <strong>Success!</strong> A picture was taken
-	</div>
-
-	<div class="alert alert-info" role="alert" ng-show="takingVideo">
-	  <button type="button" class="close" ng-click="exitVideo()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	  <strong>Awesome!</strong> Video is being recorded
-	</div>
-
-	<div class="alert alert-warning" role="alert" ng-show="sharingScreen">
-	  <button type="button" class="close" ng-click="exitScreen()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	  <strong>Notice!</strong> You are sharing your screen
-	</div>
-
-
-	<div class="panel panel-default">
-	  <div class="panel-heading">
-	    <h4 stlye="font-weight: bold;">Video footer</h4>
-	    <span>This is at the bottom of the video page</span>
-	  </div>
-	  <div class="panel-body">
-	    <h4>Information</h4>
-	    This video chat will help you talk with your doctor and help you get healthier.
-	    <a href="//www.google.com">More information</a>
-
-	  </div>
-	</div>
-
-
-
 </div>

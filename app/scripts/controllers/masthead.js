@@ -18,8 +18,9 @@ angular.module('TeleproApp')
 			// ,{state: 'viewdoctors', label: 'View Doctors'}
 			// ,{state: 'sample', label: 'Sample other page'}
 			,{state: 'patienthome.myhealth', label: 'Patient Home'}
+			,{state: 'providerhome.myhealth', label: 'Provider Home'}			
 			,{state: 'video', label: 'Video Chat'}
-			,{state: 'dash2', label: 'Dash 2'}
+			,{state: 'dash2', label: 'New Design'}
 		];
 
 		$scope.user = {
