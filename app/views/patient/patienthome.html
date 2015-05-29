@@ -2,77 +2,79 @@
 
 <!-- {{hello}} -->
 <!-- This is the provider page -->
-<div class="container-fluid theme-showcase" role="main">
+<div class="container">
   <!-- <div class="jumbotron"> 
     <h1>Provider Enrollment</h1>
     <p>Provider Enrollment: Verify your identity</p>
   </div> -->
+  <div patient-background></div>
+  <div class="jumbotron semiOpaque row" >
+    <div class="page-header">
+      <h1>Welcome to Telepro!</h1>
 
-  <div class="page-header">
-    <h1>Welcome to Telepro!</h1>
+    <!-- </div> -->
+  <!--   <div class="tabbable" style="margin-bottom: 18px;">
+  	  <ul class="nav nav-tabs">
+  	    <li class="health"><a ng-click="chooseTab('myHealth')" data-toggle="tab">My Health</a></li>
+  	    <li class="provider"><a ng-click="chooseTab('myProviders')" data-toggle="tab">My Providers</a></li>
+  	    <li class="calendar"><a ng-click="chooseTab('calendar')" data-toggle="tab">Calendar</a></li>
+  	  </ul>
+  	  {{openContent}}
+  	  <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+  	    <div class="tab-pane active" id="tab1">
+  	      <p>I'm in Section 1.</p>
+  	    </div>
+  	    <div class="tab-pane" id="tab2">
+  	      <p>Howdy, I'm in Section 2.</p>
+  	    </div>
+  	    <div class="tab-pane" id="tab3">
+  	      <p>What up girl, this is Section 3.</p>
+  	    </div>
+  	  </div>
+    </div> -->
 
-  <!-- </div> -->
-<!--   <div class="tabbable" style="margin-bottom: 18px;">
-	  <ul class="nav nav-tabs">
-	    <li class="health"><a ng-click="chooseTab('myHealth')" data-toggle="tab">My Health</a></li>
-	    <li class="provider"><a ng-click="chooseTab('myProviders')" data-toggle="tab">My Providers</a></li>
-	    <li class="calendar"><a ng-click="chooseTab('calendar')" data-toggle="tab">Calendar</a></li>
-	  </ul>
-	  {{openContent}}
-	  <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
-	    <div class="tab-pane active" id="tab1">
-	      <p>I'm in Section 1.</p>
-	    </div>
-	    <div class="tab-pane" id="tab2">
-	      <p>Howdy, I'm in Section 2.</p>
-	    </div>
-	    <div class="tab-pane" id="tab3">
-	      <p>What up girl, this is Section 3.</p>
-	    </div>
-	  </div>
-  </div> -->
+      <div class="row">
+        <div class="col-md-12">
+          <tabs data="tabData" type="tabs" />
+        </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <tabs data="tabData" type="tabs" />
-      </div>
-
-      <div class="col-md-12">
-      	<br>
-        <div ui-view></div>
-      </div>
-    </div>
-  </div>
-
-<!--   <div class="tabbable"> 
-    <ul class="nav nav-tabs">
-      <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-      <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-    </ul>
-    <div class="tab-content">
-      <div class="tab-pane active" id="tab1">
-        <p>I'm in Section 1.</p>
-      </div>
-      <div class="tab-pane" id="tab2">
-        <p>Howdy, I'm in Section 2.</p>
+        <div class="col-md-12">
+        	<br>
+          <div ui-view></div>
+        </div>
       </div>
     </div>
-  </div> -->
+
+  <!--   <div class="tabbable"> 
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+        <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+          <p>I'm in Section 1.</p>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <p>Howdy, I'm in Section 2.</p>
+        </div>
+      </div>
+    </div> -->
 
 
-<!--   <div class="well">
-    <p>Provider Enrollment:Verify your identity</p>
-  </div> -->
+  <!--   <div class="well">
+      <p>Provider Enrollment:Verify your identity</p>
+    </div> -->
 
-  <div class="panel panel-warning">
-    <div class="panel-heading">
-      <h4 stlye="font-weight: bold;">Footer stuff</h4>
-      <span>DO SOMETHING HERE</span>
-    </div>
-    <div class="panel-body">
-      <h4> Identification </h4>
-      FOOTER STUFF
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h4 stlye="font-weight: bold;">Footer stuff</h4>
+        <span>DO SOMETHING HERE</span>
+      </div>
+      <div class="panel-body">
+        <h4> Identification </h4>
+        FOOTER STUFF
 
+      </div>
     </div>
   </div>
 

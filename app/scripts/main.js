@@ -25,7 +25,7 @@ TeleproApp.value('api', {
 TeleproApp.config(function( $stateProvider, $urlRouterProvider){
 
 	//Illegal routes rerouted here
-	// $urlRouterProvider.otherwise('/dashboard');
+	$urlRouterProvider.otherwise('/dashboard');
 
 	//States
 	$stateProvider

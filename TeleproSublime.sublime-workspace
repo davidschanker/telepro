@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"email",
+				"email"
+			],
+			[
 				"None",
 				"None"
 			],
@@ -67,6 +71,150 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 3967,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/landing.html",
+			"settings":
+			{
+				"buffer_size": 42153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/masthead.html",
+			"settings":
+			{
+				"buffer_size": 2199,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/masthead.js",
+			"settings":
+			{
+				"buffer_size": 3018,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 3886,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/signup.js",
+			"settings":
+			{
+				"buffer_size": 3426,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/app.css",
+			"settings":
+			{
+				"buffer_size": 7813,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/patient/patienthome.html",
+			"settings":
+			{
+				"buffer_size": 2242,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/dashboard.html",
+			"settings":
+			{
+				"buffer_size": 8123,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/dashboard.js",
+			"settings":
+			{
+				"buffer_size": 1758,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/directives/disableanimation.js",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Windows",
+				"name": "'use strict';"
+			}
+		},
+		{
+			"file": "app/views/dash2.html",
+			"settings":
+			{
+				"buffer_size": 34816,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/davidschanker/Desktop/agency/index.html",
+			"settings":
+			{
+				"buffer_size": 34816,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/agency.css",
+			"settings":
+			{
+				"buffer_size": 16841,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/landing.js",
+			"settings":
+			{
+				"buffer_size": 967,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/providerhome.js",
+			"settings":
+			{
+				"buffer_size": 1170,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/provider/providerhome.html",
+			"settings":
+			{
+				"buffer_size": 2209,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -96,6 +244,64 @@
 	},
 	"file_history":
 	[
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/provider/providerhome.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/provider/calendar.html",
+		"/C/Users/davidschanker/AppData/Local/Temp/scp42668/home/schanked/public_html/agency/css/agency.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/styles/agency.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/signup.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/video.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/viewdoctors.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/provider.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/sample.html",
+		"/C/Users/davidschanker/AppData/Local/Temp/Temp1_startbootstrap-business-casual-1.0.3.zip/startbootstrap-business-casual-1.0.3/css/business-casual.css",
+		"/C/Users/davidschanker/AppData/Local/Temp/Temp1_startbootstrap-landing-page-1.0.4.zip/startbootstrap-landing-page-1.0.4/index.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/provider.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/signinModal.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/patienthome.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/patient/myhealth.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/patient/myproviders.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/patient/calendar.html",
+		"/C/Users/davidschanker/AppData/Local/Temp/Temp1_startbootstrap-business-casual-1.0.3.zip/startbootstrap-business-casual-1.0.3/index.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/dash2.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/dash2.html",
+		"/C/Users/davidschanker/AppData/Local/Temp/Temp1_startbootstrap-creative-1.0.1.zip/startbootstrap-creative-1.0.1/css/creative.css",
+		"/C/Users/davidschanker/AppData/Local/Temp/Temp1_startbootstrap-creative-1.0.1.zip/startbootstrap-creative-1.0.1/css/bootstrap.css",
+		"/C/Users/davidschanker/AppData/Local/Temp/Temp1_startbootstrap-creative-1.0.1.zip/startbootstrap-creative-1.0.1/css/animate.min.css",
+		"/C/Users/davidschanker/AppData/Local/Temp/Temp1_startbootstrap-business-casual-1.0.3.zip/startbootstrap-business-casual-1.0.3/about.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/video.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/directives/showerrors.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/patient/patienthome.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/patienthome.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/main.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/bower_components/angular/angular.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/amwell.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/sample.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/dashboard.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/styles/app.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/bootstrap-3.3.4-dist/css/bootstrap.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/view1.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/viewdoctors.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/landing.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/styles/wp-content.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/images/People-Doctor-Male-icon.png",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/view2.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/signup.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/amwellLanding.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/TeleproSublime.sublime-project",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/index-async.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/bower_components/angular-bootstrap/ui-bootstrap.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/bootstrap-3.3.4-dist/css/bootstrap-theme.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/config.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/controllers/dashboard.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/bower_components/angular-ui-router/release/angular-ui-router.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/amwellLanding.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/scripts/app.js",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/view1.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/views/view2.html",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/styles/sprites.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/styles/core.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/app/styles/consumerEnrollment.css",
+		"/C/Users/davidschanker/Desktop/TeleproHealth/TeleproHealthSublime.sublime-project",
 		"/C/Users/davidschanker/Downloads/PS2 Mobile Alex Abrams 2.zip",
 		"/C/Users/davidschanker/Desktop/Senior Spring/Programming Languages/ProblemSet1.fs",
 		"/C/Users/davidschanker/Desktop/Senior Spring/Programming Languages/PS2/SchankerPS2.txt",
@@ -111,6 +317,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -118,6 +325,54 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"signup",
+			"fa",
+			"submit",
+			".jpg",
+			"panel",
+			"signupForm",
+			"american",
+			".span",
+			"span",
+			"span4",
+			"wells",
+			".row",
+			"row",
+			"panel-signup",
+			".div",
+			".div ",
+			".div",
+			".jumbotron",
+			"landing.htm",
+			"SignupCtrl",
+			"openSignupModal",
+			"signupModal.html",
+			"panel-primary",
+			"col-lg-6",
+			"panel",
+			"navbar",
+			"navbar ",
+			"background",
+			"navbar-default",
+			"navbar-inverse",
+			"navbar-default",
+			"navbar",
+			"learn more",
+			"project name",
+			"navbar",
+			"this",
+			"navTemplateUrl",
+			"data-button-color",
+			"subNavSignUpButtonContainer",
+			"data-button-color=\"blue\"",
+			"blue",
+			".button[data-button-color=\"blue\"",
+			"button",
+			".button",
+			"button",
+			"signup",
+			"badgecontainer",
+			"what it costs",
 			"val repl :",
 			"25+512387463+^",
 			"tokenizer"
@@ -138,18 +393,513 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 3967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3349,
+								3349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/landing.html",
+					"settings":
+					{
+						"buffer_size": 42153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40972,
+								40972
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10716.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/masthead.html",
+					"settings":
+					{
+						"buffer_size": 2199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/controllers/masthead.js",
+					"settings":
+					{
+						"buffer_size": 3018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								719,
+								719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/scripts/main.js",
+					"settings":
+					{
+						"buffer_size": 3886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2888,
+								2888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1288.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/controllers/signup.js",
+					"settings":
+					{
+						"buffer_size": 3426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3016,
+								2973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/styles/app.css",
+					"settings":
+					{
+						"buffer_size": 7813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3811,
+								3812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1875.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/patient/patienthome.html",
+					"settings":
+					{
+						"buffer_size": 2242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/dashboard.html",
+					"settings":
+					{
+						"buffer_size": 8123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8122,
+								8122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/scripts/controllers/dashboard.js",
+					"settings":
+					{
+						"buffer_size": 1758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								845
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/scripts/directives/disableanimation.js",
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"auto_name": "'use strict';",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/views/dash2.html",
+					"settings":
+					{
+						"buffer_size": 34816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								34816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9142.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\davidschanker\\Desktop\\TeleproHealth\\app",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/davidschanker/Desktop/agency/index.html",
+					"settings":
+					{
+						"buffer_size": 34816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/styles/agency.css",
+					"settings":
+					{
+						"buffer_size": 16841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16841,
+								16841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9982.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/scripts/controllers/landing.js",
+					"settings":
+					{
+						"buffer_size": 967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/scripts/controllers/providerhome.js",
+					"settings":
+					{
+						"buffer_size": 1170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1064,
+								1064
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/views/provider/providerhome.html",
+					"settings":
+					{
+						"buffer_size": 2209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

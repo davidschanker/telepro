@@ -14,13 +14,13 @@ angular.module('TeleproApp')
 		$scope.primaryNav = [
 			{state: 'dashboard', label: 'Site Dashboard'}
 			,{state: 'signup', label: 'Patient Signup'}
-			,{state: 'provider', label: 'Provider Signup'}
+			// ,{state: 'provider', label: 'Provider Signup'}
 			// ,{state: 'viewdoctors', label: 'View Doctors'}
 			// ,{state: 'sample', label: 'Sample other page'}
 			,{state: 'patienthome.myhealth', label: 'Patient Home'}
 			,{state: 'providerhome.myhealth', label: 'Provider Home'}			
-			,{state: 'video', label: 'Video Chat'}
-			,{state: 'dash2', label: 'New Design'}
+			// ,{state: 'video', label: 'Video Chat'}
+			// ,{state: 'dash2', label: 'New Design'}
 		];
 
 		$scope.user = {

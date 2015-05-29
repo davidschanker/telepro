@@ -155,7 +155,7 @@ div[background-image] {
   display: block;
   /*background-image: url('/app/images/landingBackground.jpg');*/
   /*background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/app/images/landingBackground.jpg');*/
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/app/images/landingBackground.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('/app/images/landingBackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
@@ -167,6 +167,54 @@ div[background-image] {
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
+}
+
+div[patient-background] {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  margin-top: -20px; /*gets rid of whitespace from navbar*/
+
+  display: block;
+  /*background-image: url('/app/images/landingBackground.jpg');*/
+  /*background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/app/images/landingBackground.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('/app/img/Patient-Slide.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  /*width: 1200px;*/
+  height: 800px;
+
+/*  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);*/
+}
+
+div[provider-background] {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  margin-top: -20px; /*gets rid of whitespace from navbar*/
+
+  display: block;
+  /*background-image: url('/app/images/landingBackground.jpg');*/
+  /*background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/app/images/landingBackground.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('/app/img/Doctor-Slide.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  /*width: 1200px;*/
+  height: 800px;
+
+/*  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);*/
 }
 
 .content {
